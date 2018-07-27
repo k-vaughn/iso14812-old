@@ -9,6 +9,6 @@ The process used by this effort conforms to ISO 704:2009, which can be summarize
 5. Formulate definitions based on relationships
 6. Assign a designation (i.e., the term) to each concept
 
-The process also conforms to ISO 24156-1:2014, which defines how to use UML to illustrate relationships with a concept diagram (Step 4 above). The UML diagrams are created and maintained using [Sparx Enterprise Architect](https://www.sparxsystems.com/products/ea/index.html) and published using XMI so that they can be imported into any number of different tools. The pubished XMI file is [14812.xml](./14812.xml).
+The process also conforms to ISO 24156-1:2014, which defines how to use UML to illustrate relationships with a concept diagram (Step 4 above). The UML diagrams are created and maintained using [Sparx Enterprise Architect](https://www.sparxsystems.com/products/ea/index.html) and published using XMI so that they can be imported into any number of different tools. The pubished XMI file is [14812.xml](../../raw/master/14812.xml).
 
 The material found on this site is work in progress. ISO 14812 is has not yet been sent to ballot and all content is subject to change.
