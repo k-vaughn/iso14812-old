@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.4.2:1", "", "Architecture types", "EARoot/EA4/EA2/EA99.htm", "175.png", "9", "0", "", "Logical diagram0","{6E649AC2-BE2F-4b09-B4D1-344A2D8AFFAC}");
+tocTab[tocTab.length] = new Array("0.4.2:2", "", "deployment architecture", "EARoot/EA4/EA2/EA102.htm", "5.png", "E54", "0", "", "Class0","{78E77228-80BD-47d7-BEB7-5B27B5842A74}");
+tocTab[tocTab.length] = new Array("0.4.2:3", "", "ITS architecture", "EARoot/EA4/EA2/EA103.htm", "5.png", "E52", "0", "", "Class0","{AEDCDFD1-175A-4735-AF8F-91068BE5703F}");
+tocTab[tocTab.length] = new Array("0.4.2:4", "", "ITS-S architecture", "EARoot/EA4/EA2/EA104.htm", "5.png", "E55", "0", "", "Class0","{CAC31494-A311-430c-BB56-7F2A82C166EC}");
+tocTab[tocTab.length] = new Array("0.4.2:5", "", "planning architecture", "EARoot/EA4/EA2/EA105.htm", "5.png", "E53", "0", "", "Class0","{0875724C-4E4C-4527-A11C-1B5977FA6250}");
+tocTab[tocTab.length] = new Array("0.4.2:6", "", "reference architecture", "EARoot/EA4/EA2/EA106.htm", "5.png", "E51", "0", "", "Class0","{7823F798-33D5-4238-B649-F8A4D20F13C5}");

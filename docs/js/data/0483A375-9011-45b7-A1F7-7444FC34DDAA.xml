@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.4.5:1", "", "Physical Implementations", "EARoot/EA4/EA5/EA125.htm", "175.png", "13", "0", "", "Logical diagram0","{E824F3C9-3193-42c8-BAE9-07376E151B2A}");
+tocTab[tocTab.length] = new Array("0.4.5:2", "", "Centre system", "EARoot/EA4/EA5/EA135.htm", "5.png", "E93", "0", "", "Class0","{75E3C9D3-F208-4e00-BA93-F5DD34084653}");
+tocTab[tocTab.length] = new Array("0.4.5:3", "", "ITS roadway equipment", "EARoot/EA4/EA5/EA136.htm", "5.png", "E94", "0", "", "Class0","{B6702EA1-1A52-412e-A44F-00E7A7D44F40}");
+tocTab[tocTab.length] = new Array("0.4.5:4", "", "ITS station", "EARoot/EA4/EA5/EA137.htm", "5.png", "E77", "0", "", "Class0","{F1E402D3-80EE-478c-957A-2FF53D9EA0C5}");
+tocTab[tocTab.length] = new Array("0.4.5:5", "", "ITS-S unit", "EARoot/EA4/EA5/EA138.htm", "5.png", "E86", "0", "", "Class0","{32A3B8B6-4101-42fd-9540-A71FEF5521A5}");
+tocTab[tocTab.length] = new Array("0.4.5:6", "", "on-board equipment", "EARoot/EA4/EA5/EA139.htm", "5.png", "E89", "0", "", "Class0","{19370BF7-9EB8-4485-AEAD-2DDF5F784F2F}");
+tocTab[tocTab.length] = new Array("0.4.5:7", "", "roadside equipment", "EARoot/EA4/EA5/EA140.htm", "5.png", "E88", "0", "", "Class0","{5DAF9195-82BA-4ebc-A945-8826C7601B83}");
