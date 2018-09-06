@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>3.4.5 Physical view realization::ITS station</title>
+<title>ITS-S unit</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,105 +34,45 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ITS station", " : "))</script>  : Public   Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("ITS-S unit", " : "))</script> </span>
+	
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Other Preferred Terms:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Allowed Terms:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Deprecated Terms:</td>
+			<td width="85%" class="ObjectDetailsValue">kvaughn</td>
+		</tr>
+		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">7/17/2018 11:38:46 AM</td>
+			<td width="85%" class="ObjectDetailsValue">7/17/2018 7:06:19 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">8/30/2018 6:34:58 PM</td>
+			<td class="ObjectDetailsValue">9/5/2018 5:06:34 PM</td>
 		</tr>
-		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
-			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
-			<td class="ObjectDetailsValue"></td>
-		</tr>
-		<tr id="proj00" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">kvaughn</td>
-		</tr>
-		<tr id="proj01" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
-			<td class="ObjectDetailsValue">1.0</td>
-		</tr>
-		<tr id="proj02" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
-			<td class="ObjectDetailsValue">1.0</td>
-		</tr>
-		<tr id="proj03" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsTopic">Status:</td>
 			<td class="ObjectDetailsValue">Proposed</td>
 		</tr>
-		<tr id="proj04" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
-			<td class="ObjectDetailsValue">Easy</td>
-		</tr>
-		<tr id="proj05" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
-			<td class="ObjectDetailsValue"></td>
-		</tr>
-		<tr id="proj06" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
-			<td class="ObjectDetailsValue"></td>
-		</tr>
-		<tr id="proj05" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Multiplicity:</td>
-			<td class="ObjectDetailsValue"></td>
-		</tr>
 		<tr>
-			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
-			<td class="ObjectDetailsValue"></td>
-		</tr>
-		<tr id="adv00" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{F1E402D3-80EE-478c-957A-2FF53D9EA0C5}</td>
-		</tr>
-		<tr id="adv01" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="../../EA2/EA3/EA42.htm">3.2.3 ITS-S service</a>, <a href="EA125.htm">Physical Implementations</a></td>
+			<td class="ObjectDetailsTopic">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA124.htm">Physical Implementations</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">ITS component that provides a bounded secured managed domain and conforms to the ITS station architecture&lt;br/&gt;Note 1 to entry:	The ITS station architecture is defined in ISO 21217.&lt;br/&gt;EDITOR&#8217;S NOTE 1	There appears to be ambiguity (and perhaps disagreement within the industry) as to whether a &#8220;bounded secured managed domain&#8221; is the logical domain within each ITS-S or if it represents the ITS-S network. The proposed definition uses the former concept.&lt;br/&gt;EDITOR&#8217;S NOTE 2	The proposed definition assumes that an ITS-S does not cease being an ITS-S simply because it is disconnected from any network; therefore &#8220;in a communications network&#8221; is an invalid constraint.&lt;br/&gt;EDITOR&#8217;S NOTE 3	As can be seen in a few examples, the phrase &#8220;network, comprised of applications&#8230;&#8221; is ambiguous as it is unclear if the ITS-S is comprised of the items or if the network is comprised of the items.&lt;br/&gt;EDITOR&#8217;S NOTE 4	The proposed definition assumes that ITS-S are not required to have a wireless network interface. It is my understanding that any ITS device that conformed to the ITS-S architecture (which is almost a null requirement) and provides a BSMD (which is ill-defined) would be considered an ITS-S. Thus, at least at present, I see the term ITS-S to really mean any ITS physical entity that can claim to be secure (and it would be just a claim since there are no measurable requirements). And in fact, some definitions even make the BSMD optional &#8211; though I think this is wildly unwise.&lt;br/&gt;EDITOR&#8217;S NOTE 5	Logically, an ITS-S seldom (if ever) provides ITS services because an ITS-S is a component of an ITS network; the ITS service is provided by the ITS as a whole. The ITS-S logically should provide ITS-S services, or more specifically, the ITS-S is comprised of the ITS-S architectural components (i.e., applications entity, facilities layer, etc), which all provide ITS-S services. &lt;br/&gt;&lt;br/&gt;</div>
-
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('LinkedDocument');" id="LinkedDocumentTitle">Linked Document</li>
 			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="AssociationsToTable">
-			<table border="0" cellspacing="0" cellpadding="0" class="Table">
-				<tr>
-					<td width="40%" class="TableHeading">Element</td>
-					<td width="30%" class="TableHeading">Source Role</td>
-					<td width="30%" class="TableHeading">Target Role</td>
-				</tr>
-				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA2/EA104.htm">ITS-S architecture</a><br />
-						Class &nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
-					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
-					</td>
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink123" onclick="parent.toggleDiv('detailsDIVLink123','DetailsImageLink123')" />Details:
-							<div id="detailsDIVLink123" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-
-			</table>
+		<div class="ItemBody" id="LinkedDocumentTable">
+			<iframe src="../../../linkdocs/EAID_32A3B8B6_4101_42fd_9540_A71FEF5521A5.htm" frameborder="0" id="linkDocIFrame"></iframe>
 		</div>
 		<div class="ItemBody" id="LinksTable">
 			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
@@ -144,49 +84,7 @@ function nameClassifier(name, separator)
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA139.htm">on-board equipment</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA135.htm">Centre system</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA3/EA47.htm">service provider</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../EA4/EA122.htm">ITS component</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA136.htm">ITS roadway equipment</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA1/EA31.htm">entity</a></td>
-					<td width="10%" class="TableRow" valign="top">Class</td>
-					<td width="10%" class="TableRow" valign="top">Generalization</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA140.htm">roadside equipment</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA139.htm">on-board unit</a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Generalization</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
