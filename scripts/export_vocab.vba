@@ -65,7 +65,21 @@ option explicit
 
 const path = "\\Mac\Home\OneDrive"
 Dim objFSO, objDefFile
-Dim iLevel, parentId
+Dim iLevel
+
+Function HTMLEncode(ByVal sVal)
+	'First replace links with GUIDs with links that can work with Word (start with alpha-char, no special chars, and no more than 40 chars)
+	Dim objRegExp
+	Set objRegExp = CreateObject("VBScript.RegExp")
+	objRegExp.Global = True
+	objRegExp.IgnoreCase = True
+	objRegExp.Pattern = "<a href=""\$element:\/\/{(\w{8})-(\w{4})-(\w{4})-(\w{4})-(\w{12})}"">(.*?)<\/a>"
+	sVal = objRegExp.Replace(sVal, "<a href=""#id$1$2$3$4$5"">$6</a> ( <span style='mso-element:field-begin'></span> REF id$1$2$3$4$5 <span style='mso-element:field-end'></span> )")
+	
+	' Enclose as CDATA
+	sVal = "<![CDATA[" & sVal & "]]>"
+    HTMLEncode = sVal
+End Function
 
 Sub writeLine(text)
 	Dim i
@@ -75,25 +89,56 @@ Sub writeLine(text)
 	objDefFile.Write text & vbCrLf
 End Sub
 
-Function getTaggedValue(tags, tagname)
+Function getTaggedValue(tags, tagname, objname)
 	Dim tag As EA.TaggedValue
 	Dim bFound 
 	bFound = False
 	For Each tag In tags
-		If tag.Name = tagname Then
+		If tag.Name = "Vocab::" & tagname Then
 			getTaggedValue = tag.Value
+			bFound = True
 			Exit For
 		End If
 	Next
 	If Not bFound Then
-		Repository.WriteOutput "Error", "Missing Tag (" & tagname & "): " & el.Name,0
+		Repository.WriteOutput "Error", "Missing Tag (" & tagname & "): " & objname,0
 		getTaggedValue = ""
 	End If
 End Function
 
-Function writeTaggedValue(tags, tagname)
-	writeTaggedValue = getTaggedValue(tags, tagname)
+Function writeTaggedValue(tags, tagname, objname)
+	writeTaggedValue = getTaggedValue(tags, tagname, objname) 
 	writeLine("<" & tagname & ">" & writeTaggedValue & "</" & tagname & ">")
+End Function
+
+Sub writeTaggedValues(tags, tagname)
+	Dim tag As EA.TaggedValue
+	For Each tag In tags
+		If tag.Name = "Vocab::" & tagname Then
+			If tag.Value = "" Then
+				writeLine("<" & tagname & ">" & tag.Notes & "</" & tagname & ">")
+			Else
+				writeLine("<" & tagname & ">" & tag.Value & "</" & tagname & ">")
+			End If
+		End If
+	Next
+End Sub
+
+Sub writeTaggedValuesAs(tags, tagname, xmlField)
+	Dim tag As EA.TaggedValue
+	For Each tag In tags
+		If tag.Name = "Vocab::" & tagname Then
+			writeLine("<" & xmlField & ">" & tag.Value & "</" & xmlField & ">")
+		End If
+	Next
+End Sub
+
+Function getGUID(ByVal guid)
+	guid = Replace(guid, "{", "")
+	guid = Replace(guid, "}", "")
+	guid = Replace(guid, "-", "")
+	guid = "id" & guid
+	getGUID = guid
 End Function
 
 Sub writeHeader()
@@ -105,24 +150,45 @@ Sub writeHeader()
 End Sub
 
 'Recursive loop through subpackages and their elements and attributes, with controll of missing definitions
-Sub writePackage(p)
+Sub writePackage(p, ByVal pkgId)
+	Dim id
 	Repository.WriteOutput "Script", Now & " Package: " & p.Name, 0
 	writeLine("<package>")
 	iLevel = iLevel + 1
-	writeTaggedValue(p.TaggedValues, "Id")
+	If pkgId <> "" Then
+		pkgId = pkgId & "."
+	End If
+	id = getTaggedValue(p.Element.TaggedValues, "id", p.Name)
+	pkgId = pkgId & CStr(id)
+	writeLine("<id>" & id & "</id>")
+	writeLine("<clause>" & pkgId & "</clause>")
 	writeLine("<name>" & p.Name & "</name>")
 	Dim el As EA.Element
 	Dim bFound
 	For Each el In p.elements
 		If el.Type="Class" then 'and el.Stereotype <> "special"
 			'Repository.WriteOutput "Script", Now & " " & el.Name, 0
+			Dim guid
+			guid = getGUID(el.ElementGUID)
 			writeLine("<term>")
 			iLevel = iLevel + 1
-			writeTaggedValue(el.TaggedValues, "Id")
-			writeLine("<guid>" & el.ElementID & "</guid>")
+			id = getTaggedValue(el.TaggedValues, "id", el.Name)
+			writeLine("<id>" & CStr(id) & "</id>")
+			writeLine("<clause>" & pkgId & "." & CStr(id) & "</clause>")
+			writeLine("<guid>" & guid & "</guid>")
 			writeLine("<name>" & el.Name & "</name>")
-			writeLine("<definition>" & el.Notes & "</definition>")
+			Call writeTaggedValues(el.TaggedValues, "synonym")
+			Call writeTaggedValues(el.TaggedValues, "admittedTerm")
+			Call writeTaggedValues(el.TaggedValues, "deprecatedTerm")
+			writeLine("<definition>" & HTMLEncode(el.Notes) & "</definition>")
+			Call writeTaggedValues(el.TaggedValues, "note")
+			Call writeTaggedValues(el.TaggedValues, "example")
+			Call writeTaggedValues(el.TaggedValues, "source")
 			writeLine("<index>" & el.Name & "</index>")
+			Call writeTaggedValuesAs(el.TaggedValues, "synonym", "index")
+			Call writeTaggedValuesAs(el.TaggedValues, "admittedTerm", "index")
+			Call writeTaggedValuesAs(el.TaggedValues, "deprecatedTerm", "index")
+			Call writeTaggedValues(el.TaggedValues, "index")
 			If el.Notes = "" Then
 				Repository.WriteOutput "Error", "Missing definition: " & el.Name,0
 			End If 
@@ -133,7 +199,7 @@ Sub writePackage(p)
 	
 	Dim subP as EA.Package
 	For Each subP In p.packages
-	    writePackage(subP)
+	    Call writePackage(subP, pkgId)
 	Next
 	iLevel = iLevel - 1
 	writeLine("</package>")
@@ -160,9 +226,8 @@ Sub ExportVocabInXml()
 		Set objFSO=CreateObject("Scripting.FileSystemObject")
 		Set objDefFile = objFSO.CreateTextFile(path & "\" & thePackage.Name & ".xml",True)
 		iLevel = 0
-		parentId = ""
 		writeHeader()
-		writePackage(thePackage)
+		Call writePackage(thePackage, "")
 		writeFooter()
 		objDefFile.Close
 		Repository.WriteOutput "Script", Now & " Finished, check the Error and Types tabs", 0 

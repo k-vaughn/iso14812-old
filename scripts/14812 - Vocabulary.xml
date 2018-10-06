@@ -10,44 +10,48 @@
 			<id>1</id>
 			<clause>3.1</clause>
 			<name>3.1 System Model</name>
-			<term guid="id55FDBF6D3EA74b368E50B20C362B2627">
+			<term>
 				<id>6</id>
 				<clause>3.1.6</clause>
+				<guid>id55FDBF6D3EA74b368E50B20C362B2627</guid>
 				<name>cooperative ITS</name>
 				<synonym>C-ITS</synonym>
-				<definition><![CDATA[subset of <a href="#id95C4A86465B74046823106670EF95C77"></a> ( <span style='mso-element:field-begin'></span> REF id95C4A86465B74046823106670EF95C77 <span style='mso-element:field-end'></span> ) where information is shared among <i>physical objects</i> based on mutual security agreements with a credentialing system  
+				<definition><![CDATA[subset of <a href="#id95C4A86465B74046823106670EF95C77"><font color="#0000ff"><i>ITS</i></font></a> ( <span style='mso-element:field-begin'></span> REF id95C4A86465B74046823106670EF95C77 <span style='mso-element:field-end'></span> ) where information is shared among <i>physical objects</i> based on mutual security agreements with a credentialing system  
 ]]></definition>
 				<note></note>
 				<note></note>
 				<index>cooperative ITS</index>
 				<index>C-ITS</index>
 			</term>
-			<term guid="id95C4A86465B74046823106670EF95C77">
+			<term>
 				<id>5</id>
 				<clause>3.1.5</clause>
+				<guid>id95C4A86465B74046823106670EF95C77</guid>
 				<name>intelligent transport system</name>
 				<synonym>ITS</synonym>
 				<admittedTerm>intelligent transportation system</admittedTerm>
-				<definition><![CDATA[<a href="#id03252B24F74349ac87D95187F13128C7"></a> ( <span style='mso-element:field-begin'></span> REF id95C4A86465B74046823106670EF95C77 <span style='mso-element:field-end'></span> ) that is designed to benefit a <a href="#id261629D58D7B439b8DAE5905D2EEF4D5"></a> ( <span style='mso-element:field-begin'></span> REF id95C4A86465B74046823106670EF95C77 <span style='mso-element:field-end'></span> )]]></definition>
+				<definition><![CDATA[<a href="#id03252B24F74349ac87D95187F13128C7"><font color="#0000ff"><i><u>technology system</u></i></font></a> ( <span style='mso-element:field-begin'></span> REF id03252B24F74349ac87D95187F13128C7 <span style='mso-element:field-end'></span> ) that is designed to benefit a <a href="#id261629D58D7B439b8DAE5905D2EEF4D5"><font color="#0000ff"><i><u>surface transport system</u></i></font></a> ( <span style='mso-element:field-begin'></span> REF id261629D58D7B439b8DAE5905D2EEF4D5 <span style='mso-element:field-end'></span> )]]></definition>
 				<note>Benefits potentially include, but are not limited to, increased safety, sustainability, efficiency, and comfort. </note>
-				<note>The long form (i.e., “intelligent transport system”) is often used when the noun is used as a subject, whereas the abbreviation (i.e., “ITS”) is often used to modify another noun (e.g., “Intelligent transport systems provide ITS services.”).</note>
+				<note>The long form (i.e., "intelligent transport system") is often used when the noun is used as a subject, whereas the abbreviation (i.e., “ITS”) is often used to modify another noun (e.g., “Intelligent transport systems provide ITS services.”).</note>
 				<note>There is not complete agreement on the precise limits of ITS. Currently, the term is almost exclusively applied to ground-based travel of goods and people over significant distances. The term is viewed as including ferry systems, which often form an integ</note>
 				<index>intelligent transport system</index>
 				<index>ITS</index>
 				<index>intelligent transportation system</index>
 				<index>system:intelligent transport system</index>
 			</term>
-			<term guid="id261629D58D7B439b8DAE5905D2EEF4D5">
+			<term>
 				<id>3</id>
 				<clause>3.1.3</clause>
+				<guid>id261629D58D7B439b8DAE5905D2EEF4D5</guid>
 				<name>surface transport system</name>
-				<definition><![CDATA[<a href="#id8648D088383A40a19D19B3E02A7060DF"></a> ( <span style='mso-element:field-begin'></span> REF id95C4A86465B74046823106670EF95C77 <span style='mso-element:field-end'></span> ) designed to move physical entities across the surface of the earth
+				<definition><![CDATA[<a href="#id8648D088383A40a19D19B3E02A7060DF"><font color="#0000ff"><i><u>transport system</u></i></font></a> ( <span style='mso-element:field-begin'></span> REF id8648D088383A40a19D19B3E02A7060DF <span style='mso-element:field-end'></span> ) designed to move physical entities across the surface of the earth
 Note 1 to entry:	A surface transport system might include tunnels, bridges, and similar elements.]]></definition>
 				<index>surface transport system</index>
 			</term>
-			<term guid="id9F9DE40282B84b8aAD4F618C7836F09E">
+			<term>
 				<id>1</id>
 				<clause>3.1.1</clause>
+				<guid>id9F9DE40282B84b8aAD4F618C7836F09E</guid>
 				<name>system</name>
 				<definition><![CDATA[combination of interacting elements organized to achieve one or more stated purposes ]]></definition>
 				<note>A second note</note>
@@ -55,17 +59,19 @@ Note 1 to entry:	A surface transport system might include tunnels, bridges, and 
 				<source>ISO 24774:2010</source>
 				<index>system</index>
 			</term>
-			<term guid="id03252B24F74349ac87D95187F13128C7">
+			<term>
 				<id>4</id>
 				<clause>3.1.4</clause>
+				<guid>id03252B24F74349ac87D95187F13128C7</guid>
 				<name>technology system</name>
 				<definition><![CDATA[<b>system</b> that is comprised of information, communication, sensor, and control technologies]]></definition>
 				<source>local</source>
 				<index>technology system</index>
 			</term>
-			<term guid="id8648D088383A40a19D19B3E02A7060DF">
+			<term>
 				<id>2</id>
 				<clause>3.1.2</clause>
+				<guid>id8648D088383A40a19D19B3E02A7060DF</guid>
 				<name>transport system</name>
 				<definition><![CDATA[<b>system</b> of infrastructure elements and optionally <b>vehicles </b>that jointly are designed to move entities from an <b>origin</b> to a <b>destination</b>
 Note 1 to entry:	Transport systems are not necessarily limited to the transport of physical entities; the Internet could be considered a transport system of electronic entities.
@@ -81,40 +87,45 @@ Note 1 to entry:	Transport systems are not necessarily limited to the transport 
 				<id>1</id>
 				<clause>3.2.1</clause>
 				<name>3.2.1 Generic service</name>
-				<term guid="id8B698530E3B946b3B78C2E6C58FE87D7">
+				<term>
 					<id>4</id>
 					<clause>3.2.1.4</clause>
+					<guid>id8B698530E3B946b3B78C2E6C58FE87D7</guid>
 					<name>consumer</name>
 					<definition><![CDATA[entity that has a <b>need</b> to be fulfilled]]></definition>
 					<index>consumer</index>
 				</term>
-				<term guid="id040D6A1B412A4cc6921882357A58F747">
+				<term>
 					<id>1</id>
 					<clause>3.2.1.1</clause>
+					<guid>id040D6A1B412A4cc6921882357A58F747</guid>
 					<name>entity</name>
 					<definition><![CDATA[concrete or abstract thing that exists, did exist, or might exist, including associations among these things 
 EXAMPLE: A person, object, event, idea, process, etc.
 [Source: ISO/TR 17185-1]]]></definition>
 					<index>entity</index>
 				</term>
-				<term guid="id8C060C793CE14fb88B50E52BD3A3FDE6">
+				<term>
 					<id>5</id>
 					<clause>3.2.1.5</clause>
+					<guid>id8C060C793CE14fb88B50E52BD3A3FDE6</guid>
 					<name>need</name>
 					<definition><![CDATA[factor or condition necessary to achieved desired results within a specified context of use
 [Adapted from ISO 25060:2010(en), 2.25]]]></definition>
 					<index>need</index>
 				</term>
-				<term guid="id1C826F4DC7744eb7B8DDB33EF68A28F5">
+				<term>
 					<id>3</id>
 					<clause>3.2.1.3</clause>
+					<guid>id1C826F4DC7744eb7B8DDB33EF68A28F5</guid>
 					<name>service</name>
 					<definition><![CDATA[performance of one or more tasks or provision of one or more facilities to enable one or more tasks for a <b>consumer</b> to fulfil a <b>need</b> ]]></definition>
 					<index>service</index>
 				</term>
-				<term guid="id8B7ACC49A9CB45f18C3634024C5A6318">
+				<term>
 					<id>2</id>
 					<clause>3.2.1.2</clause>
+					<guid>id8B7ACC49A9CB45f18C3634024C5A6318</guid>
 					<name>service provider</name>
 					<definition><![CDATA[entity that delivers one or more <b>services</b>]]></definition>
 					<index>service provider</index>
@@ -124,30 +135,34 @@ EXAMPLE: A person, object, event, idea, process, etc.
 				<id>2</id>
 				<clause>3.2.2</clause>
 				<name>3.2.2 ITS service</name>
-				<term guid="id4D485872E9EE414e9CE1AB855A03540B">
+				<term>
 					<id>1</id>
 					<clause>3.2.2.1</clause>
+					<guid>id4D485872E9EE414e9CE1AB855A03540B</guid>
 					<name>service</name>
 					<definition><![CDATA[&lt;ITS&gt; performance of one or more tasks that fulfils an <b>ITS user need</b> for an <b>ITS user</b>]]></definition>
 					<index>service</index>
 				</term>
-				<term guid="id1ADCFD57B07448b8BEC70E96914EBFEE">
+				<term>
 					<id>1</id>
 					<clause>3.2.2.1</clause>
+					<guid>id1ADCFD57B07448b8BEC70E96914EBFEE</guid>
 					<name>service provider</name>
 					<definition><![CDATA[&lt;ITS&gt; <b>entity </b>that delivers one or more <b>ITS services</b>]]></definition>
 					<index>service provider</index>
 				</term>
-				<term guid="idF263D8B81E914fcf9B8287F21A9C2350">
+				<term>
 					<id>3</id>
 					<clause>3.2.2.3</clause>
+					<guid>idF263D8B81E914fcf9B8287F21A9C2350</guid>
 					<name>user</name>
 					<definition><![CDATA[&lt;ITS&gt; <b>entity </b>that has an <b>ITS user need</b> to be fulfilled]]></definition>
 					<index>user</index>
 				</term>
-				<term guid="idC312FB0B6C1140db86F158458C5AC4B8">
+				<term>
 					<id>4</id>
 					<clause>3.2.2.4</clause>
+					<guid>idC312FB0B6C1140db86F158458C5AC4B8</guid>
 					<name>user need</name>
 					<definition><![CDATA[&lt;ITS&gt;<b> need</b> of an entity external to the intelligent transport system for a <b>surface transport system</b> benefit that can be met with the use of a <b>technology system</b>]]></definition>
 					<index>user need</index>
@@ -157,38 +172,43 @@ EXAMPLE: A person, object, event, idea, process, etc.
 				<id>3</id>
 				<clause>3.2.3</clause>
 				<name>3.2.3 ITS-S service</name>
-				<term guid="id866BE3730A304564BBC18CA138D01808">
+				<term>
 					<id>5</id>
 					<clause>3.2.3.5</clause>
+					<guid>id866BE3730A304564BBC18CA138D01808</guid>
 					<name>bounded, secured, managed domain</name>
 					<definition><![CDATA[controlled processing environment that adheres to a minimum set of management and security principles and procedures so as to establish a level of trust between itself and other similar ITS stations with which it might communicate]]></definition>
 					<index>bounded, secured, managed domain</index>
 				</term>
-				<term guid="idED2A90BFB7F249ffBB47A5827835D6E0">
+				<term>
 					<id>2</id>
 					<clause>3.2.3.2</clause>
+					<guid>idED2A90BFB7F249ffBB47A5827835D6E0</guid>
 					<name>service</name>
 					<definition><![CDATA[&lt;ITS-S&gt; performance of one or more tasks<b> </b>that fulfils an <b>ITS-S user need</b> for an<b> ITS-S user</b>]]></definition>
 					<index>service</index>
 				</term>
-				<term guid="idC6D0D06F35D542269D886ACC4B0B0E58">
+				<term>
 					<id>1</id>
 					<clause>3.2.3.1</clause>
+					<guid>idC6D0D06F35D542269D886ACC4B0B0E58</guid>
 					<name>service provider</name>
 					<definition><![CDATA[&lt;ITS-S&gt; <b>ITS-S</b> that delivers one or more <b>ITS-S services</b>
 ]]></definition>
 					<index>service provider</index>
 				</term>
-				<term guid="idFFC4D737010249d0B062A188246E1DAD">
+				<term>
 					<id>3</id>
 					<clause>3.2.3.3</clause>
+					<guid>idFFC4D737010249d0B062A188246E1DAD</guid>
 					<name>user</name>
 					<definition><![CDATA[&lt;ITS-S&gt; <b>entity </b>that has an <b>ITS-S user need</b>]]></definition>
 					<index>user</index>
 				</term>
-				<term guid="idAE2F5ED40F9549e2A07B4C547A3C4CF4">
+				<term>
 					<id>4</id>
 					<clause>3.2.3.4</clause>
+					<guid>idAE2F5ED40F9549e2A07B4C547A3C4CF4</guid>
 					<name>user need</name>
 					<definition><![CDATA[&lt;ITS-S&gt; <b>need</b> for processing within a <b>bounded, secure, managed domain</b>]]></definition>
 					<index>user need</index>
@@ -198,32 +218,36 @@ EXAMPLE: A person, object, event, idea, process, etc.
 				<id>4</id>
 				<clause>3.2.4</clause>
 				<name>ITS-S communication service</name>
-				<term guid="id202B9BA1EA2F4bfbA3D5BE04ACA3E2D5">
+				<term>
 					<id>4</id>
 					<clause>3.2.4.4</clause>
+					<guid>id202B9BA1EA2F4bfbA3D5BE04ACA3E2D5</guid>
 					<name>communication need</name>
 					<definition><![CDATA[&lt;ITS-S&gt; <i>need</i> for communication functionality that connects an <i>ITS-S</i> to other nodes
 ]]></definition>
 					<index>communication need</index>
 				</term>
-				<term guid="idA580A7C5BB4141ed8C310B791E57A2A8">
+				<term>
 					<id>1</id>
 					<clause>3.2.4.1</clause>
+					<guid>idA580A7C5BB4141ed8C310B791E57A2A8</guid>
 					<name>communication process</name>
 					<definition><![CDATA[&lt;ITS-S&gt; <b>entity</b> that delivers one or more<b> ITS-S communication services</b>]]></definition>
 					<index>communication process</index>
 				</term>
-				<term guid="id04F387DD652043039464AA4FA280AB16">
+				<term>
 					<id>2</id>
 					<clause>3.2.4.2</clause>
+					<guid>id04F387DD652043039464AA4FA280AB16</guid>
 					<name>communication service</name>
 					<definition><![CDATA[&lt;ITS-S&gt;<b> </b>performance of one or more tasks<b> </b>that fulfils an <b>ITS-S communication need</b> for an <b>ITS-S communication user</b>
 ]]></definition>
 					<index>communication service</index>
 				</term>
-				<term guid="id1FC1FE8C6F1A41a7AECE0F7A9C874620">
+				<term>
 					<id>3</id>
 					<clause>3.2.4.3</clause>
+					<guid>id1FC1FE8C6F1A41a7AECE0F7A9C874620</guid>
 					<name>communication user</name>
 					<definition><![CDATA[&lt;ITS-S&gt; <b>entity</b> that has an <b>ITS-S communication need</b>]]></definition>
 					<index>communication user</index>
@@ -238,40 +262,45 @@ EXAMPLE: A person, object, event, idea, process, etc.
 				<id>1</id>
 				<clause>3.3.1</clause>
 				<name>3.3.1 ITS service implementation</name>
-				<term guid="id21EDE465AC5A4a85A5EAD8D0697DC4FF">
+				<term>
 					<id>6</id>
 					<clause>3.3.1.6</clause>
+					<guid>id21EDE465AC5A4a85A5EAD8D0697DC4FF</guid>
 					<name>application template</name>
 					<definition><![CDATA[]]></definition>
 					<index>application template</index>
 				</term>
-				<term guid="id573047514B814efe85FCFA271736EE72">
+				<term>
 					<id>2</id>
 					<clause>3.3.1.2</clause>
+					<guid>id573047514B814efe85FCFA271736EE72</guid>
 					<name>interoperability design</name>
 					<definition><![CDATA[characteristics necessary to fully define how various <b>system elements</b> and <b>terminators</b> interoperate to provide a <b>service</b>
 Note 1 to entry:	Characteristics often include but are not limited to functional, performance, and interface requirements.
 ]]></definition>
 					<index>interoperability design</index>
 				</term>
-				<term guid="id1A22C407CEBA41c495E1D89FC4C87504">
+				<term>
 					<id>1</id>
 					<clause>3.3.1.1</clause>
+					<guid>id1A22C407CEBA41c495E1D89FC4C87504</guid>
 					<name>ITS application</name>
 					<definition><![CDATA[<b>interoperability design</b> for an ITS service]]></definition>
 					<index>ITS application</index>
 				</term>
-				<term guid="id4D636FF9C4F84e41B76850FC248B4D99">
+				<term>
 					<id>3</id>
 					<clause>3.3.1.3</clause>
+					<guid>id4D636FF9C4F84e41B76850FC248B4D99</guid>
 					<name>ITS application specification</name>
 					<definition><![CDATA[one or more documents that detail all necessary requirements for an <b>ITS application</b>
 ]]></definition>
 					<index>ITS application specification</index>
 				</term>
-				<term guid="idC2FEFB40D0304fa9BA10AD1A14A43D4E">
+				<term>
 					<id>5</id>
 					<clause>3.3.1.5</clause>
+					<guid>idC2FEFB40D0304fa9BA10AD1A14A43D4E</guid>
 					<name>ITS deployment</name>
 					<definition><![CDATA[installation capable of implementing one or more <b>ITS applications</b>
 Note 1 to entry:	An ITS deployment typically refers to the support, central and roadside ITS stations coupled with a tacit acknowledgement of the mobile ITS stations that will communicate with the support, central, or roadside ITS stations. 
@@ -279,9 +308,10 @@ Note 1 to entry:	An ITS deployment typically refers to the support, central and 
 ]]></definition>
 					<index>ITS deployment</index>
 				</term>
-				<term guid="id90E4B4C430C4472b8FF6D09932571BEC">
+				<term>
 					<id>4</id>
 					<clause>3.3.1.4</clause>
+					<guid>id90E4B4C430C4472b8FF6D09932571BEC</guid>
 					<name>ITS implementation</name>
 					<definition><![CDATA[integration of each <b>system element</b> and <b>terminator</b> necessary to implement one or more <b>ITS applications</b>
 Note 1 to entry:	An ITS application typically requires multiple components (e.g., a ITS-S acting as a user and another ITS-S acting as a provider). An ITS implementation includes a sample of each component necessary for the service but often does not represent a complete deployment. 
@@ -294,9 +324,10 @@ Note 2 to entry:	An ITS implementation is typically used for a laboratory or oth
 				<id>2</id>
 				<clause>3.3.2</clause>
 				<name>3.3.2 ITS-S service implementation</name>
-				<term guid="id371D609484264a3598C7092967DD21DD">
+				<term>
 					<id>1</id>
 					<clause>3.3.2.1</clause>
+					<guid>id371D609484264a3598C7092967DD21DD</guid>
 					<name>ITS-S application process</name>
 					<definition><![CDATA[element in an <b>ITS station</b> that performs information processing for an <b>ITS-S service</b>
 <b>
@@ -304,27 +335,30 @@ Note 2 to entry:	An ITS implementation is typically used for a laboratory or oth
 ]]></definition>
 					<index>ITS-S application process</index>
 				</term>
-				<term guid="id1B8E2BF498F44b69A2DDCC37CFA527AA">
+				<term>
 					<id>2</id>
 					<clause>3.3.2.2</clause>
+					<guid>id1B8E2BF498F44b69A2DDCC37CFA527AA</guid>
 					<name>ITS-S application process implementation</name>
 					<definition><![CDATA[implementation of an <b>ITS-S application process</b>
 Note 1 to entry:	A unique implementation is typically associated with an implementation name, a version, and release number.
 ]]></definition>
 					<index>ITS-S application process implementation</index>
 				</term>
-				<term guid="idA70703E708334662A8EDA8C71037BAE7">
+				<term>
 					<id>3</id>
 					<clause>3.3.2.3</clause>
+					<guid>idA70703E708334662A8EDA8C71037BAE7</guid>
 					<name>ITS-S application process installation</name>
 					<definition><![CDATA[installation of an <b>ITS-S application process implementation</b>
 Note 1 to entry: 	A unique installation is typically associated with a specific license code or serial number. 
 ]]></definition>
 					<index>ITS-S application process installation</index>
 				</term>
-				<term guid="id21D89F0DC3D74be1A2393C913221D4D2">
+				<term>
 					<id>4</id>
 					<clause>3.3.2.4</clause>
+					<guid>id21D89F0DC3D74be1A2393C913221D4D2</guid>
 					<name>ITS-S application process instance</name>
 					<definition><![CDATA[run-time instance of an <b>ITS-S application process installation</b>
 ]]></definition>
@@ -340,27 +374,30 @@ Note 1 to entry: 	A unique installation is typically associated with a specific 
 				<id>1</id>
 				<clause>3.4.1</clause>
 				<name>3.4.1 Architecture description</name>
-				<term guid="id1977CCC04EA948719638C89546E52E47">
+				<term>
 					<id>1</id>
 					<clause>3.4.1.1</clause>
+					<guid>id1977CCC04EA948719638C89546E52E47</guid>
 					<name>architecture</name>
 					<definition><![CDATA[&lt;system&gt; fundamental concepts or properties of a system in its environment embodied in its elements, relationships, and in the principles of its design and evolution 
 [ISO 42010:2011, 3.2]
 ]]></definition>
 					<index>architecture</index>
 				</term>
-				<term guid="id7F0C3B060F4D44f69069029157E47DD3">
+				<term>
 					<id>2</id>
 					<clause>3.4.1.2</clause>
+					<guid>id7F0C3B060F4D44f69069029157E47DD3</guid>
 					<name>architecture description</name>
 					<definition><![CDATA[work product used to express an architecture 
 [ISO 42010:2011, 3.3]
 ]]></definition>
 					<index>architecture description</index>
 				</term>
-				<term guid="idB2051EC4DBC44bffB1210761FC375378">
+				<term>
 					<id>3</id>
 					<clause>3.4.1.3</clause>
+					<guid>idB2051EC4DBC44bffB1210761FC375378</guid>
 					<name>architecture framework</name>
 					<definition><![CDATA[conventions, principles and practices for the description of architectures established within a specific domain of application and/or community of stakeholders 
 EXAMPLE 1	Generalised Enterprise Reference Architecture and Methodologies (GERAM) [ISO 15704] is an architecture framework. 
@@ -369,35 +406,39 @@ EXAMPLE 2	Reference Model of Open Distributed Processing (RM-ODP) [ISO/IEC 10746
 ]]></definition>
 					<index>architecture framework</index>
 				</term>
-				<term guid="idBFAAF75FCA1C4aaeB62F1F827303C22F">
+				<term>
 					<id>4</id>
 					<clause>3.4.1.4</clause>
+					<guid>idBFAAF75FCA1C4aaeB62F1F827303C22F</guid>
 					<name>architecture model</name>
 					<definition><![CDATA[work product representing one or more architecture views and expressed in a format governed by a model kind
 ]]></definition>
 					<index>architecture model</index>
 				</term>
-				<term guid="idBD7658051DA3495bA45E71D438FCD3DF">
+				<term>
 					<id>5</id>
 					<clause>3.4.1.5</clause>
+					<guid>idBD7658051DA3495bA45E71D438FCD3DF</guid>
 					<name>architecture view</name>
 					<definition><![CDATA[work product expressing the architecture of a system from the perspective of specific system concerns 
 [ISO 42010:2011, 3.5]
 ]]></definition>
 					<index>architecture view</index>
 				</term>
-				<term guid="id2D6E2A89A52E4a689CD868265F24A29E">
+				<term>
 					<id>6</id>
 					<clause>3.4.1.6</clause>
+					<guid>id2D6E2A89A52E4a689CD868265F24A29E</guid>
 					<name>architecture viewpoint</name>
 					<definition><![CDATA[work product establishing the conventions for the construction, interpretation and use of architecture views to frame specific system concerns 
 [ISO 42010:2011, 3.6]
 ]]></definition>
 					<index>architecture viewpoint</index>
 				</term>
-				<term guid="idFA25496536F542ee8EEECAE2225A828E">
+				<term>
 					<id>7</id>
 					<clause>3.4.1.7</clause>
+					<guid>idFA25496536F542ee8EEECAE2225A828E</guid>
 					<name>concern</name>
 					<definition><![CDATA[&lt;system&gt; interest in a system relevant to one or more of its stakeholders 
 NOTE	A concern pertains to any influence on a system in its environment, including developmental, technological, business, operational, organizational, political, economic, legal, regulatory, ecological and social influences. 
@@ -405,25 +446,28 @@ NOTE	A concern pertains to any influence on a system in its environment, includi
 ]]></definition>
 					<index>concern</index>
 				</term>
-				<term guid="idA9454DB86F4C47c9902B7ABEE2462EA8">
+				<term>
 					<id>8</id>
 					<clause>3.4.1.8</clause>
+					<guid>idA9454DB86F4C47c9902B7ABEE2462EA8</guid>
 					<name>element</name>
 					<definition><![CDATA[&lt;system&gt; component member of an architecture
 ]]></definition>
 					<index>element</index>
 				</term>
-				<term guid="idBCD10BE481B544698858512B057E1D40">
+				<term>
 					<id>9</id>
 					<clause>3.4.1.9</clause>
+					<guid>idBCD10BE481B544698858512B057E1D40</guid>
 					<name>environment</name>
 					<definition><![CDATA[&lt;system&gt; <font color="#313131">context determining the setting and circumstances of all influences upon a system</font>
 <font color="#313131">[ISO/IEC/IEEE 42010:2011, 3.8]</font>]]></definition>
 					<index>environment</index>
 				</term>
-				<term guid="id539D69676C04491081CB654FB9B87320">
+				<term>
 					<id>10</id>
 					<clause>3.4.1.10</clause>
+					<guid>id539D69676C04491081CB654FB9B87320</guid>
 					<name>model kind</name>
 					<definition><![CDATA[conventions for a type of modelling 
 NOTE	Examples of model kinds include data flow diagrams, class diagrams, Petri nets, balance sheets, organization charts and state transition models. 
@@ -431,9 +475,10 @@ NOTE	Examples of model kinds include data flow diagrams, class diagrams, Petri n
 ]]></definition>
 					<index>model kind</index>
 				</term>
-				<term guid="id730A631B2F0A43c2870FF7EC89013DA2">
+				<term>
 					<id>11</id>
 					<clause>3.4.1.11</clause>
+					<guid>id730A631B2F0A43c2870FF7EC89013DA2</guid>
 					<name>stakeholder</name>
 					<definition><![CDATA[&lt;system&gt; individual, team, organization, or classes thereof, having an interest in a system 
 [ISO 42010:2011, 3.10]
@@ -445,23 +490,26 @@ NOTE	Examples of model kinds include data flow diagrams, class diagrams, Petri n
 				<id>2</id>
 				<clause>3.4.2</clause>
 				<name>3.4.2 Architecture types</name>
-				<term guid="id654FD9AE16B34abd88DFC9917F4788EC">
+				<term>
 					<id>5</id>
 					<clause>3.4.2.5</clause>
+					<guid>id654FD9AE16B34abd88DFC9917F4788EC</guid>
 					<name>C-ITS architecture</name>
 					<definition><![CDATA[architecture for one or more ITS services where each service requires at least one C-ITS data exchange  ]]></definition>
 					<index>C-ITS architecture</index>
 				</term>
-				<term guid="id78E7722880BD47d7BEB75B27B5842A74">
+				<term>
 					<id>3</id>
 					<clause>3.4.2.3</clause>
+					<guid>id78E7722880BD47d7BEB75B27B5842A74</guid>
 					<name>deployment architecture</name>
 					<definition><![CDATA[architecture that provides a vision of a specific deployment of a system]]></definition>
 					<index>deployment architecture</index>
 				</term>
-				<term guid="idAEDCDFD1175A4735AF8F91068BE5703F">
+				<term>
 					<id>4</id>
 					<clause>3.4.2.4</clause>
+					<guid>idAEDCDFD1175A4735AF8F91068BE5703F</guid>
 					<name>ITS architecture</name>
 					<definition><![CDATA[architecture for one or more ITS services
 Note 1 to entry:	An ITS architecture might be a reference, planning, or deployment architecture. 
@@ -469,27 +517,30 @@ Note 2 to entry:	The Harmonised Architecture Reference for Technical Standards (
 ]]></definition>
 					<index>ITS architecture</index>
 				</term>
-				<term guid="idCAC31494A311430cBB567F2A82C166EC">
+				<term>
 					<id>6</id>
 					<clause>3.4.2.6</clause>
+					<guid>idCAC31494A311430cBB567F2A82C166EC</guid>
 					<name>ITS-S architecture</name>
 					<definition><![CDATA[reference architecture for ITS components as defined in ISO 21217
 Note 1 to entry:	The ITS-S architecture is the preferred architecture for ITS components.
 ]]></definition>
 					<index>ITS-S architecture</index>
 				</term>
-				<term guid="id0875724C4E4C4527A11C1B5977FA6250">
+				<term>
 					<id>2</id>
 					<clause>3.4.2.2</clause>
+					<guid>id0875724C4E4C4527A11C1B5977FA6250</guid>
 					<name>planning architecture</name>
 					<definition><![CDATA[architecture that provides a long-term vision of system elements that may be deployed and managed by different projects and/or entities
 Note 1 to entry: 	Some countries use the term "regional architecture", but in international standards, the term "regional" is avoided due to its multiple meanings.
 ]]></definition>
 					<index>planning architecture</index>
 				</term>
-				<term guid="id7823F79833D54238B649F8A4D20F13C5">
+				<term>
 					<id>1</id>
 					<clause>3.4.2.1</clause>
+					<guid>id7823F79833D54238B649F8A4D20F13C5</guid>
 					<name>reference architecture</name>
 					<definition><![CDATA[template solution for an architecture for a particular domain<sup> [14]</sup>
 Note 1 to entry:	Interface standards are based on a reference architecture, which should be explicitly described.
@@ -501,47 +552,53 @@ Note 1 to entry:	Interface standards are based on a reference architecture, whic
 				<id>3</id>
 				<clause>3.4.3</clause>
 				<name>3.4.3 Architecture views</name>
-				<term guid="idA55DFAE6A3594f3f9DCE94FACB4B44AC">
+				<term>
 					<id>1</id>
 					<clause>3.4.3.1</clause>
+					<guid>idA55DFAE6A3594f3f9DCE94FACB4B44AC</guid>
 					<name>communications view</name>
 					<definition><![CDATA[<font color="#1a1a1a">architecture view </font>from the communications viewpoint ]]></definition>
 					<index>communications view</index>
 				</term>
-				<term guid="idFA802A0C473248fc9F50178DD38C56D8">
+				<term>
 					<id>2</id>
 					<clause>3.4.3.2</clause>
+					<guid>idFA802A0C473248fc9F50178DD38C56D8</guid>
 					<name>communications viewpoint</name>
 					<definition><![CDATA[architecture viewpoint used to frame communication interface concerns, including all layers of the OSI stack and related management and security issues
 ]]></definition>
 					<index>communications viewpoint</index>
 				</term>
-				<term guid="id9835C11FD8C04296807C2D9A60453679">
+				<term>
 					<id>3</id>
 					<clause>3.4.3.3</clause>
+					<guid>id9835C11FD8C04296807C2D9A60453679</guid>
 					<name>functional view</name>
 					<definition><![CDATA[<font color="#1a1a1a">architecture view </font>from the functional viewpoint ]]></definition>
 					<index>functional view</index>
 				</term>
-				<term guid="id44BCE17E4D7F4e10AEBDA4BEA9679B0E">
+				<term>
 					<id>4</id>
 					<clause>3.4.3.4</clause>
+					<guid>id44BCE17E4D7F4e10AEBDA4BEA9679B0E</guid>
 					<name>functional viewpoint</name>
 					<definition><![CDATA[architecture viewpoint used to frame the functionality concerns, including the definition of processes that perform transport functions and data flows shared between these processes
 ]]></definition>
 					<index>functional viewpoint</index>
 				</term>
-				<term guid="idB34FD020963F4c85BD2610D158A905D2">
+				<term>
 					<id>5</id>
 					<clause>3.4.3.5</clause>
+					<guid>idB34FD020963F4c85BD2610D158A905D2</guid>
 					<name>physical view</name>
 					<definition><![CDATA[<font color="#1a1a1a">architecture view </font>from the physical viewpoint 
 Note 1 to entry: The term "deployment view" is sometimes used within the broader ICT community, but the term "physical view" is preferred to prevent confusion between the physical view of a reference architecture and any part of a deployment architecture. ]]></definition>
 					<index>physical view</index>
 				</term>
-				<term guid="idAB7049839C6D4f60BC7472FCFED26DB4">
+				<term>
 					<id>6</id>
 					<clause>3.4.3.6</clause>
+					<guid>idAB7049839C6D4f60BC7472FCFED26DB4</guid>
 					<name>physical viewpoint</name>
 					<definition><![CDATA[architecture viewpoint used to frame system engineering concerns, including the assignment of functionality to physical objects and the interfaces among these physical objects
 ]]></definition>
@@ -552,50 +609,56 @@ Note 1 to entry: The term "deployment view" is sometimes used within the broader
 				<id>4</id>
 				<clause>3.4.4</clause>
 				<name>3.4.4 Physical view of an ITS architecture</name>
-				<term guid="idEC65B14A2BF845deBCC48632F635C9FF">
+				<term>
 					<id>1</id>
 					<clause>3.4.4.1</clause>
+					<guid>idEC65B14A2BF845deBCC48632F635C9FF</guid>
 					<name>functional object</name>
 					<definition><![CDATA[group of similar system processes from the functional view of the architecture that are jointly assigned to an ITS component in the physical view. 
 ]]></definition>
 					<index>functional object</index>
 				</term>
-				<term guid="id752D601C79B54677BF47786D7FA84DBF">
+				<term>
 					<id>2</id>
 					<clause>3.4.4.2</clause>
+					<guid>id752D601C79B54677BF47786D7FA84DBF</guid>
 					<name>information flow</name>
 					<definition><![CDATA[information that is exchanged between physical objects
 ]]></definition>
 					<index>information flow</index>
 				</term>
-				<term guid="id9680D3EDB96947e2975441B520E3CFE4">
+				<term>
 					<id>3</id>
 					<clause>3.4.4.3</clause>
+					<guid>id9680D3EDB96947e2975441B520E3CFE4</guid>
 					<name>information triple</name>
 					<definition><![CDATA[information flow from a physical object acting as an information source and sent to another physical object acting as an information sink
 ]]></definition>
 					<index>information triple</index>
 				</term>
-				<term guid="id3783095C41E041c8B0CC1813CBCAEE44">
+				<term>
 					<id>4</id>
 					<clause>3.4.4.4</clause>
+					<guid>id3783095C41E041c8B0CC1813CBCAEE44</guid>
 					<name>ITS component</name>
 					<definition><![CDATA[physical object that has been assigned one or more ITS functional objects
 Note 1 to entry:	Physical objects are ITS components if they are an integral part of the system; otherwise they are terminators.
 ]]></definition>
 					<index>ITS component</index>
 				</term>
-				<term guid="id8EA65F2D6F6347bf8FF4C5CD35C61C68">
+				<term>
 					<id>5</id>
 					<clause>3.4.4.5</clause>
+					<guid>id8EA65F2D6F6347bf8FF4C5CD35C61C68</guid>
 					<name>physical object</name>
 					<definition><![CDATA[element within the physical view of an ITS architecture that represents an physical entity that interacts with other physical objects in the provision of ITS services
 ]]></definition>
 					<index>physical object</index>
 				</term>
-				<term guid="id98ACC203E1E34474AF1A04245619E6BF">
+				<term>
 					<id>6</id>
 					<clause>3.4.4.6</clause>
+					<guid>id98ACC203E1E34474AF1A04245619E6BF</guid>
 					<name>terminator</name>
 					<definition><![CDATA[physical object that represents an external user of ITS
 ]]></definition>
@@ -606,23 +669,26 @@ Note 1 to entry:	Physical objects are ITS components if they are an integral par
 				<id>5</id>
 				<clause>3.4.5</clause>
 				<name>3.4.5 Physical view realization</name>
-				<term guid="id75E3C9D3F2084e00BA93F5DD34084653">
+				<term>
 					<id>1</id>
 					<clause>3.4.5.1</clause>
+					<guid>id75E3C9D3F2084e00BA93F5DD34084653</guid>
 					<name>Centre system</name>
 					<definition><![CDATA[]]></definition>
 					<index>Centre system</index>
 				</term>
-				<term guid="idB6702EA11A52412eA44F00E7A7D44F40">
+				<term>
 					<id>3</id>
 					<clause>3.4.5.3</clause>
+					<guid>idB6702EA11A52412eA44F00E7A7D44F40</guid>
 					<name>ITS roadway equipment</name>
 					<definition><![CDATA[]]></definition>
 					<index>ITS roadway equipment</index>
 				</term>
-				<term guid="idF1E402D380EE478c957A2FF53D9EA0C5">
+				<term>
 					<id>4</id>
 					<clause>3.4.5.4</clause>
+					<guid>idF1E402D380EE478c957A2FF53D9EA0C5</guid>
 					<name>ITS station</name>
 					<definition><![CDATA[ITS component that provides a bounded secured managed domain and conforms to the ITS station architecture
 Note 1 to entry:	The ITS station architecture is defined in ISO 21217.
@@ -634,58 +700,66 @@ EDITOR’S NOTE 5	Logically, an ITS-S seldom (if ever) provides ITS services becau
 ]]></definition>
 					<index>ITS station</index>
 				</term>
-				<term guid="id32A3B8B6410142fd9540A71FEF5521A5">
+				<term>
 					<id>2</id>
 					<clause>3.4.5.2</clause>
+					<guid>id32A3B8B6410142fd9540A71FEF5521A5</guid>
 					<name>ITS-S unit</name>
 					<definition><![CDATA[]]></definition>
 					<index>ITS-S unit</index>
 				</term>
-				<term guid="id19370BF79EB84485AEAD2DDF5F784F2F">
+				<term>
 					<id>5</id>
 					<clause>3.4.5.5</clause>
+					<guid>id19370BF79EB84485AEAD2DDF5F784F2F</guid>
 					<name>on-board equipment</name>
 					<definition><![CDATA[]]></definition>
 					<index>on-board equipment</index>
 				</term>
-				<term guid="idE1D193F17654409cA350D9BECAAB4943">
+				<term>
 					<id>6</id>
 					<clause>3.4.5.6</clause>
+					<guid>idE1D193F17654409cA350D9BECAAB4943</guid>
 					<name>on-board unit</name>
 					<definition><![CDATA[]]></definition>
 					<index>on-board unit</index>
 				</term>
-				<term guid="id5DAF919582BA4ebcA9458826C7601B83">
+				<term>
 					<id>7</id>
 					<clause>3.4.5.7</clause>
+					<guid>id5DAF919582BA4ebcA9458826C7601B83</guid>
 					<name>roadside equipment</name>
 					<definition><![CDATA[]]></definition>
 					<index>roadside equipment</index>
 				</term>
-				<term guid="id3AFA2C9C88E44f0f8C65FA7C0B16853A">
+				<term>
 					<id>8</id>
 					<clause>3.4.5.8</clause>
+					<guid>id3AFA2C9C88E44f0f8C65FA7C0B16853A</guid>
 					<name>roadside ITS station</name>
 					<definition><![CDATA[]]></definition>
 					<index>roadside ITS station</index>
 				</term>
-				<term guid="idEDB21315BC7D4fc08E78822D14ACDAE5">
+				<term>
 					<id>9</id>
 					<clause>3.4.5.9</clause>
+					<guid>idEDB21315BC7D4fc08E78822D14ACDAE5</guid>
 					<name>roadside module</name>
 					<definition><![CDATA[]]></definition>
 					<index>roadside module</index>
 				</term>
-				<term guid="id86A6D20743C74d40A0666588BA0B2932">
+				<term>
 					<id>10</id>
 					<clause>3.4.5.10</clause>
+					<guid>id86A6D20743C74d40A0666588BA0B2932</guid>
 					<name>roadside unit</name>
 					<definition><![CDATA[]]></definition>
 					<index>roadside unit</index>
 				</term>
-				<term guid="idBDD3ECE8339943dfBF8239896C549D44">
+				<term>
 					<id>11</id>
 					<clause>3.4.5.11</clause>
+					<guid>idBDD3ECE8339943dfBF8239896C549D44</guid>
 					<name>unit</name>
 					<definition><![CDATA[]]></definition>
 					<index>unit</index>
@@ -695,23 +769,26 @@ EDITOR’S NOTE 5	Logically, an ITS-S seldom (if ever) provides ITS services becau
 				<id>6</id>
 				<clause>3.4.6</clause>
 				<name>3.4.6 Functional view of an ITS architecture</name>
-				<term guid="id50C8A31C608C491fBA3FBA0D389CF013">
+				<term>
 					<id>1</id>
 					<clause>3.4.6.1</clause>
+					<guid>id50C8A31C608C491fBA3FBA0D389CF013</guid>
 					<name>data flow</name>
 					<definition><![CDATA[<font color="#1a1a1a">Representation of data flowing between processes or between a process and a terminator</font>]]></definition>
 					<index>data flow</index>
 				</term>
-				<term guid="id6DD0743FF44F4f0e9817C766379AD954">
+				<term>
 					<id>2</id>
 					<clause>3.4.6.2</clause>
+					<guid>id6DD0743FF44F4f0e9817C766379AD954</guid>
 					<name>process</name>
 					<definition><![CDATA[function or activity defined in the functional view]]></definition>
 					<index>process</index>
 				</term>
-				<term guid="idBD61BEDB615C4e3988B47D3DC8EBAFEE">
+				<term>
 					<id>3</id>
 					<clause>3.4.6.3</clause>
+					<guid>idBD61BEDB615C4e3988B47D3DC8EBAFEE</guid>
 					<name>process specification</name>
 					<definition><![CDATA[<font color="#1a1a1a">textual definition of a lowest-level process</font>]]></definition>
 					<index>process specification</index>
@@ -726,9 +803,10 @@ EDITOR’S NOTE 5	Logically, an ITS-S seldom (if ever) provides ITS services becau
 				<id>1</id>
 				<clause>3.5.1</clause>
 				<name>3.5.1 Data concept management</name>
-				<term guid="id5C989C1352B14d07BB1E631FC7D46F8F">
+				<term>
 					<id>1</id>
 					<clause>3.5.1.1</clause>
+					<guid>id5C989C1352B14d07BB1E631FC7D46F8F</guid>
 					<name>data concept</name>
 					<definition><![CDATA[item that may be stored in a data dictionary that refers to an abstraction or thing in the natural world that can be identified with explicit boundaries and meaning and whose properties and behaviour all follow the same rules
 Note 1 to entry:	Data concepts can be classified into the following types: object class, value domain, data element, aggregate domain, data frame, message, interface dialogue, dictionary document, or module
@@ -736,24 +814,27 @@ Note 1 to entry:	Data concepts can be classified into the following types: objec
 ]]></definition>
 					<index>data concept</index>
 				</term>
-				<term guid="id8ED0B56A7A7C46369CAC281E4716F553">
+				<term>
 					<id>2</id>
 					<clause>3.5.1.2</clause>
+					<guid>id8ED0B56A7A7C46369CAC281E4716F553</guid>
 					<name>data concept registry</name>
 					<definition><![CDATA[<font color="#313131">electronic data dictionary that follows precise documented rules for the registration and management of stored data concepts; it typically also includes advanced features for adding, retrieving, and working with its contents</font>
 <font color="#313131">Note 1 to entry: The data concept registry contains meta-attributes about data concepts in terms of their names and representational forms as well as the semantics associated with the data concepts. A data concept registry may contain data that assists information interchange and re-use, both from the perspective of human users and for machine-interpretation of data concepts.</font>]]></definition>
 					<index>data concept registry</index>
 				</term>
-				<term guid="idB06371D38EFC48e299F50E38BFECA3F5">
+				<term>
 					<id>3</id>
 					<clause>3.5.1.3</clause>
+					<guid>idB06371D38EFC48e299F50E38BFECA3F5</guid>
 					<name>data dictionary</name>
 					<definition><![CDATA[<font color="#313131">listing of data concepts and their meta-attributes in a consistent format</font>]]></definition>
 					<index>data dictionary</index>
 				</term>
-				<term guid="id5E5AB08C409C4757A21F0C4353B6F6D9">
+				<term>
 					<id>4</id>
 					<clause>3.5.1.4</clause>
+					<guid>id5E5AB08C409C4757A21F0C4353B6F6D9</guid>
 					<name>meta-attribute</name>
 					<definition><![CDATA[<font color="#313131">documenting characteristic of a data concept that is stored in a data dictionary</font>]]></definition>
 					<index>meta-attribute</index>
@@ -763,59 +844,66 @@ Note 1 to entry:	Data concepts can be classified into the following types: objec
 				<id>2</id>
 				<clause>3.5.2</clause>
 				<name>3.5.2 Types of data concepts</name>
-				<term guid="id3885C6F4DEBA4ad3952CF6E500F10712">
+				<term>
 					<id>1</id>
 					<clause>3.5.2.1</clause>
+					<guid>id3885C6F4DEBA4ad3952CF6E500F10712</guid>
 					<name>aggregate domain</name>
 					<definition><![CDATA[<b>data concept</b> that defines a grouping of <b>data elements</b> and/or <b>data frames</b> 
 ]]></definition>
 					<index>aggregate domain</index>
 				</term>
-				<term guid="id6ADFFDA7618A4047AE100991CBCE83C7">
+				<term>
 					<id>2</id>
 					<clause>3.5.2.2</clause>
+					<guid>id6ADFFDA7618A4047AE100991CBCE83C7</guid>
 					<name>data element</name>
 					<definition><![CDATA[<b>data concept</b> represented by a specific <b>value domain</b> and that describes a single atomic property about an <b>object class</b>. 
 Note 1 to entry:	A data element is composed of an object class, a property of the represented object class and a value domain.
 ]]></definition>
 					<index>data element</index>
 				</term>
-				<term guid="idD0B512E1030A4b998CB13473D336CBFC">
+				<term>
 					<id>3</id>
 					<clause>3.5.2.3</clause>
+					<guid>idD0B512E1030A4b998CB13473D336CBFC</guid>
 					<name>data frame</name>
 					<definition><![CDATA[<b>data concept</b> represented by a specific <b>aggregate domain</b> and that describes information of interest through a useful grouping of more atomic properties about one or more <b>object classes</b>. 
 Note 1 to entry:	The grouping may be a set, sequence, or a choice.
 ]]></definition>
 					<index>data frame</index>
 				</term>
-				<term guid="idA5ED9D410EE248389659C4C127C6159A">
+				<term>
 					<id>4</id>
 					<clause>3.5.2.4</clause>
+					<guid>idA5ED9D410EE248389659C4C127C6159A</guid>
 					<name>interface dialogue</name>
 					<definition><![CDATA[<b>data concept</b> that defines bi-directional communication sequence between two parties in accordance with predetermined protocols
 ]]></definition>
 					<index>interface dialogue</index>
 				</term>
-				<term guid="id7E8CF3F643284ed199FEF6FA0A1FDADC">
+				<term>
 					<id>5</id>
 					<clause>3.5.2.5</clause>
+					<guid>id7E8CF3F643284ed199FEF6FA0A1FDADC</guid>
 					<name>message</name>
 					<definition><![CDATA[<b>data concept</b> that is a grouping of <b>data elements</b>, <b>data frames</b>, or <b>data elements</b> and <b>data frames </b>that is used to convey a complete set of information ]]></definition>
 					<index>message</index>
 				</term>
-				<term guid="idDF674EF5FB8049aaBE03DC6E5FF03853">
+				<term>
 					<id>6</id>
 					<clause>3.5.2.6</clause>
+					<guid>idDF674EF5FB8049aaBE03DC6E5FF03853</guid>
 					<name>object class</name>
 					<definition><![CDATA[description of a set of objects that share the same properties, relationships, and semantics
 Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptually similar to an ISO/IEC 11179 object, but it does not include operations or methods and ISO/IEC 11179 "attributes" are called "properties" in this International Standard. 
 ]]></definition>
 					<index>object class</index>
 				</term>
-				<term guid="idACC1C171626D40479E3CC4C273BEA796">
+				<term>
 					<id>7</id>
 					<clause>3.5.2.7</clause>
+					<guid>idACC1C171626D40479E3CC4C273BEA796</guid>
 					<name>value domain</name>
 					<definition><![CDATA[<b>data concept</b> that defines a set of permissible values
 ]]></definition>
@@ -827,95 +915,106 @@ Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptua
 			<id>6</id>
 			<clause>3.6</clause>
 			<name>3.6 Location model</name>
-			<term guid="id343F8CD601FC4dc58ECD036531891EFE">
+			<term>
 				<id>2</id>
 				<clause>3.6.2</clause>
+				<guid>id343F8CD601FC4dc58ECD036531891EFE</guid>
 				<name>area location</name>
 				<definition><![CDATA[<b>location</b> that has a two-dimensional character
 
 ]]></definition>
 				<index>area location</index>
 			</term>
-			<term guid="id9F4FE27F1B414712ACD9752109E5DBC1">
+			<term>
 				<id>7</id>
 				<clause>3.6.7</clause>
+				<guid>id9F4FE27F1B414712ACD9752109E5DBC1</guid>
 				<name>dynamic location reference</name>
 				<definition><![CDATA[<font color="#313131"><b>location reference</b> generated on-the-fly based on geographic properties in a digital map database</font>
 <font color="#042655">[ISO 17572-1:2015(en), 2.1.11]</font>
 ]]></definition>
 				<index>dynamic location reference</index>
 			</term>
-			<term guid="id5483A2A7CDBD49d2B369044AA6963623">
+			<term>
 				<id>3</id>
 				<clause>3.6.3</clause>
+				<guid>id5483A2A7CDBD49d2B369044AA6963623</guid>
 				<name>linear location</name>
 				<definition><![CDATA[<font color="#313131">location that has a one-dimensional character</font>
 <font color="#042655">ISO 17572-1:2015(en), 2.1.19</font>
 ]]></definition>
 				<index>linear location</index>
 			</term>
-			<term guid="id8B91C71A6B2E407e93778139104184DA">
+			<term>
 				<id>9</id>
 				<clause>3.6.9</clause>
+				<guid>id8B91C71A6B2E407e93778139104184DA</guid>
 				<name>link location</name>
 				<definition><![CDATA[<font color="#313131">location identifiable by a part of the road network database having one identifier or having a uniquely identifiable combination of attributes throughout the continuous stretch</font>
 <font color="#042655">ISO 17572-1:2015(en), 2.1.22</font>
 ]]></definition>
 				<index>link location</index>
 			</term>
-			<term guid="id3A8D97796CC142fa8882F36C623AA755">
+			<term>
 				<id>1</id>
 				<clause>3.6.1</clause>
+				<guid>id3A8D97796CC142fa8882F36C623AA755</guid>
 				<name>location</name>
 				<definition><![CDATA[<font color="#313131">position on the surface of the earth</font>
 ]]></definition>
 				<index>location</index>
 			</term>
-			<term guid="id93B9D867543E426aB2AA9E3422A10123">
+			<term>
 				<id>6</id>
 				<clause>3.6.6</clause>
+				<guid>id93B9D867543E426aB2AA9E3422A10123</guid>
 				<name>location code</name>
 				<definition><![CDATA[<font color="#042655">identifier assigned to a location reference</font>
 <font color="#042655">Note 1 to entry: A location code is often a numeric or alphanumeric identifier, but could be a textual name, symbol, or any other type of identifier.</font>
 ]]></definition>
 				<index>location code</index>
 			</term>
-			<term guid="id0F23B7B6B1C64d828035A246CDCC780C">
+			<term>
 				<id>5</id>
 				<clause>3.6.5</clause>
+				<guid>id0F23B7B6B1C64d828035A246CDCC780C</guid>
 				<name>location reference</name>
 				<definition><![CDATA[<font color="#042655">specification of a location </font><font color="#313131">according to a specific set of rules</font>
 ]]></definition>
 				<index>location reference</index>
 			</term>
-			<term guid="idBC453AADCE4944dfB79F29F6D270AFFC">
+			<term>
 				<id>10</id>
 				<clause>3.6.10</clause>
+				<guid>idBC453AADCE4944dfB79F29F6D270AFFC</guid>
 				<name>location referencing</name>
 				<definition><![CDATA[<font color="#313131">method for referencing locations to facilitate the exchange of location related information between different systems</font>
 <font color="#042655">ISO/TS 18234-4:2006(en), 3.4</font>
 ]]></definition>
 				<index>location referencing</index>
 			</term>
-			<term guid="id096362A45C0242bfB269C385CB0D6C8F">
+			<term>
 				<id>11</id>
 				<clause>3.6.11</clause>
+				<guid>id096362A45C0242bfB269C385CB0D6C8F</guid>
 				<name>location table</name>
 				<definition><![CDATA[table of one or more entries that unambiguously defines a location according to a known set of conventions]]></definition>
 				<index>location table</index>
 			</term>
-			<term guid="id877B14CA611F495089D65BE3C5CC9A53">
+			<term>
 				<id>4</id>
 				<clause>3.6.4</clause>
+				<guid>id877B14CA611F495089D65BE3C5CC9A53</guid>
 				<name>point location</name>
 				<definition><![CDATA[<font color="#313131">location that has a zero-dimensional character</font>
 <font color="#042655">ISO 17572-1:2015(en), 2.1.33</font>
 ]]></definition>
 				<index>point location</index>
 			</term>
-			<term guid="id3A329C6B79D9436bA72E60C0685FE27D">
+			<term>
 				<id>8</id>
 				<clause>3.6.8</clause>
+				<guid>id3A329C6B79D9436bA72E60C0685FE27D</guid>
 				<name>pre-coded location reference</name>
 				<definition><![CDATA[<font color="#313131">location reference using a unique identifier that is agreed upon in both sender and receiver system to select a location from a set of pre-coded locations</font>
 <font color="#042655">ISO 17572-1:2015(en), 2.1.35</font>
@@ -931,26 +1030,29 @@ Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptua
 				<id>1</id>
 				<clause>3.7.1</clause>
 				<name>3.7.1 Road components</name>
-				<term guid="id855CC715739D462e9790E893914D8768">
+				<term>
 					<id>5</id>
 					<clause>3.7.1.5</clause>
+					<guid>id855CC715739D462e9790E893914D8768</guid>
 					<name>carriageway</name>
 					<definition><![CDATA[syn: roadway
 part of road link designed for use by motor vehicles]]></definition>
 					<index>carriageway</index>
 				</term>
-				<term guid="id8F324A220854441d973364AB921327C2">
+				<term>
 					<id>3</id>
 					<clause>3.7.1.3</clause>
+					<guid>id8F324A220854441d973364AB921327C2</guid>
 					<name>dual carriageway</name>
 					<definition><![CDATA[syn: divided highway
 roadway comprised of exactly two carriageways
 Note 1 to entry: The two carriageways are typically designed for travel in opposite directions. ]]></definition>
 					<index>dual carriageway</index>
 				</term>
-				<term guid="idDAF8D75AA574422cADE5F6D094406BB4">
+				<term>
 					<id>7</id>
 					<clause>3.7.1.7</clause>
+					<guid>idDAF8D75AA574422cADE5F6D094406BB4</guid>
 					<name>lane</name>
 					<definition><![CDATA[strip of roadway intended for a specific purpose along its length with adequate clearance for its purpose
 
@@ -960,33 +1062,37 @@ Note 3 to entry: The term "lane" is often used in place of "travel lane" but oth
 EXAMPLE	shoulder ]]></definition>
 					<index>lane</index>
 				</term>
-				<term guid="id31A996B22C8148cd82601B8EF09D16CD">
+				<term>
 					<id>14</id>
 					<clause>3.7.1.14</clause>
+					<guid>id31A996B22C8148cd82601B8EF09D16CD</guid>
 					<name>lane group</name>
 					<definition><![CDATA[]]></definition>
 					<index>lane group</index>
 				</term>
-				<term guid="id41E38785253045dfB624340C101985B5">
+				<term>
 					<id>9</id>
 					<clause>3.7.1.9</clause>
+					<guid>id41E38785253045dfB624340C101985B5</guid>
 					<name>lay-by</name>
 					<definition><![CDATA[short lane at the edge of a carriageway designed to allow a motor vehicle to temporarily stop while traffic in other lanes proceed
 
 Note 1 to entry: Lay-bys might be used for emergency situations, picking up/dropping off passengers, etc.]]></definition>
 					<index>lay-by</index>
 				</term>
-				<term guid="id7B16CBDFBD9E42008A5F6C13E5CF80CE">
+				<term>
 					<id>4</id>
 					<clause>3.7.1.4</clause>
+					<guid>id7B16CBDFBD9E42008A5F6C13E5CF80CE</guid>
 					<name>multi-carriageway</name>
 					<definition><![CDATA[roadway comprised of more than two carriageways
 Note 1 to entry: The separate carriageways are typically designed for separate traffic for (often multiple) specific operational reasons, such as direction of travel, category of vehicle (e.g., high occupancy vehicle), local versus through travel, etc.]]></definition>
 					<index>multi-carriageway</index>
 				</term>
-				<term guid="id5F800D4BC9554ef0B8B5174EDCCD4192">
+				<term>
 					<id>11</id>
 					<clause>3.7.1.11</clause>
+					<guid>id5F800D4BC9554ef0B8B5174EDCCD4192</guid>
 					<name>reserved lane</name>
 					<definition><![CDATA[travel lane restricted to a specific subset of motor vehicles
 
@@ -994,17 +1100,19 @@ EXAMPLE 1	Bus lane
 EXAMPLE 2	High-occupancy vehicle lane]]></definition>
 					<index>reserved lane</index>
 				</term>
-				<term guid="idF9F0ACCE2D49434a803C0D87211F753A">
+				<term>
 					<id>12</id>
 					<clause>3.7.1.12</clause>
+					<guid>idF9F0ACCE2D49434a803C0D87211F753A</guid>
 					<name>right-of-way</name>
 					<definition><![CDATA[easement of land reserved for transportation purposes
 Note 1 to entry: The right-of-way includes all carriageways as well as a significant width to allow for roadside devices, clearance zones, sidewalks, drainage facilities, sound walls, etc.]]></definition>
 					<index>right-of-way</index>
 				</term>
-				<term guid="id72937CE094414775B90C995DFCB64EEB">
+				<term>
 					<id>16</id>
 					<clause>3.7.1.16</clause>
+					<guid>id72937CE094414775B90C995DFCB64EEB</guid>
 					<name>road</name>
 					<definition><![CDATA[contiguous curvilinear length of the road network that shares the same name
 
@@ -1013,54 +1121,61 @@ Note 1 to entry:	A road may turn at a junction.
 Note 2 to entry: A length of the road network may be referenced by multiple names (e.g., Main Street and Route 7). In this case, there would be two "roads" that share the same set of "carriageways".]]></definition>
 					<index>road</index>
 				</term>
-				<term guid="id718D31DE1698436a9BA71D3F4512432A">
+				<term>
 					<id>13</id>
 					<clause>3.7.1.13</clause>
+					<guid>id718D31DE1698436a9BA71D3F4512432A</guid>
 					<name>roadside</name>
 					<definition><![CDATA[width between one edge of the right-of-way and the closest edge of a carriageway]]></definition>
 					<index>roadside</index>
 				</term>
-				<term guid="id3F880EDEBFE84014A43B46167936F4B1">
+				<term>
 					<id>1</id>
 					<clause>3.7.1.1</clause>
+					<guid>id3F880EDEBFE84014A43B46167936F4B1</guid>
 					<name>roadway</name>
 					<definition><![CDATA[part of the right-of-way designed for use by motor vehicles
 Note 1 to entry: Roadway relates to a cross-section of a road facility (i.e., zero length). See "road", "road section", "road segment", and "road link" for different types of stretches of roadway. ]]></definition>
 					<index>roadway</index>
 				</term>
-				<term guid="id947856123B8C483fA4EA168B5D71D241">
+				<term>
 					<id>6</id>
 					<clause>3.7.1.6</clause>
+					<guid>id947856123B8C483fA4EA168B5D71D241</guid>
 					<name>separation barrier</name>
 					<definition><![CDATA[barrier that separates carriageways]]></definition>
 					<index>separation barrier</index>
 				</term>
-				<term guid="id3ED71F1C6B5043bfA551091CE068AA9D">
+				<term>
 					<id>10</id>
 					<clause>3.7.1.10</clause>
+					<guid>id3ED71F1C6B5043bfA551091CE068AA9D</guid>
 					<name>shoulder</name>
 					<definition><![CDATA[lane between the edge of a carriageway and any slope or edge of right-of-way.
 Note 1 to entry: The shoulder might be used for emergency stops or other purposes in addition to providing a clear zone and to promote ground stability at the edge of the carriageway.]]></definition>
 					<index>shoulder</index>
 				</term>
-				<term guid="idE5751E37A4C94387B5E781D19EDB099A">
+				<term>
 					<id>2</id>
 					<clause>3.7.1.2</clause>
+					<guid>idE5751E37A4C94387B5E781D19EDB099A</guid>
 					<name>single carriageway</name>
 					<definition><![CDATA[syn: undivided highway
 roadway comprised of exactly one carriageway]]></definition>
 					<index>single carriageway</index>
 				</term>
-				<term guid="id1240152ED5B6429eA0A4B380F1D798E4">
+				<term>
 					<id>8</id>
 					<clause>3.7.1.8</clause>
+					<guid>id1240152ED5B6429eA0A4B380F1D798E4</guid>
 					<name>travel lane</name>
 					<definition><![CDATA[<b>lane</b> intended to allow <b>motor vehicles</b> to travel from one end of a <b>road link</b> to the other]]></definition>
 					<index>travel lane</index>
 				</term>
-				<term guid="id857B4AB767DD4eff8B983033C4A2D110">
+				<term>
 					<id>15</id>
 					<clause>3.7.1.15</clause>
+					<guid>id857B4AB767DD4eff8B983033C4A2D110</guid>
 					<name>traveled way</name>
 					<definition><![CDATA[collection of all travel lanes of a carriageway]]></definition>
 					<index>traveled way</index>
@@ -1070,9 +1185,10 @@ roadway comprised of exactly one carriageway]]></definition>
 				<id>2</id>
 				<clause>3.7.2</clause>
 				<name>3.7.2 Road network</name>
-				<term guid="id4D454D04956F440b8C7812E326195D21">
+				<term>
 					<id>1</id>
 					<clause>3.7.2.1</clause>
+					<guid>id4D454D04956F440b8C7812E326195D21</guid>
 					<name>directional lanes</name>
 					<definition><![CDATA[collection of all travel lanes of a road link that are intended to allow travel in the same direction 
 Note 1 to entry: In actual use, an indication of the direction typically replaces the term "directional"
@@ -1080,63 +1196,71 @@ EXAMPLE 1 The eastbound lanes on a road
 EXAMPLE 2 The north approach lanes at an intersection]]></definition>
 					<index>directional lanes</index>
 				</term>
-				<term guid="id127FB835502F497a9F4FB2F5C4291560">
+				<term>
 					<id>2</id>
 					<clause>3.7.2.2</clause>
+					<guid>id127FB835502F497a9F4FB2F5C4291560</guid>
 					<name>directional lanes link</name>
 					<definition><![CDATA[collection of all lane links of the same road link designed for travel in the same direction]]></definition>
 					<index>directional lanes link</index>
 				</term>
-				<term guid="id71C155448DD245f68AFCA875F0884C00">
+				<term>
 					<id>3</id>
 					<clause>3.7.2.3</clause>
+					<guid>id71C155448DD245f68AFCA875F0884C00</guid>
 					<name>lane link</name>
 					<definition><![CDATA[lane with starting and ending points that correspond to the starting and ending points of a road link]]></definition>
 					<index>lane link</index>
 				</term>
-				<term guid="idBD5D2448C2D54cf1975BD44B0B0F0A99">
+				<term>
 					<id>4</id>
 					<clause>3.7.2.4</clause>
+					<guid>idBD5D2448C2D54cf1975BD44B0B0F0A99</guid>
 					<name>lane section</name>
 					<definition><![CDATA[complete sequential series of lane segments within a road section]]></definition>
 					<index>lane section</index>
 				</term>
-				<term guid="idE28C5D7863C84be78BBC6FDBB1153BBB">
+				<term>
 					<id>5</id>
 					<clause>3.7.2.5</clause>
+					<guid>idE28C5D7863C84be78BBC6FDBB1153BBB</guid>
 					<name>lane segment</name>
 					<definition><![CDATA[complete sequential series of lane links within a road segment 
 Note 1 to entry: A lane segment might start or end at locations other than the start or end of the corresponding road segment (e.g., a lane may start mid-block).]]></definition>
 					<index>lane segment</index>
 				</term>
-				<term guid="idC615C2E3B7124c83B83FE649EAF6AD04">
+				<term>
 					<id>6</id>
 					<clause>3.7.2.6</clause>
+					<guid>idC615C2E3B7124c83B83FE649EAF6AD04</guid>
 					<name>road link</name>
 					<definition><![CDATA[contiguous length of a road segment that is described by the same set of physical characteristics
 
 Note 1 to entry: The definition of road segments is highly dependent on what characteristics are modelled by the implementation. Characteristics that might result in a new road segment include: addition or subtraction of a lane, a change in roadway width, the change of road type (e.g., start/end of a bridge), etc. ]]></definition>
 					<index>road link</index>
 				</term>
-				<term guid="idEF0DB12C0BE247319EF2AC75AC234F8F">
+				<term>
 					<id>7</id>
 					<clause>3.7.2.7</clause>
+					<guid>idEF0DB12C0BE247319EF2AC75AC234F8F</guid>
 					<name>road network</name>
 					<definition><![CDATA[network of routes designed for the use of motor vehicles ]]></definition>
 					<index>road network</index>
 				</term>
-				<term guid="id3A03AC4535C54232A92AD8E01B5AFDA0">
+				<term>
 					<id>8</id>
 					<clause>3.7.2.8</clause>
+					<guid>id3A03AC4535C54232A92AD8E01B5AFDA0</guid>
 					<name>road section</name>
 					<definition><![CDATA[contiguous length of a road that shares the same management and operational characteristics
 
 EXAMPLE	A traffic signal timing plan is applied to one road section.]]></definition>
 					<index>road section</index>
 				</term>
-				<term guid="idE86C320F77B445a18BB03478ACD8CBB2">
+				<term>
 					<id>9</id>
 					<clause>3.7.2.9</clause>
+					<guid>idE86C320F77B445a18BB03478ACD8CBB2</guid>
 					<name>road segment</name>
 					<definition><![CDATA[contiguous length of a road section bounded by a junction or a termination point at both ends]]></definition>
 					<index>road segment</index>
@@ -1146,37 +1270,42 @@ EXAMPLE	A traffic signal timing plan is applied to one road section.]]></definit
 				<id>3</id>
 				<clause>3.7.3</clause>
 				<name>3.7.3 Junction</name>
-				<term guid="idA779A8E79A9446949679D6C81EA7934A">
+				<term>
 					<id>4</id>
 					<clause>3.7.3.4</clause>
+					<guid>idA779A8E79A9446949679D6C81EA7934A</guid>
 					<name>approach lane</name>
 					<definition><![CDATA[travel lane designed for entry into a junction]]></definition>
 					<index>approach lane</index>
 				</term>
-				<term guid="idDD820C7BE8CD41e9A34015AFAF30ABE1">
+				<term>
 					<id>7</id>
 					<clause>3.7.3.7</clause>
+					<guid>idDD820C7BE8CD41e9A34015AFAF30ABE1</guid>
 					<name>approach link</name>
 					<definition><![CDATA[directional lanes link representing all approach lanes on a road link]]></definition>
 					<index>approach link</index>
 				</term>
-				<term guid="idCC2F0AF206E94b6c811F65B1BC7B60A7">
+				<term>
 					<id>5</id>
 					<clause>3.7.3.5</clause>
+					<guid>idCC2F0AF206E94b6c811F65B1BC7B60A7</guid>
 					<name>egress lane</name>
 					<definition><![CDATA[travel lane designed for exiting from a junction]]></definition>
 					<index>egress lane</index>
 				</term>
-				<term guid="id323A4AC5269841cc961EF73B00C2284F">
+				<term>
 					<id>8</id>
 					<clause>3.7.3.8</clause>
+					<guid>id323A4AC5269841cc961EF73B00C2284F</guid>
 					<name>egress link</name>
 					<definition><![CDATA[directional lanes link representing all egress lanes on a road link]]></definition>
 					<index>egress link</index>
 				</term>
-				<term guid="idDECB4F677C08443cA409BFF38F03753A">
+				<term>
 					<id>3</id>
 					<clause>3.7.3.3</clause>
+					<guid>idDECB4F677C08443cA409BFF38F03753A</guid>
 					<name>interchange</name>
 					<definition><![CDATA[junction where at least one movement is grade separated from all other movements
 Note 1 to entry: The grade separation allows travelers on the link to pass unimpeded through the junction when congestion is not present.
@@ -1184,32 +1313,36 @@ Note 2 to entry: The concept of an interchange includes all movements at the jun
 Example: A diamond interchange has two intersections. ]]></definition>
 					<index>interchange</index>
 				</term>
-				<term guid="idA3C484DBF15D4b338F5C8C0A15EA4F2E">
+				<term>
 					<id>2</id>
 					<clause>3.7.3.2</clause>
+					<guid>idA3C484DBF15D4b338F5C8C0A15EA4F2E</guid>
 					<name>intersection</name>
 					<definition><![CDATA[at-grade junction]]></definition>
 					<index>intersection</index>
 				</term>
-				<term guid="id6C52075FBEAD42d4B0FB9C8A7F8FD833">
+				<term>
 					<id>1</id>
 					<clause>3.7.3.1</clause>
+					<guid>id6C52075FBEAD42d4B0FB9C8A7F8FD833</guid>
 					<name>junction</name>
 					<definition><![CDATA[nexus where two or more carriageways meet and travelers may connect to adjoining links
 
 Note 1 to entry: While the nexus is sometimes modelled as a point, it does in fact consume space]]></definition>
 					<index>junction</index>
 				</term>
-				<term guid="id04E1EDE4CEA745d89693A1CAED746C7C">
+				<term>
 					<id>6</id>
 					<clause>3.7.3.6</clause>
+					<guid>id04E1EDE4CEA745d89693A1CAED746C7C</guid>
 					<name>maneuver</name>
 					<definition><![CDATA[movement from an approach lane to an egress lane]]></definition>
 					<index>maneuver</index>
 				</term>
-				<term guid="id12F5723EEBFB4274BC7CE01D5AF7B22D">
+				<term>
 					<id>9</id>
 					<clause>3.7.3.9</clause>
+					<guid>id12F5723EEBFB4274BC7CE01D5AF7B22D</guid>
 					<name>signal</name>
 					<definition><![CDATA[]]></definition>
 					<index>signal</index>
@@ -1220,49 +1353,55 @@ Note 1 to entry: While the nexus is sometimes modelled as a point, it does in fa
 			<id>8</id>
 			<clause>3.8</clause>
 			<name>3.8 Vehicle types</name>
-			<term guid="idD0C58DE87412439c9CE7773DC5E2FB37">
+			<term>
 				<id>17</id>
 				<clause>3.8.17</clause>
+				<guid>idD0C58DE87412439c9CE7773DC5E2FB37</guid>
 				<name>articulated vehicle</name>
 				<definition><![CDATA["Articulated vehicle" means a vehicle which consists of two or more rigid sections which articulate relative to one another; the passenger compartments of each section intercommunicate so that passengers can move freely between them; the rigid sections are permanently connected so that they can only be separated by an operation involving facilities which are normally only found in a workshop;
 [UNECE WP.29/1045]]]></definition>
 				<index>articulated vehicle</index>
 			</term>
-			<term guid="id30D0139B138E427995A7169B36C821FA">
+			<term>
 				<id>18</id>
 				<clause>3.8.18</clause>
+				<guid>id30D0139B138E427995A7169B36C821FA</guid>
 				<name>automated vehicle</name>
 				<definition><![CDATA[]]></definition>
 				<index>automated vehicle</index>
 			</term>
-			<term guid="id29D960837EC74ef5A4A17023C48287E8">
+			<term>
 				<id>11</id>
 				<clause>3.8.11</clause>
+				<guid>id29D960837EC74ef5A4A17023C48287E8</guid>
 				<name>bicycle</name>
 				<definition><![CDATA[human-powered vehicle with two wheels 
 ]]></definition>
 				<index>bicycle</index>
 			</term>
-			<term guid="id05976B8BC7A84b0e93DA8793E35357A0">
+			<term>
 				<id>13</id>
 				<clause>3.8.13</clause>
+				<guid>id05976B8BC7A84b0e93DA8793E35357A0</guid>
 				<name>cart</name>
 				<definition><![CDATA[externally-propelled vehicle propelled by an animal (which might be a person)
 ]]></definition>
 				<index>cart</index>
 			</term>
-			<term guid="idE88517ED51CC44d3B4E0A276A7AA06A8">
+			<term>
 				<id>19</id>
 				<clause>3.8.19</clause>
+				<guid>idE88517ED51CC44d3B4E0A276A7AA06A8</guid>
 				<name>commercial vehicle</name>
 				<definition><![CDATA[<font color="#313131">any type of motor vehicle used for transporting goods or paid passengers</font>
 <font color="#042655">ISO/TR 19083-1:2016(en), 3.5</font>
 ]]></definition>
 				<index>commercial vehicle</index>
 			</term>
-			<term guid="id4124C2CE8DB64b6a832067B2074BF266">
+			<term>
 				<id>20</id>
 				<clause>3.8.20</clause>
+				<guid>id4124C2CE8DB64b6a832067B2074BF266</guid>
 				<name>commerical motor vehicle</name>
 				<definition><![CDATA[<font color="#313131">self-propelled or towed motor <b>vehicle </b>(3.50) used on a highway in interstate commerce to transport passengers or property when the vehicle</font>
 <ul>
@@ -1275,9 +1414,10 @@ Note 1 to entry: While the nexus is sometimes modelled as a point, it does in fa
 ]]></definition>
 				<index>commerical motor vehicle</index>
 			</term>
-			<term guid="id49FF108A0CA140d49A439CF9BBABA1BB">
+			<term>
 				<id>21</id>
 				<clause>3.8.21</clause>
+				<guid>id49FF108A0CA140d49A439CF9BBABA1BB</guid>
 				<name>connected vehicle</name>
 				<definition><![CDATA[<font color="#313131">vehicle that contains a <b>connected device </b>(3.8)</font>
 <font color="#042655">ISO/TS 19091:2017(en), 3.9</font>
@@ -1287,211 +1427,237 @@ Note 1 to entry: While the nexus is sometimes modelled as a point, it does in fa
 ]]></definition>
 				<index>connected vehicle</index>
 			</term>
-			<term guid="id75E34C40DC3A494dAC83E81955262D3F">
+			<term>
 				<id>22</id>
 				<clause>3.8.22</clause>
+				<guid>id75E34C40DC3A494dAC83E81955262D3F</guid>
 				<name>electric vehicle</name>
 				<definition><![CDATA[<font color="#313131">vehicle that is (partly) electrically powered and operated</font>
 <font color="#042655">ISO/TS 21219-25:2017(en), 3.1</font>
 ]]></definition>
 				<index>electric vehicle</index>
 			</term>
-			<term guid="id51C1CD32427548d6A3CA36D656564FCE">
+			<term>
 				<id>23</id>
 				<clause>3.8.23</clause>
+				<guid>id51C1CD32427548d6A3CA36D656564FCE</guid>
 				<name>external in-vehicle device</name>
 				<definition><![CDATA[<font color="#313131">devices such as mobile phones or dedicated units consisting of GNSS and/or cellular modules that are connected to DSRC-OBE for upgrading the functionalities of it</font>
 <font color="#042655">ISO/TS 16785:2014(en), 3.8</font>
 ]]></definition>
 				<index>external in-vehicle device</index>
 			</term>
-			<term guid="id9FB48FCCA5BD47288C38AFE544A2F3EC">
+			<term>
 				<id>12</id>
 				<clause>3.8.12</clause>
+				<guid>id9FB48FCCA5BD47288C38AFE544A2F3EC</guid>
 				<name>externally-propelled vehicle</name>
 				<definition><![CDATA[vehicle propelled by an external entity
 Note 1 to entry: 	The external entity is often a self-propelled vehicle, but may be any external source, including and not limited to an animal (e.g., an ox pulling a cart), a cable (e.g., San Francisco Trolley cars), or magnets (e.g., a maglev train).
 ]]></definition>
 				<index>externally-propelled vehicle</index>
 			</term>
-			<term guid="id5D915587849B43558A29C56430F62C03">
+			<term>
 				<id>7</id>
 				<clause>3.8.7</clause>
+				<guid>id5D915587849B43558A29C56430F62C03</guid>
 				<name>goods vehicle</name>
 				<definition><![CDATA[motor vehicle with four or more wheels designed primarily for the carriage of goods per UNECE WP.29/1045
 Note 1 to entry:	UNECE WP.29/1045 provides a formula to disambiguate between passenger vehicles (Category 1 vehicles) and goods vehicles (Category 2 vehicles).
 ]]></definition>
 				<index>goods vehicle</index>
 			</term>
-			<term guid="id213F1B0E86574a328BB521AD5CCDD8CD">
+			<term>
 				<id>24</id>
 				<clause>3.8.24</clause>
+				<guid>id213F1B0E86574a328BB521AD5CCDD8CD</guid>
 				<name>heavy vehicle</name>
 				<definition><![CDATA[<font color="#313131">any single vehicle or combination of vehicles defined as Category 1-2 or Category 2 in the United Nations Economic and Social Council World Forum for Harmonization of Vehicle Regulations (WP.29) TRANS/WP.29/1045</font>
 <font color="#042655">ISO 19237:2017(en), 3.4</font>
 ]]></definition>
 				<index>heavy vehicle</index>
 			</term>
-			<term guid="id49A50B8238DB4306938080630FB05EEC">
+			<term>
 				<id>10</id>
 				<clause>3.8.10</clause>
+				<guid>id49A50B8238DB4306938080630FB05EEC</guid>
 				<name>human-powered vehicle</name>
 				<definition><![CDATA[vehicle propelled by the muscular energy of one or more on-board person(s)
 ]]></definition>
 				<index>human-powered vehicle</index>
 			</term>
-			<term guid="idD4A825C9195540028C470BC2D3E25807">
+			<term>
 				<id>5</id>
 				<clause>3.8.5</clause>
+				<guid>idD4A825C9195540028C470BC2D3E25807</guid>
 				<name>light-duty passenger vehicle</name>
 				<definition><![CDATA[passenger vehicle with not more than eight seating positions in addition to the driver’s seating position (if any) and not designed for standing passengers
 ]]></definition>
 				<index>light-duty passenger vehicle</index>
 			</term>
-			<term guid="id8E43F08CCF164a548E9B0FA81CC092A9">
+			<term>
 				<id>14</id>
 				<clause>3.8.14</clause>
+				<guid>id8E43F08CCF164a548E9B0FA81CC092A9</guid>
 				<name>maglev vehicle</name>
 				<definition><![CDATA[externally-propelled vehicle that is levitated through the use of opposing magnets and propelled through the use of coordinated electro-magnets along a track]]></definition>
 				<index>maglev vehicle</index>
 			</term>
-			<term guid="id922733CB88644a46B9EC338BEDABBD45">
+			<term>
 				<id>9</id>
 				<clause>3.8.9</clause>
+				<guid>id922733CB88644a46B9EC338BEDABBD45</guid>
 				<name>moped</name>
 				<definition><![CDATA[motor vehicle with 2 or 3 wheels and a maximum design speed not exceeding 50 km/h
 ]]></definition>
 				<index>moped</index>
 			</term>
-			<term guid="idCF889FDE465A49f5A8F7F97ED69408FE">
+			<term>
 				<id>25</id>
 				<clause>3.8.25</clause>
+				<guid>idCF889FDE465A49f5A8F7F97ED69408FE</guid>
 				<name>motor</name>
 				<definition><![CDATA[]]></definition>
 				<index>motor</index>
 			</term>
-			<term guid="idC836FDA5C4344a98BC71F1C25FDC5A5E">
+			<term>
 				<id>3</id>
 				<clause>3.8.3</clause>
+				<guid>idC836FDA5C4344a98BC71F1C25FDC5A5E</guid>
 				<name>motor vehicle</name>
 				<definition><![CDATA[vehicle propelled by an on-board motor, having at least two wheels, and designed to be used on a road network
 ]]></definition>
 				<index>motor vehicle</index>
 			</term>
-			<term guid="id67B759675E174226A5272E7D8D7F6D93">
+			<term>
 				<id>8</id>
 				<clause>3.8.8</clause>
+				<guid>id67B759675E174226A5272E7D8D7F6D93</guid>
 				<name>motorcycle</name>
 				<definition><![CDATA[motor vehicle with 2 or 3 wheels and a maximum design speed exceeding 50 km/h
 ]]></definition>
 				<index>motorcycle</index>
 			</term>
-			<term guid="id64B1872F39E1473cA68AED021CB6075F">
+			<term>
 				<id>6</id>
 				<clause>3.8.6</clause>
+				<guid>id64B1872F39E1473cA68AED021CB6075F</guid>
 				<name>passenger shuttle</name>
 				<definition><![CDATA[passenger vehicle designed for the carriage of more than eight passengers, whether seated or standing, in addition to the driver (if any)
 ]]></definition>
 				<index>passenger shuttle</index>
 			</term>
-			<term guid="idF54BA07F34F947da99156CA6DC279B3B">
+			<term>
 				<id>4</id>
 				<clause>3.8.4</clause>
+				<guid>idF54BA07F34F947da99156CA6DC279B3B</guid>
 				<name>passenger vehicle</name>
 				<definition><![CDATA[motor vehicle with four or more wheels designed primarily for the carriage of (a) person(s)
 ]]></definition>
 				<index>passenger vehicle</index>
 			</term>
-			<term guid="id57064E3D29D245af8B54F6ACC2501B42">
+			<term>
 				<id>26</id>
 				<clause>3.8.26</clause>
+				<guid>id57064E3D29D245af8B54F6ACC2501B42</guid>
 				<name>pedestrian</name>
 				<definition><![CDATA[]]></definition>
 				<index>pedestrian</index>
 			</term>
-			<term guid="idEA16B706965E420696DDB434AAD5C8CD">
+			<term>
 				<id>27</id>
 				<clause>3.8.27</clause>
+				<guid>idEA16B706965E420696DDB434AAD5C8CD</guid>
 				<name>private vehicle</name>
 				<definition><![CDATA[]]></definition>
 				<index>private vehicle</index>
 			</term>
-			<term guid="idE36A682688644e6dAC5000F6A04A6F14">
+			<term>
 				<id>28</id>
 				<clause>3.8.28</clause>
+				<guid>idE36A682688644e6dAC5000F6A04A6F14</guid>
 				<name>public transport vehicle</name>
 				<definition><![CDATA[<font color="#313131"><b>vehicle </b>(3.50) specifically designed to carry multiple passengers such as a bus</font>
 <font color="#042655">ISO/TS 19091:2017(en), 3.35</font>
 ]]></definition>
 				<index>public transport vehicle</index>
 			</term>
-			<term guid="id632C7350A10D49c1B863A47D7AC2B462">
+			<term>
 				<id>29</id>
 				<clause>3.8.29</clause>
+				<guid>id632C7350A10D49c1B863A47D7AC2B462</guid>
 				<name>regulated commercial freight vehicle</name>
 				<definition><![CDATA[<font color="#313131">vehicle that is subject to regulations determined by the <i>jurisdiction (</i></font><font color="#042655"><i>4.28</i></font><font color="#313131"><i>)</i> as to its use on the road system of the <i>jurisdiction</i> in regulated circumstances, subject to certain conditions, and in compliance with specific regulations for that class of regulated vehicle</font>
 <font color="#042655">ISO 15638-21:2018(en), 3.35</font>
 ]]></definition>
 				<index>regulated commercial freight vehicle</index>
 			</term>
-			<term guid="idA22E7FBF753F48db8A5EB07B74C4B7D8">
+			<term>
 				<id>30</id>
 				<clause>3.8.30</clause>
+				<guid>idA22E7FBF753F48db8A5EB07B74C4B7D8</guid>
 				<name>road network</name>
 				<definition><![CDATA[]]></definition>
 				<index>road network</index>
 			</term>
-			<term guid="idB08441BF9A294722835B3B7357A168C4">
+			<term>
 				<id>2</id>
 				<clause>3.8.2</clause>
+				<guid>idB08441BF9A294722835B3B7357A168C4</guid>
 				<name>self-propelled vehicle</name>
 				<definition><![CDATA[vehicle propelled by an on-board source
 Note 1 to entry:	Contrast to externally propelled vehicle.
 ]]></definition>
 				<index>self-propelled vehicle</index>
 			</term>
-			<term guid="idCF21CD74EAA6465291309DC75A336664">
+			<term>
 				<id>33</id>
 				<clause>3.8.33</clause>
+				<guid>idCF21CD74EAA6465291309DC75A336664</guid>
 				<name>shared-use vehicle</name>
 				<definition><![CDATA[]]></definition>
 				<index>shared-use vehicle</index>
 			</term>
-			<term guid="id944FF27412BA46beB3B0C9F7D02659E3">
+			<term>
 				<id>15</id>
 				<clause>3.8.15</clause>
+				<guid>id944FF27412BA46beB3B0C9F7D02659E3</guid>
 				<name>sidecar</name>
 				<definition><![CDATA[externally-propelled vehicle attached to a motorcycle
 ]]></definition>
 				<index>sidecar</index>
 			</term>
-			<term guid="id9383B95BA1E54c6c8880451B3215F9FC">
+			<term>
 				<id>16</id>
 				<clause>3.8.16</clause>
+				<guid>id9383B95BA1E54c6c8880451B3215F9FC</guid>
 				<name>trailer</name>
 				<definition><![CDATA[externally-propelled vehicle pulled by another vehicle
 EDITOR’S NOTE: Should this include self-propelled vehicles being towed?
 ]]></definition>
 				<index>trailer</index>
 			</term>
-			<term guid="idC0276FEEA91246af9AA2B7D2FC33E2FB">
+			<term>
 				<id>31</id>
 				<clause>3.8.31</clause>
+				<guid>idC0276FEEA91246af9AA2B7D2FC33E2FB</guid>
 				<name>transport user</name>
 				<definition><![CDATA[]]></definition>
 				<index>transport user</index>
 			</term>
-			<term guid="id555BFAB2A747457fB01D99511FDE885A">
+			<term>
 				<id>1</id>
 				<clause>3.8.1</clause>
+				<guid>id555BFAB2A747457fB01D99511FDE885A</guid>
 				<name>vehicle</name>
 				<definition><![CDATA[<font color="#042655">entity used to transport people or physical goods</font>
 ]]></definition>
 				<index>vehicle</index>
 			</term>
-			<term guid="id593A35600C8C4d6aAC457D1BA8DE1B87">
+			<term>
 				<id>32</id>
 				<clause>3.8.32</clause>
+				<guid>id593A35600C8C4d6aAC457D1BA8DE1B87</guid>
 				<name>wheel</name>
 				<definition><![CDATA[]]></definition>
 				<index>wheel</index>
@@ -1501,18 +1667,20 @@ EDITOR’S NOTE: Should this include self-propelled vehicles being towed?
 			<id>9</id>
 			<clause>3.9</clause>
 			<name>3.9 Documentation</name>
-			<term guid="id4A70F89A05244b24BB1A8E79F4A960D7">
+			<term>
 				<id>1</id>
 				<clause>3.9.1</clause>
+				<guid>id4A70F89A05244b24BB1A8E79F4A960D7</guid>
 				<name>scenario</name>
 				<definition><![CDATA[&lt;use case&gt; a description of the sequence of events from the user’s perspective to perform a task in a specified context
 [ISO/IEC 25062:2006(en), A.17]
 ]]></definition>
 				<index>scenario</index>
 			</term>
-			<term guid="idB812634369D2454eB386D61A68CA0B9A">
+			<term>
 				<id>2</id>
 				<clause>3.9.2</clause>
+				<guid>idB812634369D2454eB386D61A68CA0B9A</guid>
 				<name>use case</name>
 				<definition><![CDATA[description of the behavioural requirements of a system and its interaction with a user
 [ISO/IEC/IEEE 26515:2011(en), 4.15]
