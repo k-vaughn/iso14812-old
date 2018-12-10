@@ -30,6 +30,7 @@
             <xs:sequence>
                 <xs:element ref="vocab:guid"/>
                 <xs:element ref="vocab:name"/>
+                <xs:element ref="vocab:img"/>
                 <xs:element minOccurs="0" ref="vocab:text"/>
             </xs:sequence>
         </xs:complexType>
@@ -115,4 +116,9 @@
     </xs:element>
     <xs:element name="guid" type="xs:string"/>
     <xs:element name="clause" type="xs:string"/>
+    <xs:element name="img" type="xs:string">
+        <xs:annotation>
+            <xs:documentation>The img tag to insert into HTML</xs:documentation>
+        </xs:annotation>
+    </xs:element>
 </xs:schema>

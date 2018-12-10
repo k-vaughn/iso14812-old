@@ -9,17 +9,21 @@
 		<package>
 			<id>1</id>
 			<clause>3.1</clause>
-			<name>3.1 System Model</name>
+			<name>3.1 System terms</name>
+			<figure>
+				<guid>idA60D2314434C4134A26B14FFBD47BCF5</guid>
+				<name>system terms</name>
+				<img><![CDATA[<img src="images/system terms.png" alt="system terms" />]]></img>
+			</figure>
 			<term>
 				<id>6</id>
 				<clause>3.1.6</clause>
 				<guid>id55FDBF6D3EA74b368E50B20C362B2627</guid>
 				<name>cooperative ITS</name>
 				<synonym>C-ITS</synonym>
-				<definition><![CDATA[subset of <a href="#id95C4A86465B74046823106670EF95C77"><font color="#0000ff"><i>ITS</i></font></a> ( <span style='mso-element:field-begin'></span> REF id95C4A86465B74046823106670EF95C77 <span style='mso-element:field-end'></span> ) where information is shared among <i>physical objects</i> based on mutual security agreements with a credentialing system  
-]]></definition>
-				<note></note>
-				<note></note>
+				<definition><![CDATA[subset of <i><a href="#id95C4A86465B74046823106670EF95C77"><font color="#0000ff"><u>ITS</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id95C4A86465B74046823106670EF95C77 <span style='mso-element:field-end'></span> ) where information is shared among <i><a href="#id8EA65F2D6F6347bf8FF4C5CD35C61C68"><font color="#0000ff"><u>physical objects</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8EA65F2D6F6347bf8FF4C5CD35C61C68 <span style='mso-element:field-end'></span> ) based on mutual security agreements with a credentialing system  ]]></definition>
+				<note>Most current-day computer systems rely upon an agreement between the owners or users of the two systems involved in an exchange. For example, there is typically bi-lateral agreement between a provider and a user. C-ITS instead relies upon a system of third-party agreements. In other words, a third party defines the rules for operating within a domain and creates a trust network. Providers and users establish agreements with the third party agreeing to abide by the rules. Providers and users then directly interact based on the rules of the trust network without requiring any direct relationship between the two. </note>
+				<note>C-ITS does not preclude two parties from having a separate bi-lateral agreement, but any services requiring a bi-lateral agreement would not technically be considered "C-ITS". For example, two emergency vehicles may have a bi-lateral agreement to share incident information containing sensitive data; such a service would not be considered C-ITS, since it is under a bi-lateral agreement. However, the same two vehicles may share vehicle location and motion information for collision avoidance purposes; this would be considered C-ITS since the agreement to share that information is under the broader use case that uses a third-party agreement. </note>
 				<index>cooperative ITS</index>
 				<index>C-ITS</index>
 			</term>
@@ -30,10 +34,10 @@
 				<name>intelligent transport system</name>
 				<synonym>ITS</synonym>
 				<admittedTerm>intelligent transportation system</admittedTerm>
-				<definition><![CDATA[<a href="#id03252B24F74349ac87D95187F13128C7"><font color="#0000ff"><i><u>technology system</u></i></font></a> ( <span style='mso-element:field-begin'></span> REF id03252B24F74349ac87D95187F13128C7 <span style='mso-element:field-end'></span> ) that is designed to benefit a <a href="#id261629D58D7B439b8DAE5905D2EEF4D5"><font color="#0000ff"><i><u>surface transport system</u></i></font></a> ( <span style='mso-element:field-begin'></span> REF id261629D58D7B439b8DAE5905D2EEF4D5 <span style='mso-element:field-end'></span> )]]></definition>
+				<definition><![CDATA[<i><a href="#id03252B24F74349ac87D95187F13128C7"><font color="#0000ff"><u>technology system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id03252B24F74349ac87D95187F13128C7 <span style='mso-element:field-end'></span> ) that is designed to benefit a <i><a href="#id261629D58D7B439b8DAE5905D2EEF4D5"><font color="#0000ff"><u>surface transport system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id261629D58D7B439b8DAE5905D2EEF4D5 <span style='mso-element:field-end'></span> )]]></definition>
+				<note>There is not complete agreement on the precise limits of ITS. Currently, the term is almost exclusively applied to ground-based travel of goods and people over significant distances. The term is viewed as including ferry systems, which often form an integral part of a local surface transport system; it is less clear if it includes long-distance sea-fairing ships. ITS is also generally applied to transport systems that cover a considerable distance (e.g., control systems for factory conveyance technologies are not often referred to as “ITS”). Some have suggested that air travel, which is arguably a transport system designed to move physical entities between points on the surface of the earth, should be included in the scope of the term, but this perspective is not universally accepted. It is expected that the exact limits of the term will be further refined as the technology matures.</note>
 				<note>Benefits potentially include, but are not limited to, increased safety, sustainability, efficiency, and comfort. </note>
-				<note>The long form (i.e., "intelligent transport system") is often used when the noun is used as a subject, whereas the abbreviation (i.e., “ITS”) is often used to modify another noun (e.g., “Intelligent transport systems provide ITS services.”).</note>
-				<note>There is not complete agreement on the precise limits of ITS. Currently, the term is almost exclusively applied to ground-based travel of goods and people over significant distances. The term is viewed as including ferry systems, which often form an integ</note>
+				<note>The long form (i.e., "intelligent transport system") is often used when the noun is used as a subject, whereas the abbreviation (i.e., "ITS") is often used to modify another noun (e.g., “Intelligent transport systems provide ITS services.”).</note>
 				<index>intelligent transport system</index>
 				<index>ITS</index>
 				<index>intelligent transportation system</index>
@@ -44,8 +48,8 @@
 				<clause>3.1.3</clause>
 				<guid>id261629D58D7B439b8DAE5905D2EEF4D5</guid>
 				<name>surface transport system</name>
-				<definition><![CDATA[<a href="#id8648D088383A40a19D19B3E02A7060DF"><font color="#0000ff"><i><u>transport system</u></i></font></a> ( <span style='mso-element:field-begin'></span> REF id8648D088383A40a19D19B3E02A7060DF <span style='mso-element:field-end'></span> ) designed to move physical entities across the surface of the earth
-Note 1 to entry:	A surface transport system might include tunnels, bridges, and similar elements.]]></definition>
+				<definition><![CDATA[<i><a href="#id8648D088383A40a19D19B3E02A7060DF"><font color="#0000ff"><u>transport system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8648D088383A40a19D19B3E02A7060DF <span style='mso-element:field-end'></span> ) designed to move physical entities across the surface of the earth]]></definition>
+				<note>A surface transport system might include tunnels, bridges, and similar elements.</note>
 				<index>surface transport system</index>
 			</term>
 			<term>
@@ -54,8 +58,6 @@ Note 1 to entry:	A surface transport system might include tunnels, bridges, and 
 				<guid>id9F9DE40282B84b8aAD4F618C7836F09E</guid>
 				<name>system</name>
 				<definition><![CDATA[combination of interacting elements organized to achieve one or more stated purposes ]]></definition>
-				<note>A second note</note>
-				<note>This is a sample note</note>
 				<source>ISO 24774:2010</source>
 				<index>system</index>
 			</term>
@@ -64,8 +66,7 @@ Note 1 to entry:	A surface transport system might include tunnels, bridges, and 
 				<clause>3.1.4</clause>
 				<guid>id03252B24F74349ac87D95187F13128C7</guid>
 				<name>technology system</name>
-				<definition><![CDATA[<b>system</b> that is comprised of information, communication, sensor, and control technologies]]></definition>
-				<source>local</source>
+				<definition><![CDATA[<i><a href="#id9F9DE40282B84b8aAD4F618C7836F09E"><font color="#0000ff"><u>system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id9F9DE40282B84b8aAD4F618C7836F09E <span style='mso-element:field-end'></span> ) that is comprised of information, communication, sensor, and control technologies]]></definition>
 				<index>technology system</index>
 			</term>
 			<term>
@@ -73,26 +74,30 @@ Note 1 to entry:	A surface transport system might include tunnels, bridges, and 
 				<clause>3.1.2</clause>
 				<guid>id8648D088383A40a19D19B3E02A7060DF</guid>
 				<name>transport system</name>
-				<definition><![CDATA[<b>system</b> of infrastructure elements and optionally <b>vehicles </b>that jointly are designed to move entities from an <b>origin</b> to a <b>destination</b>
-Note 1 to entry:	Transport systems are not necessarily limited to the transport of physical entities; the Internet could be considered a transport system of electronic entities.
-]]></definition>
+				<definition><![CDATA[<i><a href="#id9F9DE40282B84b8aAD4F618C7836F09E"><font color="#0000ff"><u>system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id9F9DE40282B84b8aAD4F618C7836F09E <span style='mso-element:field-end'></span> ) of infrastructure elements and optionally <i><a href="#id555BFAB2A747457fB01D99511FDE885A"><font color="#0000ff"><u>vehicles</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id555BFAB2A747457fB01D99511FDE885A <span style='mso-element:field-end'></span> ) that jointly are designed to move <i><a href="#id040D6A1B412A4cc6921882357A58F747"><font color="#0000ff"><u>entities</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id040D6A1B412A4cc6921882357A58F747 <span style='mso-element:field-end'></span> ) from an <i>origin </i>to a <i>destination</i>]]></definition>
+				<note>Transport systems are not necessarily limited to the transport of physical entities; the Internet could be considered a transport system of electronic entities.</note>
 				<index>transport system</index>
 			</term>
 		</package>
 		<package>
 			<id>2</id>
 			<clause>3.2</clause>
-			<name>3.2 Services</name>
+			<name>3.2 Service terms</name>
 			<package>
 				<id>1</id>
 				<clause>3.2.1</clause>
-				<name>3.2.1 Generic service</name>
+				<name>3.2.1 Generic service terms</name>
+				<figure>
+					<guid>id982AD384290A49228923993D06EB987F</guid>
+					<name>generic service terms</name>
+					<img><![CDATA[<img src="images/generic service terms.png" alt="generic service terms" />]]></img>
+				</figure>
 				<term>
 					<id>4</id>
 					<clause>3.2.1.4</clause>
 					<guid>id8B698530E3B946b3B78C2E6C58FE87D7</guid>
 					<name>consumer</name>
-					<definition><![CDATA[entity that has a <b>need</b> to be fulfilled]]></definition>
+					<definition><![CDATA[<i><a href="#id040D6A1B412A4cc6921882357A58F747"><font color="#0000ff"><u>entity</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id040D6A1B412A4cc6921882357A58F747 <span style='mso-element:field-end'></span> ) that has a <i><a href="#id8C060C793CE14fb88B50E52BD3A3FDE6"><font color="#0000ff"><u>need</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8C060C793CE14fb88B50E52BD3A3FDE6 <span style='mso-element:field-end'></span> ) to be fulfilled]]></definition>
 					<index>consumer</index>
 				</term>
 				<term>
@@ -100,9 +105,9 @@ Note 1 to entry:	Transport systems are not necessarily limited to the transport 
 					<clause>3.2.1.1</clause>
 					<guid>id040D6A1B412A4cc6921882357A58F747</guid>
 					<name>entity</name>
-					<definition><![CDATA[concrete or abstract thing that exists, did exist, or might exist, including associations among these things 
-EXAMPLE: A person, object, event, idea, process, etc.
-[Source: ISO/TR 17185-1]]]></definition>
+					<definition><![CDATA[concrete or abstract thing that exists, did exist, or might exist, including associations among these things ]]></definition>
+					<example>A person, object, event, idea, process, etc.</example>
+					<source>ISO/TR 17185-1</source>
 					<index>entity</index>
 				</term>
 				<term>
@@ -110,8 +115,8 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.2.1.5</clause>
 					<guid>id8C060C793CE14fb88B50E52BD3A3FDE6</guid>
 					<name>need</name>
-					<definition><![CDATA[factor or condition necessary to achieved desired results within a specified context of use
-[Adapted from ISO 25060:2010(en), 2.25]]]></definition>
+					<definition><![CDATA[factor or condition necessary to achieve desired results within a specified context of use]]></definition>
+					<source>Adapted from ISO 25060:2010(en), 2.25</source>
 					<index>need</index>
 				</term>
 				<term>
@@ -119,7 +124,7 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.2.1.3</clause>
 					<guid>id1C826F4DC7744eb7B8DDB33EF68A28F5</guid>
 					<name>service</name>
-					<definition><![CDATA[performance of one or more tasks or provision of one or more facilities to enable one or more tasks for a <b>consumer</b> to fulfil a <b>need</b> ]]></definition>
+					<definition><![CDATA[performance of one or more tasks or provision of one or more facilities to enable one or more tasks for a <i><a href="#id8B698530E3B946b3B78C2E6C58FE87D7"><font color="#0000ff"><u>consumer</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8B698530E3B946b3B78C2E6C58FE87D7 <span style='mso-element:field-end'></span> ) to fulfil a <i><a href="#id8C060C793CE14fb88B50E52BD3A3FDE6"><font color="#0000ff"><u>need</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8C060C793CE14fb88B50E52BD3A3FDE6 <span style='mso-element:field-end'></span> ) ]]></definition>
 					<index>service</index>
 				</term>
 				<term>
@@ -127,28 +132,33 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.2.1.2</clause>
 					<guid>id8B7ACC49A9CB45f18C3634024C5A6318</guid>
 					<name>service provider</name>
-					<definition><![CDATA[entity that delivers one or more <b>services</b>]]></definition>
+					<definition><![CDATA[<i><a href="#id040D6A1B412A4cc6921882357A58F747"><font color="#0000ff"><u>entity</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id040D6A1B412A4cc6921882357A58F747 <span style='mso-element:field-end'></span> ) that delivers one or more <i><a href="#id1C826F4DC7744eb7B8DDB33EF68A28F5"><font color="#0000ff"><u>services</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1C826F4DC7744eb7B8DDB33EF68A28F5 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>service provider</index>
 				</term>
 			</package>
 			<package>
 				<id>2</id>
 				<clause>3.2.2</clause>
-				<name>3.2.2 ITS service</name>
+				<name>3.2.2 ITS service terms</name>
+				<figure>
+					<guid>id7FBBB7DCB753437cB3C70AB8C167B178</guid>
+					<name>ITS service terms</name>
+					<img><![CDATA[<img src="images/ITS service terms.png" alt="ITS service terms" />]]></img>
+				</figure>
 				<term>
 					<id>1</id>
 					<clause>3.2.2.1</clause>
 					<guid>id4D485872E9EE414e9CE1AB855A03540B</guid>
 					<name>service</name>
-					<definition><![CDATA[&lt;ITS&gt; performance of one or more tasks that fulfils an <b>ITS user need</b> for an <b>ITS user</b>]]></definition>
+					<definition><![CDATA[&lt;ITS&gt; performance of one or more tasks that fulfils an <i><a href="#idC312FB0B6C1140db86F158458C5AC4B8"><font color="#0000ff"><u>ITS user need</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC312FB0B6C1140db86F158458C5AC4B8 <span style='mso-element:field-end'></span> ) for an <i><a href="#idF263D8B81E914fcf9B8287F21A9C2350"><font color="#0000ff"><u>ITS user</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF263D8B81E914fcf9B8287F21A9C2350 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>service</index>
 				</term>
 				<term>
-					<id>1</id>
-					<clause>3.2.2.1</clause>
+					<id>2</id>
+					<clause>3.2.2.2</clause>
 					<guid>id1ADCFD57B07448b8BEC70E96914EBFEE</guid>
 					<name>service provider</name>
-					<definition><![CDATA[&lt;ITS&gt; <b>entity </b>that delivers one or more <b>ITS services</b>]]></definition>
+					<definition><![CDATA[&lt;ITS&gt; <i><a href="#id040D6A1B412A4cc6921882357A58F747"><font color="#0000ff"><u>entity</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id040D6A1B412A4cc6921882357A58F747 <span style='mso-element:field-end'></span> ) that delivers one or more <i><a href="#id4D485872E9EE414e9CE1AB855A03540B"><font color="#0000ff"><u>ITS services</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id4D485872E9EE414e9CE1AB855A03540B <span style='mso-element:field-end'></span> )]]></definition>
 					<index>service provider</index>
 				</term>
 				<term>
@@ -156,7 +166,7 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.2.2.3</clause>
 					<guid>idF263D8B81E914fcf9B8287F21A9C2350</guid>
 					<name>user</name>
-					<definition><![CDATA[&lt;ITS&gt; <b>entity </b>that has an <b>ITS user need</b> to be fulfilled]]></definition>
+					<definition><![CDATA[&lt;ITS&gt; <i><a href="#id040D6A1B412A4cc6921882357A58F747"><font color="#0000ff"><u>entity</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id040D6A1B412A4cc6921882357A58F747 <span style='mso-element:field-end'></span> ) that has an <i><a href="#idC312FB0B6C1140db86F158458C5AC4B8"><font color="#0000ff"><u>ITS user need</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC312FB0B6C1140db86F158458C5AC4B8 <span style='mso-element:field-end'></span> ) to be fulfilled]]></definition>
 					<index>user</index>
 				</term>
 				<term>
@@ -164,20 +174,25 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.2.2.4</clause>
 					<guid>idC312FB0B6C1140db86F158458C5AC4B8</guid>
 					<name>user need</name>
-					<definition><![CDATA[&lt;ITS&gt;<b> need</b> of an entity external to the intelligent transport system for a <b>surface transport system</b> benefit that can be met with the use of a <b>technology system</b>]]></definition>
+					<definition><![CDATA[&lt;ITS&gt;<b> </b><i><a href="#id8C060C793CE14fb88B50E52BD3A3FDE6"><font color="#0000ff"><u>need</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8C060C793CE14fb88B50E52BD3A3FDE6 <span style='mso-element:field-end'></span> ) of an entity external to the intelligent transport system for a <i><a href="#id261629D58D7B439b8DAE5905D2EEF4D5"><font color="#0000ff"><u>surface transport system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id261629D58D7B439b8DAE5905D2EEF4D5 <span style='mso-element:field-end'></span> ) benefit that can be met with the use of a <i><a href="#id03252B24F74349ac87D95187F13128C7"><font color="#0000ff"><u>technology system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id03252B24F74349ac87D95187F13128C7 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>user need</index>
 				</term>
 			</package>
 			<package>
 				<id>3</id>
 				<clause>3.2.3</clause>
-				<name>3.2.3 ITS-S service</name>
+				<name>3.2.3 ITS-S service terms</name>
+				<figure>
+					<guid>id105FF4CE5AF94230B2A9F824ED25374A</guid>
+					<name>ITS-S service terms</name>
+					<img><![CDATA[<img src="images/ITS-S service terms.png" alt="ITS-S service terms" />]]></img>
+				</figure>
 				<term>
 					<id>5</id>
 					<clause>3.2.3.5</clause>
 					<guid>id866BE3730A304564BBC18CA138D01808</guid>
 					<name>bounded, secured, managed domain</name>
-					<definition><![CDATA[controlled processing environment that adheres to a minimum set of management and security principles and procedures so as to establish a level of trust between itself and other similar ITS stations with which it might communicate]]></definition>
+					<definition><![CDATA[controlled processing environment that adheres to a minimum set of management and security principles and procedures so as to establish a level of trust between itself and other similar <i><a href="#idF1E402D380EE478c957A2FF53D9EA0C5"><font color="#0000ff"><u>ITS stations</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF1E402D380EE478c957A2FF53D9EA0C5 <span style='mso-element:field-end'></span> ) with which it might communicate]]></definition>
 					<index>bounded, secured, managed domain</index>
 				</term>
 				<term>
@@ -185,7 +200,7 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.2.3.2</clause>
 					<guid>idED2A90BFB7F249ffBB47A5827835D6E0</guid>
 					<name>service</name>
-					<definition><![CDATA[&lt;ITS-S&gt; performance of one or more tasks<b> </b>that fulfils an <b>ITS-S user need</b> for an<b> ITS-S user</b>]]></definition>
+					<definition><![CDATA[&lt;ITS-S&gt; performance of one or more tasks<b> </b>that fulfils an <i><a href="#idAE2F5ED40F9549e2A07B4C547A3C4CF4"><font color="#0000ff"><u>ITS-S user need</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idAE2F5ED40F9549e2A07B4C547A3C4CF4 <span style='mso-element:field-end'></span> ) for an<b> </b><i><a href="#idFFC4D737010249d0B062A188246E1DAD"><font color="#0000ff"><u>ITS-S user</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idFFC4D737010249d0B062A188246E1DAD <span style='mso-element:field-end'></span> )]]></definition>
 					<index>service</index>
 				</term>
 				<term>
@@ -193,8 +208,7 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.2.3.1</clause>
 					<guid>idC6D0D06F35D542269D886ACC4B0B0E58</guid>
 					<name>service provider</name>
-					<definition><![CDATA[&lt;ITS-S&gt; <b>ITS-S</b> that delivers one or more <b>ITS-S services</b>
-]]></definition>
+					<definition><![CDATA[&lt;ITS-S&gt; <i><a href="#idF1E402D380EE478c957A2FF53D9EA0C5"><font color="#0000ff"><u>ITS-S</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF1E402D380EE478c957A2FF53D9EA0C5 <span style='mso-element:field-end'></span> ) that delivers one or more <i><a href="#idED2A90BFB7F249ffBB47A5827835D6E0"><font color="#0000ff"><u>ITS-S services</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idED2A90BFB7F249ffBB47A5827835D6E0 <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
 					<index>service provider</index>
 				</term>
 				<term>
@@ -202,7 +216,7 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.2.3.3</clause>
 					<guid>idFFC4D737010249d0B062A188246E1DAD</guid>
 					<name>user</name>
-					<definition><![CDATA[&lt;ITS-S&gt; <b>entity </b>that has an <b>ITS-S user need</b>]]></definition>
+					<definition><![CDATA[&lt;ITS-S&gt; <i><a href="#id040D6A1B412A4cc6921882357A58F747"><font color="#0000ff"><u>entity</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id040D6A1B412A4cc6921882357A58F747 <span style='mso-element:field-end'></span> ) that has an <i><a href="#idAE2F5ED40F9549e2A07B4C547A3C4CF4"><font color="#0000ff"><u>ITS-S user need</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idAE2F5ED40F9549e2A07B4C547A3C4CF4 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>user</index>
 				</term>
 				<term>
@@ -210,21 +224,25 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.2.3.4</clause>
 					<guid>idAE2F5ED40F9549e2A07B4C547A3C4CF4</guid>
 					<name>user need</name>
-					<definition><![CDATA[&lt;ITS-S&gt; <b>need</b> for processing within a <b>bounded, secure, managed domain</b>]]></definition>
+					<definition><![CDATA[&lt;ITS-S&gt; <i><a href="#id8C060C793CE14fb88B50E52BD3A3FDE6"><font color="#0000ff"><u>need</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8C060C793CE14fb88B50E52BD3A3FDE6 <span style='mso-element:field-end'></span> ) for processing within a <i><a href="#id866BE3730A304564BBC18CA138D01808"><font color="#0000ff"><u>bounded, secure, managed domain</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id866BE3730A304564BBC18CA138D01808 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>user need</index>
 				</term>
 			</package>
 			<package>
 				<id>4</id>
 				<clause>3.2.4</clause>
-				<name>ITS-S communication service</name>
+				<name>3.2.4 ITS-S communication service terms</name>
+				<figure>
+					<guid>id9B9E84DA56A94d70933F7EF19220C61E</guid>
+					<name>ITS-S communication service terms</name>
+					<img><![CDATA[<img src="images/ITS-S communication service terms.png" alt="ITS-S communication service terms" />]]></img>
+				</figure>
 				<term>
 					<id>4</id>
 					<clause>3.2.4.4</clause>
 					<guid>id202B9BA1EA2F4bfbA3D5BE04ACA3E2D5</guid>
 					<name>communication need</name>
-					<definition><![CDATA[&lt;ITS-S&gt; <i>need</i> for communication functionality that connects an <i>ITS-S</i> to other nodes
-]]></definition>
+					<definition><![CDATA[&lt;ITS-S&gt; <i><a href="#id8C060C793CE14fb88B50E52BD3A3FDE6"><font color="#0000ff"><u>need</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8C060C793CE14fb88B50E52BD3A3FDE6 <span style='mso-element:field-end'></span> ) for communication functionality that connects an <i><a href="#idF1E402D380EE478c957A2FF53D9EA0C5"><font color="#0000ff"><u>ITS-S</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF1E402D380EE478c957A2FF53D9EA0C5 <span style='mso-element:field-end'></span> ) to other nodes\r\n<br />]]></definition>
 					<index>communication need</index>
 				</term>
 				<term>
@@ -232,7 +250,7 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.2.4.1</clause>
 					<guid>idA580A7C5BB4141ed8C310B791E57A2A8</guid>
 					<name>communication process</name>
-					<definition><![CDATA[&lt;ITS-S&gt; <b>entity</b> that delivers one or more<b> ITS-S communication services</b>]]></definition>
+					<definition><![CDATA[&lt;ITS-S&gt; <i><a href="#id040D6A1B412A4cc6921882357A58F747"><font color="#0000ff"><u>entity</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id040D6A1B412A4cc6921882357A58F747 <span style='mso-element:field-end'></span> ) that delivers one or more<b> </b><i><a href="#id04F387DD652043039464AA4FA280AB16"><font color="#0000ff"><u>ITS-S communication services</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id04F387DD652043039464AA4FA280AB16 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>communication process</index>
 				</term>
 				<term>
@@ -240,8 +258,7 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.2.4.2</clause>
 					<guid>id04F387DD652043039464AA4FA280AB16</guid>
 					<name>communication service</name>
-					<definition><![CDATA[&lt;ITS-S&gt;<b> </b>performance of one or more tasks<b> </b>that fulfils an <b>ITS-S communication need</b> for an <b>ITS-S communication user</b>
-]]></definition>
+					<definition><![CDATA[&lt;ITS-S&gt;<b> </b>performance of one or more tasks<b> </b>that fulfils an <i><a href="#id202B9BA1EA2F4bfbA3D5BE04ACA3E2D5"><font color="#0000ff"><u>ITS-S communication need</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id202B9BA1EA2F4bfbA3D5BE04ACA3E2D5 <span style='mso-element:field-end'></span> ) for an <i><a href="#id1FC1FE8C6F1A41a7AECE0F7A9C874620"><font color="#0000ff"><u>ITS-S communication user</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1FC1FE8C6F1A41a7AECE0F7A9C874620 <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
 					<index>communication service</index>
 				</term>
 				<term>
@@ -249,7 +266,7 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.2.4.3</clause>
 					<guid>id1FC1FE8C6F1A41a7AECE0F7A9C874620</guid>
 					<name>communication user</name>
-					<definition><![CDATA[&lt;ITS-S&gt; <b>entity</b> that has an <b>ITS-S communication need</b>]]></definition>
+					<definition><![CDATA[&lt;ITS-S&gt; <i><a href="#id040D6A1B412A4cc6921882357A58F747"><font color="#0000ff"><u>entity</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id040D6A1B412A4cc6921882357A58F747 <span style='mso-element:field-end'></span> ) that has an <i><a href="#id202B9BA1EA2F4bfbA3D5BE04ACA3E2D5"><font color="#0000ff"><u>ITS-S communication need</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id202B9BA1EA2F4bfbA3D5BE04ACA3E2D5 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>communication user</index>
 				</term>
 			</package>
@@ -257,17 +274,22 @@ EXAMPLE: A person, object, event, idea, process, etc.
 		<package>
 			<id>3</id>
 			<clause>3.3</clause>
-			<name>3.3 Service Implementations</name>
+			<name>3.3 Service implementation terms</name>
 			<package>
 				<id>1</id>
 				<clause>3.3.1</clause>
-				<name>3.3.1 ITS service implementation</name>
+				<name>3.3.1 ITS service implementation terms</name>
+				<figure>
+					<guid>idECE6E7887D6646479EBB5AD6249666CC</guid>
+					<name>ITS service implementation terms</name>
+					<img><![CDATA[<img src="images/ITS service implementation terms.png" alt="ITS service implementation terms" />]]></img>
+				</figure>
 				<term>
 					<id>6</id>
 					<clause>3.3.1.6</clause>
 					<guid>id21EDE465AC5A4a85A5EAD8D0697DC4FF</guid>
 					<name>application template</name>
-					<definition><![CDATA[]]></definition>
+					<definition><![CDATA[executable technical pattern of an <i><a href="#id4D636FF9C4F84e41B76850FC248B4D99"><font color="#0000ff"><u>ITS application specification</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id4D636FF9C4F84e41B76850FC248B4D99 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>application template</index>
 				</term>
 				<term>
@@ -275,9 +297,8 @@ EXAMPLE: A person, object, event, idea, process, etc.
 					<clause>3.3.1.2</clause>
 					<guid>id573047514B814efe85FCFA271736EE72</guid>
 					<name>interoperability design</name>
-					<definition><![CDATA[characteristics necessary to fully define how various <b>system elements</b> and <b>terminators</b> interoperate to provide a <b>service</b>
-Note 1 to entry:	Characteristics often include but are not limited to functional, performance, and interface requirements.
-]]></definition>
+					<definition><![CDATA[characteristics necessary to fully define how various <i><a href="#id8EA65F2D6F6347bf8FF4C5CD35C61C68"><font color="#0000ff"><u>physical objects</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8EA65F2D6F6347bf8FF4C5CD35C61C68 <span style='mso-element:field-end'></span> ) interoperate to provide a <i><a href="#id1C826F4DC7744eb7B8DDB33EF68A28F5"><font color="#0000ff"><u>service</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1C826F4DC7744eb7B8DDB33EF68A28F5 <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
+					<note>Characteristics often include but are not limited to functional, performance, and interface requirements.</note>
 					<index>interoperability design</index>
 				</term>
 				<term>
@@ -285,7 +306,7 @@ Note 1 to entry:	Characteristics often include but are not limited to functional
 					<clause>3.3.1.1</clause>
 					<guid>id1A22C407CEBA41c495E1D89FC4C87504</guid>
 					<name>ITS application</name>
-					<definition><![CDATA[<b>interoperability design</b> for an ITS service]]></definition>
+					<definition><![CDATA[<i><a href="#id573047514B814efe85FCFA271736EE72"><font color="#0000ff"><u>interoperability design</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id573047514B814efe85FCFA271736EE72 <span style='mso-element:field-end'></span> ) for an <i><a href="#id4D485872E9EE414e9CE1AB855A03540B"><font color="#0000ff"><u>ITS service</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id4D485872E9EE414e9CE1AB855A03540B <span style='mso-element:field-end'></span> )]]></definition>
 					<index>ITS application</index>
 				</term>
 				<term>
@@ -293,8 +314,7 @@ Note 1 to entry:	Characteristics often include but are not limited to functional
 					<clause>3.3.1.3</clause>
 					<guid>id4D636FF9C4F84e41B76850FC248B4D99</guid>
 					<name>ITS application specification</name>
-					<definition><![CDATA[one or more documents that detail all necessary requirements for an <b>ITS application</b>
-]]></definition>
+					<definition><![CDATA[one or more documents that detail all necessary requirements for an <i><a href="#id1A22C407CEBA41c495E1D89FC4C87504"><font color="#0000ff"><u>ITS application</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1A22C407CEBA41c495E1D89FC4C87504 <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
 					<index>ITS application specification</index>
 				</term>
 				<term>
@@ -302,10 +322,8 @@ Note 1 to entry:	Characteristics often include but are not limited to functional
 					<clause>3.3.1.5</clause>
 					<guid>idC2FEFB40D0304fa9BA10AD1A14A43D4E</guid>
 					<name>ITS deployment</name>
-					<definition><![CDATA[installation capable of implementing one or more <b>ITS applications</b>
-Note 1 to entry:	An ITS deployment typically refers to the support, central and roadside ITS stations coupled with a tacit acknowledgement of the mobile ITS stations that will communicate with the support, central, or roadside ITS stations. 
-
-]]></definition>
+					<definition><![CDATA[installation capable of implementing one or more <i><a href="#id1A22C407CEBA41c495E1D89FC4C87504"><font color="#0000ff"><u>ITS applications</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1A22C407CEBA41c495E1D89FC4C87504 <span style='mso-element:field-end'></span> )\r\n<br />\r\n<br />]]></definition>
+					<note>An ITS deployment typically refers to the support, central and roadside ITS stations coupled with a tacit acknowledgement of the mobile ITS stations that will communicate with the support, central, or roadside ITS stations. </note>
 					<index>ITS deployment</index>
 				</term>
 				<term>
@@ -313,26 +331,27 @@ Note 1 to entry:	An ITS deployment typically refers to the support, central and 
 					<clause>3.3.1.4</clause>
 					<guid>id90E4B4C430C4472b8FF6D09932571BEC</guid>
 					<name>ITS implementation</name>
-					<definition><![CDATA[integration of each <b>system element</b> and <b>terminator</b> necessary to implement one or more <b>ITS applications</b>
-Note 1 to entry:	An ITS application typically requires multiple components (e.g., a ITS-S acting as a user and another ITS-S acting as a provider). An ITS implementation includes a sample of each component necessary for the service but often does not represent a complete deployment. 
-Note 2 to entry:	An ITS implementation is typically used for a laboratory or other experimental environment prior to a full-scale deployment.
-]]></definition>
+					<definition><![CDATA[integration of each <i><a href="#id8EA65F2D6F6347bf8FF4C5CD35C61C68"><font color="#0000ff"><u>physical object</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8EA65F2D6F6347bf8FF4C5CD35C61C68 <span style='mso-element:field-end'></span> ) necessary to implement one or more <i><a href="#id1A22C407CEBA41c495E1D89FC4C87504"><font color="#0000ff"><u>ITS applications</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1A22C407CEBA41c495E1D89FC4C87504 <span style='mso-element:field-end'></span> )]]></definition>
+					<note>An ITS application typically requires multiple components (e.g., a ITS-S acting as a user and another ITS-S acting as a provider). An ITS implementation includes a sample of each component necessary for the service but often does not represent a complete deployment. </note>
+					<note>An ITS implementation is typically used for a laboratory or other experimental environment prior to a full-scale deployment.</note>
 					<index>ITS implementation</index>
 				</term>
 			</package>
 			<package>
 				<id>2</id>
 				<clause>3.3.2</clause>
-				<name>3.3.2 ITS-S service implementation</name>
+				<name>3.3.2 ITS-S service implementation terms</name>
+				<figure>
+					<guid>idCB30CE2AA9FD4d54B19D043583EAA82A</guid>
+					<name>Concept model for ITS-S service implementation terms</name>
+					<img><![CDATA[<img src="images/Concept model for ITS-S service implementation terms.png" alt="Concept model for ITS-S service implementation terms" />]]></img>
+				</figure>
 				<term>
 					<id>1</id>
 					<clause>3.3.2.1</clause>
 					<guid>id371D609484264a3598C7092967DD21DD</guid>
 					<name>ITS-S application process</name>
-					<definition><![CDATA[element in an <b>ITS station</b> that performs information processing for an <b>ITS-S service</b>
-<b>
-</b>EDITOR’S NOTE 1:	It is unclear if this term is intended to describe the 1) the logical concept of a process that fulfils a role (e.g., "word processor"), 2) a specific implementation of the logical concept (e.g., "MS Word"), 3) a specific deployment of that implementation (e.g., "MS Word with license XXX"), or a specific run-time instance of the implementation. I believe our standards will need to be clear about these distinctions, especially as we get into security, provisioning, and deployment issues.
-]]></definition>
+					<definition><![CDATA[element in an <i><a href="#idF1E402D380EE478c957A2FF53D9EA0C5"><font color="#0000ff"><u>ITS station</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF1E402D380EE478c957A2FF53D9EA0C5 <span style='mso-element:field-end'></span> ) that performs information processing for an <i><a href="#idED2A90BFB7F249ffBB47A5827835D6E0"><font color="#0000ff"><u>ITS-S service</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idED2A90BFB7F249ffBB47A5827835D6E0 <span style='mso-element:field-end'></span> )\r\n<br /><b>\r\n<br /></b>EDITOR’S NOTE 1:	It is unclear if this term is intended to describe the 1) the logical concept of a process that fulfils a role (e.g., "word processor"), 2) a specific implementation of the logical concept (e.g., "MS Word"), 3) a specific deployment of that implementation (e.g., "MS Word with license XXX"), or a specific run-time instance of the implementation. I believe our standards will need to be clear about these distinctions, especially as we get into security, provisioning, and deployment issues.\r\n<br />]]></definition>
 					<index>ITS-S application process</index>
 				</term>
 				<term>
@@ -340,9 +359,8 @@ Note 2 to entry:	An ITS implementation is typically used for a laboratory or oth
 					<clause>3.3.2.2</clause>
 					<guid>id1B8E2BF498F44b69A2DDCC37CFA527AA</guid>
 					<name>ITS-S application process implementation</name>
-					<definition><![CDATA[implementation of an <b>ITS-S application process</b>
-Note 1 to entry:	A unique implementation is typically associated with an implementation name, a version, and release number.
-]]></definition>
+					<definition><![CDATA[implementation of an <i><a href="#id371D609484264a3598C7092967DD21DD"><font color="#0000ff"><u>ITS-S application process</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id371D609484264a3598C7092967DD21DD <span style='mso-element:field-end'></span> )]]></definition>
+					<note>A unique implementation is typically associated with an implementation name, a version, and release number.</note>
 					<index>ITS-S application process implementation</index>
 				</term>
 				<term>
@@ -350,9 +368,8 @@ Note 1 to entry:	A unique implementation is typically associated with an impleme
 					<clause>3.3.2.3</clause>
 					<guid>idA70703E708334662A8EDA8C71037BAE7</guid>
 					<name>ITS-S application process installation</name>
-					<definition><![CDATA[installation of an <b>ITS-S application process implementation</b>
-Note 1 to entry: 	A unique installation is typically associated with a specific license code or serial number. 
-]]></definition>
+					<definition><![CDATA[installation of an <i><a href="#id1B8E2BF498F44b69A2DDCC37CFA527AA"><font color="#0000ff"><u>ITS-S application process implementation</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1B8E2BF498F44b69A2DDCC37CFA527AA <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
+					<note>A unique installation is typically associated with a specific license code or serial number. </note>
 					<index>ITS-S application process installation</index>
 				</term>
 				<term>
@@ -360,8 +377,7 @@ Note 1 to entry: 	A unique installation is typically associated with a specific 
 					<clause>3.3.2.4</clause>
 					<guid>id21D89F0DC3D74be1A2393C913221D4D2</guid>
 					<name>ITS-S application process instance</name>
-					<definition><![CDATA[run-time instance of an <b>ITS-S application process installation</b>
-]]></definition>
+					<definition><![CDATA[run-time instance of an <i><a href="#idA70703E708334662A8EDA8C71037BAE7"><font color="#0000ff"><u>ITS-S application process installation</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idA70703E708334662A8EDA8C71037BAE7 <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
 					<index>ITS-S application process instance</index>
 				</term>
 			</package>
@@ -369,19 +385,23 @@ Note 1 to entry: 	A unique installation is typically associated with a specific 
 		<package>
 			<id>4</id>
 			<clause>3.4</clause>
-			<name>3.4 Architecture</name>
+			<name>3.4 Architecture terms</name>
 			<package>
 				<id>1</id>
 				<clause>3.4.1</clause>
-				<name>3.4.1 Architecture description</name>
+				<name>3.4.1 Architecture description terms</name>
+				<figure>
+					<guid>id2EB9678869A147c8B2754573DEF3EF0D</guid>
+					<name>architecture description terms</name>
+					<img><![CDATA[<img src="images/architecture description terms.png" alt="architecture description terms" />]]></img>
+				</figure>
 				<term>
 					<id>1</id>
 					<clause>3.4.1.1</clause>
 					<guid>id1977CCC04EA948719638C89546E52E47</guid>
 					<name>architecture</name>
-					<definition><![CDATA[&lt;system&gt; fundamental concepts or properties of a system in its environment embodied in its elements, relationships, and in the principles of its design and evolution 
-[ISO 42010:2011, 3.2]
-]]></definition>
+					<definition><![CDATA[&lt;system&gt; fundamental concepts or properties of a system in its <i><a href="#idBCD10BE481B544698858512B057E1D40"><font color="#0000ff"><u>environment</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idBCD10BE481B544698858512B057E1D40 <span style='mso-element:field-end'></span> ) embodied in its <i><a href="#idA9454DB86F4C47c9902B7ABEE2462EA8"><font color="#0000ff"><u>elements</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idA9454DB86F4C47c9902B7ABEE2462EA8 <span style='mso-element:field-end'></span> ), relationships, and in the principles of its design and evolution \r\n<br />]]></definition>
+					<source>ISO 42010:2011, 3.2</source>
 					<index>architecture</index>
 				</term>
 				<term>
@@ -389,9 +409,8 @@ Note 1 to entry: 	A unique installation is typically associated with a specific 
 					<clause>3.4.1.2</clause>
 					<guid>id7F0C3B060F4D44f69069029157E47DD3</guid>
 					<name>architecture description</name>
-					<definition><![CDATA[work product used to express an architecture 
-[ISO 42010:2011, 3.3]
-]]></definition>
+					<definition><![CDATA[work product used to express an <i><a href="#id1977CCC04EA948719638C89546E52E47"><font color="#0000ff"><u>architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1977CCC04EA948719638C89546E52E47 <span style='mso-element:field-end'></span> ) \r\n<br />]]></definition>
+					<source>ISO 42010:2011, 3.3</source>
 					<index>architecture description</index>
 				</term>
 				<term>
@@ -399,11 +418,10 @@ Note 1 to entry: 	A unique installation is typically associated with a specific 
 					<clause>3.4.1.3</clause>
 					<guid>idB2051EC4DBC44bffB1210761FC375378</guid>
 					<name>architecture framework</name>
-					<definition><![CDATA[conventions, principles and practices for the description of architectures established within a specific domain of application and/or community of stakeholders 
-EXAMPLE 1	Generalised Enterprise Reference Architecture and Methodologies (GERAM) [ISO 15704] is an architecture framework. 
-EXAMPLE 2	Reference Model of Open Distributed Processing (RM-ODP) [ISO/IEC 10746] is an architecture framework. 
-[ISO 42010:2011, 3.4]
-]]></definition>
+					<definition><![CDATA[conventions, principles and practices for the description of <i><a href="#id1977CCC04EA948719638C89546E52E47"><font color="#0000ff"><u>architectures</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1977CCC04EA948719638C89546E52E47 <span style='mso-element:field-end'></span> ) established within a specific domain of application and/or community of stakeholders \r\n<br />]]></definition>
+					<example>Generalised Enterprise Reference Architecture and Methodologies (GERAM) [ISO 15704] is an architecture framework.</example>
+					<example>Reference Model of Open Distributed Processing (RM-ODP) [ISO/IEC 10746] is an architecture framework. </example>
+					<source>ISO 42010:2011, 3.4</source>
 					<index>architecture framework</index>
 				</term>
 				<term>
@@ -411,8 +429,7 @@ EXAMPLE 2	Reference Model of Open Distributed Processing (RM-ODP) [ISO/IEC 10746
 					<clause>3.4.1.4</clause>
 					<guid>idBFAAF75FCA1C4aaeB62F1F827303C22F</guid>
 					<name>architecture model</name>
-					<definition><![CDATA[work product representing one or more architecture views and expressed in a format governed by a model kind
-]]></definition>
+					<definition><![CDATA[work product representing one or more <i><a href="#idBD7658051DA3495bA45E71D438FCD3DF"><font color="#0000ff"><u>architecture views</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idBD7658051DA3495bA45E71D438FCD3DF <span style='mso-element:field-end'></span> ) and expressed in a format governed by a <i><a href="#id539D69676C04491081CB654FB9B87320"><font color="#0000ff"><u>model kind</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id539D69676C04491081CB654FB9B87320 <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
 					<index>architecture model</index>
 				</term>
 				<term>
@@ -420,9 +437,8 @@ EXAMPLE 2	Reference Model of Open Distributed Processing (RM-ODP) [ISO/IEC 10746
 					<clause>3.4.1.5</clause>
 					<guid>idBD7658051DA3495bA45E71D438FCD3DF</guid>
 					<name>architecture view</name>
-					<definition><![CDATA[work product expressing the architecture of a system from the perspective of specific system concerns 
-[ISO 42010:2011, 3.5]
-]]></definition>
+					<definition><![CDATA[work product expressing the <i><a href="#id1977CCC04EA948719638C89546E52E47"><font color="#0000ff"><u>architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1977CCC04EA948719638C89546E52E47 <span style='mso-element:field-end'></span> ) of a system from the perspective of specific system <i><a href="#idFA25496536F542ee8EEECAE2225A828E"><font color="#0000ff"><u>concerns</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idFA25496536F542ee8EEECAE2225A828E <span style='mso-element:field-end'></span> ) \r\n<br />]]></definition>
+					<source>ISO 42010:2011, 3.5</source>
 					<index>architecture view</index>
 				</term>
 				<term>
@@ -430,9 +446,8 @@ EXAMPLE 2	Reference Model of Open Distributed Processing (RM-ODP) [ISO/IEC 10746
 					<clause>3.4.1.6</clause>
 					<guid>id2D6E2A89A52E4a689CD868265F24A29E</guid>
 					<name>architecture viewpoint</name>
-					<definition><![CDATA[work product establishing the conventions for the construction, interpretation and use of architecture views to frame specific system concerns 
-[ISO 42010:2011, 3.6]
-]]></definition>
+					<definition><![CDATA[work product establishing the conventions for the construction, interpretation and use of <i><a href="#idBD7658051DA3495bA45E71D438FCD3DF"><font color="#0000ff"><u>architecture views</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idBD7658051DA3495bA45E71D438FCD3DF <span style='mso-element:field-end'></span> ) to frame specific system <i><a href="#idFA25496536F542ee8EEECAE2225A828E"><font color="#0000ff"><u>concerns</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idFA25496536F542ee8EEECAE2225A828E <span style='mso-element:field-end'></span> ) \r\n<br />]]></definition>
+					<source>ISO 42010:2011, 3.6</source>
 					<index>architecture viewpoint</index>
 				</term>
 				<term>
@@ -440,10 +455,8 @@ EXAMPLE 2	Reference Model of Open Distributed Processing (RM-ODP) [ISO/IEC 10746
 					<clause>3.4.1.7</clause>
 					<guid>idFA25496536F542ee8EEECAE2225A828E</guid>
 					<name>concern</name>
-					<definition><![CDATA[&lt;system&gt; interest in a system relevant to one or more of its stakeholders 
-NOTE	A concern pertains to any influence on a system in its environment, including developmental, technological, business, operational, organizational, political, economic, legal, regulatory, ecological and social influences. 
-[ISO 42010:2011, 3.7]
-]]></definition>
+					<definition><![CDATA[&lt;system&gt; interest in a system relevant to one or more of its <i><a href="#id730A631B2F0A43c2870FF7EC89013DA2"><font color="#0000ff"><u>stakeholders</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id730A631B2F0A43c2870FF7EC89013DA2 <span style='mso-element:field-end'></span> ) \r\n<br />NOTE	A concern pertains to any influence on a system in its environment, including developmental, technological, business, operational, organizational, political, economic, legal, regulatory, ecological and social influences. \r\n<br />]]></definition>
+					<source>ISO 42010:2011, 3.7</source>
 					<index>concern</index>
 				</term>
 				<term>
@@ -451,8 +464,7 @@ NOTE	A concern pertains to any influence on a system in its environment, includi
 					<clause>3.4.1.8</clause>
 					<guid>idA9454DB86F4C47c9902B7ABEE2462EA8</guid>
 					<name>element</name>
-					<definition><![CDATA[&lt;system&gt; component member of an architecture
-]]></definition>
+					<definition><![CDATA[&lt;system&gt; component member of an <i><a href="#id1977CCC04EA948719638C89546E52E47"><font color="#0000ff"><u>architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1977CCC04EA948719638C89546E52E47 <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
 					<index>element</index>
 				</term>
 				<term>
@@ -460,8 +472,8 @@ NOTE	A concern pertains to any influence on a system in its environment, includi
 					<clause>3.4.1.9</clause>
 					<guid>idBCD10BE481B544698858512B057E1D40</guid>
 					<name>environment</name>
-					<definition><![CDATA[&lt;system&gt; <font color="#313131">context determining the setting and circumstances of all influences upon a system</font>
-<font color="#313131">[ISO/IEC/IEEE 42010:2011, 3.8]</font>]]></definition>
+					<definition><![CDATA[&lt;system&gt; <font color="#313131">context determining the setting and circumstances of all influences upon a system</font>]]></definition>
+					<source>ISO/IEC/IEEE 42010:2011, 3.8</source>
 					<index>environment</index>
 				</term>
 				<term>
@@ -469,10 +481,8 @@ NOTE	A concern pertains to any influence on a system in its environment, includi
 					<clause>3.4.1.10</clause>
 					<guid>id539D69676C04491081CB654FB9B87320</guid>
 					<name>model kind</name>
-					<definition><![CDATA[conventions for a type of modelling 
-NOTE	Examples of model kinds include data flow diagrams, class diagrams, Petri nets, balance sheets, organization charts and state transition models. 
-[ISO 42010:2011, 3.9]
-]]></definition>
+					<definition><![CDATA[conventions for a type of modelling \r\n<br />NOTE	Examples of model kinds include data flow diagrams, class diagrams, Petri nets, balance sheets, organization charts and state transition models. \r\n<br />]]></definition>
+					<source>ISO 42010:2011, 3.9</source>
 					<index>model kind</index>
 				</term>
 				<term>
@@ -480,84 +490,109 @@ NOTE	Examples of model kinds include data flow diagrams, class diagrams, Petri n
 					<clause>3.4.1.11</clause>
 					<guid>id730A631B2F0A43c2870FF7EC89013DA2</guid>
 					<name>stakeholder</name>
-					<definition><![CDATA[&lt;system&gt; individual, team, organization, or classes thereof, having an interest in a system 
-[ISO 42010:2011, 3.10]
-]]></definition>
+					<definition><![CDATA[&lt;system&gt; individual, team, organization, or classes thereof, having an interest in a system \r\n<br />]]></definition>
+					<source>ISO 42010:2011, 3.10</source>
 					<index>stakeholder</index>
 				</term>
 			</package>
 			<package>
 				<id>2</id>
 				<clause>3.4.2</clause>
-				<name>3.4.2 Architecture types</name>
-				<term>
-					<id>5</id>
-					<clause>3.4.2.5</clause>
-					<guid>id654FD9AE16B34abd88DFC9917F4788EC</guid>
-					<name>C-ITS architecture</name>
-					<definition><![CDATA[architecture for one or more ITS services where each service requires at least one C-ITS data exchange  ]]></definition>
-					<index>C-ITS architecture</index>
-				</term>
-				<term>
-					<id>3</id>
-					<clause>3.4.2.3</clause>
-					<guid>id78E7722880BD47d7BEB75B27B5842A74</guid>
-					<name>deployment architecture</name>
-					<definition><![CDATA[architecture that provides a vision of a specific deployment of a system]]></definition>
-					<index>deployment architecture</index>
-				</term>
+				<name>3.4.2 Architecture type terms</name>
+				<figure>
+					<guid>id6E649AC2BE2F4b09B4D1344A2D8AFFAC</guid>
+					<name>architecture type terms</name>
+					<img><![CDATA[<img src="images/architecture type terms.png" alt="architecture type terms" />]]></img>
+				</figure>
 				<term>
 					<id>4</id>
 					<clause>3.4.2.4</clause>
-					<guid>idAEDCDFD1175A4735AF8F91068BE5703F</guid>
-					<name>ITS architecture</name>
-					<definition><![CDATA[architecture for one or more ITS services
-Note 1 to entry:	An ITS architecture might be a reference, planning, or deployment architecture. 
-Note 2 to entry:	The Harmonised Architecture Reference for Technical Standards (HARTS; http://htg7.org) is an example of an ITS reference architecture.
-]]></definition>
-					<index>ITS architecture</index>
+					<guid>id654FD9AE16B34abd88DFC9917F4788EC</guid>
+					<name>C-ITS reference architecture</name>
+					<definition><![CDATA[<i><a href="#id7823F79833D54238B649F8A4D20F13C5"><font color="#0000ff"><u>reference architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id7823F79833D54238B649F8A4D20F13C5 <span style='mso-element:field-end'></span> ) for one or more <i><a href="#id4D485872E9EE414e9CE1AB855A03540B"><font color="#0000ff"><u>ITS services</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id4D485872E9EE414e9CE1AB855A03540B <span style='mso-element:field-end'></span> ) where each service requires at least one <i>C-ITS data exchange</i>  ]]></definition>
+					<index>C-ITS reference architecture</index>
+				</term>
+				<term>
+					<id>7</id>
+					<clause>3.4.2.7</clause>
+					<guid>id78E7722880BD47d7BEB75B27B5842A74</guid>
+					<name>deployment architecture</name>
+					<definition><![CDATA[<i><a href="#id1977CCC04EA948719638C89546E52E47"><font color="#0000ff"><u>architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1977CCC04EA948719638C89546E52E47 <span style='mso-element:field-end'></span> ) that provides a vision of a specific deployment of a system]]></definition>
+					<index>deployment architecture</index>
+				</term>
+				<term>
+					<id>8</id>
+					<clause>3.4.2.8</clause>
+					<guid>id6EF532F230224e1a95F16B8825C4A3AE</guid>
+					<name>ITS deployment architecture</name>
+					<definition><![CDATA[<i><a href="#id78E7722880BD47d7BEB75B27B5842A74"><font color="#0000ff"><u>deployment architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id78E7722880BD47d7BEB75B27B5842A74 <span style='mso-element:field-end'></span> ) for one or more <i><a href="#id4D485872E9EE414e9CE1AB855A03540B"><font color="#0000ff"><u>ITS services</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id4D485872E9EE414e9CE1AB855A03540B <span style='mso-element:field-end'></span> )]]></definition>
+					<index>ITS deployment architecture</index>
 				</term>
 				<term>
 					<id>6</id>
 					<clause>3.4.2.6</clause>
-					<guid>idCAC31494A311430cBB567F2A82C166EC</guid>
-					<name>ITS-S architecture</name>
-					<definition><![CDATA[reference architecture for ITS components as defined in ISO 21217
-Note 1 to entry:	The ITS-S architecture is the preferred architecture for ITS components.
-]]></definition>
-					<index>ITS-S architecture</index>
+					<guid>id01D162F51C354ce98668A56A12EB4ED3</guid>
+					<name>ITS planning architecture</name>
+					<definition><![CDATA[<i><a href="#id0875724C4E4C4527A11C1B5977FA6250"><font color="#0000ff"><u>planning architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id0875724C4E4C4527A11C1B5977FA6250 <span style='mso-element:field-end'></span> ) for one or more <i><a href="#id4D485872E9EE414e9CE1AB855A03540B"><font color="#0000ff"><u>ITS services</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id4D485872E9EE414e9CE1AB855A03540B <span style='mso-element:field-end'></span> )]]></definition>
+					<index>ITS planning architecture</index>
+				</term>
+				<term>
+					<id>3</id>
+					<clause>3.4.2.3</clause>
+					<guid>idAEDCDFD1175A4735AF8F91068BE5703F</guid>
+					<name>ITS reference architecture</name>
+					<definition><![CDATA[<i><a href="#id7823F79833D54238B649F8A4D20F13C5"><font color="#0000ff"><u>reference architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id7823F79833D54238B649F8A4D20F13C5 <span style='mso-element:field-end'></span> ) for one or more <i><a href="#id4D485872E9EE414e9CE1AB855A03540B"><font color="#0000ff"><u>ITS services</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id4D485872E9EE414e9CE1AB855A03540B <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
+					<note>An ITS architecture might be a reference, planning, or deployment architecture. </note>
+					<note>The Harmonised Architecture Reference for Technical Standards (HARTS; http://htg7.org) is an example of an ITS reference architecture.</note>
+					<index>ITS reference architecture</index>
 				</term>
 				<term>
 					<id>2</id>
 					<clause>3.4.2.2</clause>
+					<guid>idCAC31494A311430cBB567F2A82C166EC</guid>
+					<name>ITS-S reference architecture</name>
+					<definition><![CDATA[<i><a href="#id7823F79833D54238B649F8A4D20F13C5"><font color="#0000ff"><u>reference architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id7823F79833D54238B649F8A4D20F13C5 <span style='mso-element:field-end'></span> ) for an ITS physical object as defined in ISO 21217]]></definition>
+					<note>The ITS-S architecture is the preferred architecture for ITS components.</note>
+					<index>ITS-S reference architecture</index>
+				</term>
+				<term>
+					<id>5</id>
+					<clause>3.4.2.5</clause>
 					<guid>id0875724C4E4C4527A11C1B5977FA6250</guid>
 					<name>planning architecture</name>
-					<definition><![CDATA[architecture that provides a long-term vision of system elements that may be deployed and managed by different projects and/or entities
-Note 1 to entry: 	Some countries use the term "regional architecture", but in international standards, the term "regional" is avoided due to its multiple meanings.
-]]></definition>
+					<admittedTerm>regional architecture</admittedTerm>
+					<definition><![CDATA[<i><a href="#id1977CCC04EA948719638C89546E52E47"><font color="#0000ff"><u>architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1977CCC04EA948719638C89546E52E47 <span style='mso-element:field-end'></span> ) that provides a long-term vision of <i><a href="#idA9454DB86F4C47c9902B7ABEE2462EA8"><font color="#0000ff"><u>system elements</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idA9454DB86F4C47c9902B7ABEE2462EA8 <span style='mso-element:field-end'></span> ) that may be deployed and managed by different projects and/or entities]]></definition>
+					<note>Some countries use the term "regional architecture", but in international standards, the term "regional" is avoided due to its multiple meanings.
+</note>
 					<index>planning architecture</index>
+					<index>regional architecture</index>
 				</term>
 				<term>
 					<id>1</id>
 					<clause>3.4.2.1</clause>
 					<guid>id7823F79833D54238B649F8A4D20F13C5</guid>
 					<name>reference architecture</name>
-					<definition><![CDATA[template solution for an architecture for a particular domain<sup> [14]</sup>
-Note 1 to entry:	Interface standards are based on a reference architecture, which should be explicitly described.
-]]></definition>
+					<definition><![CDATA[template solution for an <i><a href="#id1977CCC04EA948719638C89546E52E47"><font color="#0000ff"><u>architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1977CCC04EA948719638C89546E52E47 <span style='mso-element:field-end'></span> ) for a particular domain]]></definition>
+					<note>Interface standards are based on a reference architecture, which should be explicitly described.</note>
+					<source>Wikipedia the free encyclopedia – definition of reference architecture [Internet]. [cited 2018 Jul 17]; Available from: http://en.wikipedia.org/wiki/reference_architecture</source>
 					<index>reference architecture</index>
 				</term>
 			</package>
 			<package>
 				<id>3</id>
 				<clause>3.4.3</clause>
-				<name>3.4.3 Architecture views</name>
+				<name>3.4.3 Architecture view terms</name>
+				<figure>
+					<guid>id2F972E901AA249c899738A8B3BED7355</guid>
+					<name>architecture view terms</name>
+					<img><![CDATA[<img src="images/architecture view terms.png" alt="architecture view terms" />]]></img>
+				</figure>
 				<term>
 					<id>1</id>
 					<clause>3.4.3.1</clause>
 					<guid>idA55DFAE6A3594f3f9DCE94FACB4B44AC</guid>
 					<name>communications view</name>
-					<definition><![CDATA[<font color="#1a1a1a">architecture view </font>from the communications viewpoint ]]></definition>
+					<definition><![CDATA[<i><a href="#idBD7658051DA3495bA45E71D438FCD3DF"><font color="#0000ff"><u>architecture view</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idBD7658051DA3495bA45E71D438FCD3DF <span style='mso-element:field-end'></span> )<font color="#1a1a1a"> </font>from the <i><a href="#idFA802A0C473248fc9F50178DD38C56D8"><font color="#0000ff"><u>communications viewpoint</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idFA802A0C473248fc9F50178DD38C56D8 <span style='mso-element:field-end'></span> ) ]]></definition>
 					<index>communications view</index>
 				</term>
 				<term>
@@ -565,8 +600,7 @@ Note 1 to entry:	Interface standards are based on a reference architecture, whic
 					<clause>3.4.3.2</clause>
 					<guid>idFA802A0C473248fc9F50178DD38C56D8</guid>
 					<name>communications viewpoint</name>
-					<definition><![CDATA[architecture viewpoint used to frame communication interface concerns, including all layers of the OSI stack and related management and security issues
-]]></definition>
+					<definition><![CDATA[<i><a href="#id2D6E2A89A52E4a689CD868265F24A29E"><font color="#0000ff"><u>architecture viewpoint</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id2D6E2A89A52E4a689CD868265F24A29E <span style='mso-element:field-end'></span> ) used to frame communication interface concerns, including all layers of the OSI stack and related management and security issues\r\n<br />]]></definition>
 					<index>communications viewpoint</index>
 				</term>
 				<term>
@@ -574,7 +608,7 @@ Note 1 to entry:	Interface standards are based on a reference architecture, whic
 					<clause>3.4.3.3</clause>
 					<guid>id9835C11FD8C04296807C2D9A60453679</guid>
 					<name>functional view</name>
-					<definition><![CDATA[<font color="#1a1a1a">architecture view </font>from the functional viewpoint ]]></definition>
+					<definition><![CDATA[<i><a href="#idBD7658051DA3495bA45E71D438FCD3DF"><font color="#0000ff"><u>architecture view</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idBD7658051DA3495bA45E71D438FCD3DF <span style='mso-element:field-end'></span> )<font color="#1a1a1a"> </font>from the <i><a href="#id44BCE17E4D7F4e10AEBDA4BEA9679B0E"><font color="#0000ff"><u>functional viewpoint</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id44BCE17E4D7F4e10AEBDA4BEA9679B0E <span style='mso-element:field-end'></span> ) ]]></definition>
 					<index>functional view</index>
 				</term>
 				<term>
@@ -582,8 +616,7 @@ Note 1 to entry:	Interface standards are based on a reference architecture, whic
 					<clause>3.4.3.4</clause>
 					<guid>id44BCE17E4D7F4e10AEBDA4BEA9679B0E</guid>
 					<name>functional viewpoint</name>
-					<definition><![CDATA[architecture viewpoint used to frame the functionality concerns, including the definition of processes that perform transport functions and data flows shared between these processes
-]]></definition>
+					<definition><![CDATA[<i><a href="#id2D6E2A89A52E4a689CD868265F24A29E"><font color="#0000ff"><u>architecture viewpoint</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id2D6E2A89A52E4a689CD868265F24A29E <span style='mso-element:field-end'></span> ) used to frame the functionality concerns, including the definition of processes that perform transport functions and data flows shared between these processes\r\n<br />]]></definition>
 					<index>functional viewpoint</index>
 				</term>
 				<term>
@@ -591,8 +624,8 @@ Note 1 to entry:	Interface standards are based on a reference architecture, whic
 					<clause>3.4.3.5</clause>
 					<guid>idB34FD020963F4c85BD2610D158A905D2</guid>
 					<name>physical view</name>
-					<definition><![CDATA[<font color="#1a1a1a">architecture view </font>from the physical viewpoint 
-Note 1 to entry: The term "deployment view" is sometimes used within the broader ICT community, but the term "physical view" is preferred to prevent confusion between the physical view of a reference architecture and any part of a deployment architecture. ]]></definition>
+					<definition><![CDATA[<i><a href="#idBD7658051DA3495bA45E71D438FCD3DF"><font color="#0000ff"><u>architecture view</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idBD7658051DA3495bA45E71D438FCD3DF <span style='mso-element:field-end'></span> )<font color="#1a1a1a"> </font>from the <i><a href="#idAB7049839C6D4f60BC7472FCFED26DB4"><font color="#0000ff"><u>physical viewpoint</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idAB7049839C6D4f60BC7472FCFED26DB4 <span style='mso-element:field-end'></span> ) ]]></definition>
+					<note>The term "deployment view" is sometimes used within the broader ICT community, but the term "physical view" is preferred to prevent confusion between the physical view of a reference architecture and any part of a deployment architecture. </note>
 					<index>physical view</index>
 				</term>
 				<term>
@@ -600,178 +633,22 @@ Note 1 to entry: The term "deployment view" is sometimes used within the broader
 					<clause>3.4.3.6</clause>
 					<guid>idAB7049839C6D4f60BC7472FCFED26DB4</guid>
 					<name>physical viewpoint</name>
-					<definition><![CDATA[architecture viewpoint used to frame system engineering concerns, including the assignment of functionality to physical objects and the interfaces among these physical objects
-]]></definition>
+					<definition><![CDATA[<i><a href="#id2D6E2A89A52E4a689CD868265F24A29E"><font color="#0000ff"><u>architecture viewpoint</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id2D6E2A89A52E4a689CD868265F24A29E <span style='mso-element:field-end'></span> ) used to frame system engineering concerns, including the assignment of functionality to <i><a href="#id8EA65F2D6F6347bf8FF4C5CD35C61C68"><font color="#0000ff"><u>physical objects</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8EA65F2D6F6347bf8FF4C5CD35C61C68 <span style='mso-element:field-end'></span> ) and the interfaces among these physical objects\r\n<br />]]></definition>
 					<index>physical viewpoint</index>
 				</term>
 			</package>
 			<package>
 				<id>4</id>
 				<clause>3.4.4</clause>
-				<name>3.4.4 Physical view of an ITS architecture</name>
+				<name>3.4.4 Functional view terms</name>
+				<figure>
+					<guid>id9E0959ECD1E044509AE7DCE39765DE34</guid>
+					<name>functional view terms</name>
+					<img><![CDATA[<img src="images/functional view terms.png" alt="functional view terms" />]]></img>
+				</figure>
 				<term>
 					<id>1</id>
 					<clause>3.4.4.1</clause>
-					<guid>idEC65B14A2BF845deBCC48632F635C9FF</guid>
-					<name>functional object</name>
-					<definition><![CDATA[group of similar system processes from the functional view of the architecture that are jointly assigned to an ITS component in the physical view. 
-]]></definition>
-					<index>functional object</index>
-				</term>
-				<term>
-					<id>2</id>
-					<clause>3.4.4.2</clause>
-					<guid>id752D601C79B54677BF47786D7FA84DBF</guid>
-					<name>information flow</name>
-					<definition><![CDATA[information that is exchanged between physical objects
-]]></definition>
-					<index>information flow</index>
-				</term>
-				<term>
-					<id>3</id>
-					<clause>3.4.4.3</clause>
-					<guid>id9680D3EDB96947e2975441B520E3CFE4</guid>
-					<name>information triple</name>
-					<definition><![CDATA[information flow from a physical object acting as an information source and sent to another physical object acting as an information sink
-]]></definition>
-					<index>information triple</index>
-				</term>
-				<term>
-					<id>4</id>
-					<clause>3.4.4.4</clause>
-					<guid>id3783095C41E041c8B0CC1813CBCAEE44</guid>
-					<name>ITS component</name>
-					<definition><![CDATA[physical object that has been assigned one or more ITS functional objects
-Note 1 to entry:	Physical objects are ITS components if they are an integral part of the system; otherwise they are terminators.
-]]></definition>
-					<index>ITS component</index>
-				</term>
-				<term>
-					<id>5</id>
-					<clause>3.4.4.5</clause>
-					<guid>id8EA65F2D6F6347bf8FF4C5CD35C61C68</guid>
-					<name>physical object</name>
-					<definition><![CDATA[element within the physical view of an ITS architecture that represents an physical entity that interacts with other physical objects in the provision of ITS services
-]]></definition>
-					<index>physical object</index>
-				</term>
-				<term>
-					<id>6</id>
-					<clause>3.4.4.6</clause>
-					<guid>id98ACC203E1E34474AF1A04245619E6BF</guid>
-					<name>terminator</name>
-					<definition><![CDATA[physical object that represents an external user of ITS
-]]></definition>
-					<index>terminator</index>
-				</term>
-			</package>
-			<package>
-				<id>5</id>
-				<clause>3.4.5</clause>
-				<name>3.4.5 Physical view realization</name>
-				<term>
-					<id>1</id>
-					<clause>3.4.5.1</clause>
-					<guid>id75E3C9D3F2084e00BA93F5DD34084653</guid>
-					<name>Centre system</name>
-					<definition><![CDATA[]]></definition>
-					<index>Centre system</index>
-				</term>
-				<term>
-					<id>3</id>
-					<clause>3.4.5.3</clause>
-					<guid>idB6702EA11A52412eA44F00E7A7D44F40</guid>
-					<name>ITS roadway equipment</name>
-					<definition><![CDATA[]]></definition>
-					<index>ITS roadway equipment</index>
-				</term>
-				<term>
-					<id>4</id>
-					<clause>3.4.5.4</clause>
-					<guid>idF1E402D380EE478c957A2FF53D9EA0C5</guid>
-					<name>ITS station</name>
-					<definition><![CDATA[ITS component that provides a bounded secured managed domain and conforms to the ITS station architecture
-Note 1 to entry:	The ITS station architecture is defined in ISO 21217.
-EDITOR’S NOTE 1	There appears to be ambiguity (and perhaps disagreement within the industry) as to whether a "bounded secured managed domain" is the logical domain within each ITS-S or if it represents the ITS-S network. The proposed definition uses the former concept.
-EDITOR’S NOTE 2	The proposed definition assumes that an ITS-S does not cease being an ITS-S simply because it is disconnected from any network; therefore "in a communications network" is an invalid constraint.
-EDITOR’S NOTE 3	As can be seen in a few examples, the phrase "network, comprised of applications…" is ambiguous as it is unclear if the ITS-S is comprised of the items or if the network is comprised of the items.
-EDITOR’S NOTE 4	The proposed definition assumes that ITS-S are not required to have a wireless network interface. It is my understanding that any ITS device that conformed to the ITS-S architecture (which is almost a null requirement) and provides a BSMD (which is ill-defined) would be considered an ITS-S. Thus, at least at present, I see the term ITS-S to really mean any ITS physical entity that can claim to be secure (and it would be just a claim since there are no measurable requirements). And in fact, some definitions even make the BSMD optional – though I think this is wildly unwise.
-EDITOR’S NOTE 5	Logically, an ITS-S seldom (if ever) provides ITS services because an ITS-S is a component of an ITS network; the ITS service is provided by the ITS as a whole. The ITS-S logically should provide ITS-S services, or more specifically, the ITS-S is comprised of the ITS-S architectural components (i.e., applications entity, facilities layer, etc), which all provide ITS-S services. 
-]]></definition>
-					<index>ITS station</index>
-				</term>
-				<term>
-					<id>2</id>
-					<clause>3.4.5.2</clause>
-					<guid>id32A3B8B6410142fd9540A71FEF5521A5</guid>
-					<name>ITS-S unit</name>
-					<definition><![CDATA[]]></definition>
-					<index>ITS-S unit</index>
-				</term>
-				<term>
-					<id>5</id>
-					<clause>3.4.5.5</clause>
-					<guid>id19370BF79EB84485AEAD2DDF5F784F2F</guid>
-					<name>on-board equipment</name>
-					<definition><![CDATA[]]></definition>
-					<index>on-board equipment</index>
-				</term>
-				<term>
-					<id>6</id>
-					<clause>3.4.5.6</clause>
-					<guid>idE1D193F17654409cA350D9BECAAB4943</guid>
-					<name>on-board unit</name>
-					<definition><![CDATA[]]></definition>
-					<index>on-board unit</index>
-				</term>
-				<term>
-					<id>7</id>
-					<clause>3.4.5.7</clause>
-					<guid>id5DAF919582BA4ebcA9458826C7601B83</guid>
-					<name>roadside equipment</name>
-					<definition><![CDATA[]]></definition>
-					<index>roadside equipment</index>
-				</term>
-				<term>
-					<id>8</id>
-					<clause>3.4.5.8</clause>
-					<guid>id3AFA2C9C88E44f0f8C65FA7C0B16853A</guid>
-					<name>roadside ITS station</name>
-					<definition><![CDATA[]]></definition>
-					<index>roadside ITS station</index>
-				</term>
-				<term>
-					<id>9</id>
-					<clause>3.4.5.9</clause>
-					<guid>idEDB21315BC7D4fc08E78822D14ACDAE5</guid>
-					<name>roadside module</name>
-					<definition><![CDATA[]]></definition>
-					<index>roadside module</index>
-				</term>
-				<term>
-					<id>10</id>
-					<clause>3.4.5.10</clause>
-					<guid>id86A6D20743C74d40A0666588BA0B2932</guid>
-					<name>roadside unit</name>
-					<definition><![CDATA[]]></definition>
-					<index>roadside unit</index>
-				</term>
-				<term>
-					<id>11</id>
-					<clause>3.4.5.11</clause>
-					<guid>idBDD3ECE8339943dfBF8239896C549D44</guid>
-					<name>unit</name>
-					<definition><![CDATA[]]></definition>
-					<index>unit</index>
-				</term>
-			</package>
-			<package>
-				<id>6</id>
-				<clause>3.4.6</clause>
-				<name>3.4.6 Functional view of an ITS architecture</name>
-				<term>
-					<id>1</id>
-					<clause>3.4.6.1</clause>
 					<guid>id50C8A31C608C491fBA3FBA0D389CF013</guid>
 					<name>data flow</name>
 					<definition><![CDATA[<font color="#1a1a1a">Representation of data flowing between processes or between a process and a terminator</font>]]></definition>
@@ -779,7 +656,7 @@ EDITOR’S NOTE 5	Logically, an ITS-S seldom (if ever) provides ITS services becau
 				</term>
 				<term>
 					<id>2</id>
-					<clause>3.4.6.2</clause>
+					<clause>3.4.4.2</clause>
 					<guid>id6DD0743FF44F4f0e9817C766379AD954</guid>
 					<name>process</name>
 					<definition><![CDATA[function or activity defined in the functional view]]></definition>
@@ -787,31 +664,240 @@ EDITOR’S NOTE 5	Logically, an ITS-S seldom (if ever) provides ITS services becau
 				</term>
 				<term>
 					<id>3</id>
-					<clause>3.4.6.3</clause>
+					<clause>3.4.4.3</clause>
 					<guid>idBD61BEDB615C4e3988B47D3DC8EBAFEE</guid>
 					<name>process specification</name>
 					<definition><![CDATA[<font color="#1a1a1a">textual definition of a lowest-level process</font>]]></definition>
 					<index>process specification</index>
 				</term>
 			</package>
+			<package>
+				<id>5</id>
+				<clause>3.4.5</clause>
+				<name>3.4.5 Physical view terms</name>
+				<figure>
+					<guid>id5E38D7EC03994f7995C99A25F917274A</guid>
+					<name>physical view terms</name>
+					<img><![CDATA[<img src="images/physical view terms.png" alt="physical view terms" />]]></img>
+				</figure>
+				<term>
+					<id>1</id>
+					<clause>3.4.5.1</clause>
+					<guid>idEC65B14A2BF845deBCC48632F635C9FF</guid>
+					<name>functional object</name>
+					<definition><![CDATA[group of similar system <i><a href="#id6DD0743FF44F4f0e9817C766379AD954"><font color="#0000ff"><u>processes</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id6DD0743FF44F4f0e9817C766379AD954 <span style='mso-element:field-end'></span> ) from the <i><a href="#id9835C11FD8C04296807C2D9A60453679"><font color="#0000ff"><u>functional view</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id9835C11FD8C04296807C2D9A60453679 <span style='mso-element:field-end'></span> ) of the <i><a href="#id1977CCC04EA948719638C89546E52E47"><font color="#0000ff"><u>architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1977CCC04EA948719638C89546E52E47 <span style='mso-element:field-end'></span> ) that are jointly assigned to a <i><a href="#id8EA65F2D6F6347bf8FF4C5CD35C61C68"><font color="#0000ff"><u>physical object</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8EA65F2D6F6347bf8FF4C5CD35C61C68 <span style='mso-element:field-end'></span> ) in the <i><a href="#idB34FD020963F4c85BD2610D158A905D2"><font color="#0000ff"><u>physical view</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idB34FD020963F4c85BD2610D158A905D2 <span style='mso-element:field-end'></span> ). ]]></definition>
+					<index>functional object</index>
+				</term>
+				<term>
+					<id>2</id>
+					<clause>3.4.5.2</clause>
+					<guid>id752D601C79B54677BF47786D7FA84DBF</guid>
+					<name>information flow</name>
+					<definition><![CDATA[information that is exchanged between <i><a href="#id8EA65F2D6F6347bf8FF4C5CD35C61C68"><font color="#0000ff"><u>physical objects</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8EA65F2D6F6347bf8FF4C5CD35C61C68 <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
+					<index>information flow</index>
+				</term>
+				<term>
+					<id>3</id>
+					<clause>3.4.5.3</clause>
+					<guid>id9680D3EDB96947e2975441B520E3CFE4</guid>
+					<name>information triple</name>
+					<definition><![CDATA[<i><a href="#id752D601C79B54677BF47786D7FA84DBF"><font color="#0000ff"><u>information flow</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id752D601C79B54677BF47786D7FA84DBF <span style='mso-element:field-end'></span> ) from a <i><a href="#id8EA65F2D6F6347bf8FF4C5CD35C61C68"><font color="#0000ff"><u>physical object</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8EA65F2D6F6347bf8FF4C5CD35C61C68 <span style='mso-element:field-end'></span> ) acting as an information source and sent to another <i><a href="#id8EA65F2D6F6347bf8FF4C5CD35C61C68"><font color="#0000ff"><u>physical object</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8EA65F2D6F6347bf8FF4C5CD35C61C68 <span style='mso-element:field-end'></span> ) acting as an information sink\r\n<br />]]></definition>
+					<index>information triple</index>
+				</term>
+				<term>
+					<id>1</id>
+					<clause>3.4.5.1</clause>
+					<guid>id3783095C41E041c8B0CC1813CBCAEE44</guid>
+					<name>ITS component</name>
+					<definition><![CDATA[<i><a href="#id3783095C41E041c8B0CC1813CBCAEE44"><font color="#0000ff"><u>physical object</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3783095C41E041c8B0CC1813CBCAEE44 <span style='mso-element:field-end'></span> ) that has been assigned one or more ITS <i><a href="#idEC65B14A2BF845deBCC48632F635C9FF"><font color="#0000ff"><u>functional objects</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idEC65B14A2BF845deBCC48632F635C9FF <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
+					<note>Physical objects are ITS components if they are an integral part of the system; otherwise they are terminators.</note>
+					<index>ITS component</index>
+				</term>
+				<term>
+					<id>5</id>
+					<clause>3.4.5.5</clause>
+					<guid>id8EA65F2D6F6347bf8FF4C5CD35C61C68</guid>
+					<name>physical object</name>
+					<definition><![CDATA[element within the <i><a href="#idB34FD020963F4c85BD2610D158A905D2"><font color="#0000ff"><u>physical view</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idB34FD020963F4c85BD2610D158A905D2 <span style='mso-element:field-end'></span> ) of an <i><a href="#idAEDCDFD1175A4735AF8F91068BE5703F"><font color="#0000ff"><u>ITS architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idAEDCDFD1175A4735AF8F91068BE5703F <span style='mso-element:field-end'></span> ) that represents a physical entity that interacts with other physical entities in the provision of <i><a href="#id4D485872E9EE414e9CE1AB855A03540B"><font color="#0000ff"><u>ITS services</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id4D485872E9EE414e9CE1AB855A03540B <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
+					<index>physical object</index>
+				</term>
+				<term>
+					<id>6</id>
+					<clause>3.4.5.6</clause>
+					<guid>id98ACC203E1E34474AF1A04245619E6BF</guid>
+					<name>terminator</name>
+					<definition><![CDATA[<i><a href="#id8EA65F2D6F6347bf8FF4C5CD35C61C68"><font color="#0000ff"><u>physical object</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id8EA65F2D6F6347bf8FF4C5CD35C61C68 <span style='mso-element:field-end'></span> ) that represents an external user of <i><a href="#id95C4A86465B74046823106670EF95C77"><font color="#0000ff"><u>ITS</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id95C4A86465B74046823106670EF95C77 <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
+					<index>terminator</index>
+				</term>
+			</package>
+			<package>
+				<id>6</id>
+				<clause>3.4.6</clause>
+				<name>3.4.6 Physical implementation terms</name>
+				<figure>
+					<guid>idE824F3C9319342c8BAE907376E151B2A</guid>
+					<name>physical implementation terms</name>
+					<img><![CDATA[<img src="images/physical implementation terms.png" alt="physical implementation terms" />]]></img>
+				</figure>
+				<term>
+					<id>4</id>
+					<clause>3.4.6.4</clause>
+					<guid>id75E3C9D3F2084e00BA93F5DD34084653</guid>
+					<name>centre system</name>
+					<definition><![CDATA[<i><a href="#idF1E402D380EE478c957A2FF53D9EA0C5"><font color="#0000ff"><u>ITS station</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF1E402D380EE478c957A2FF53D9EA0C5 <span style='mso-element:field-end'></span> ) that provides application, management, and/or administrative functions from a centralized location (i.e., not at the <i><a href="#id718D31DE1698436a9BA71D3F4512432A"><font color="#0000ff"><u>roadside</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id718D31DE1698436a9BA71D3F4512432A <span style='mso-element:field-end'></span> ))]]></definition>
+					<index>centre system</index>
+				</term>
+				<term>
+					<id>6</id>
+					<clause>3.4.6.6</clause>
+					<guid>idC7D0D59CB4CF482c92AAA0D821A13A05</guid>
+					<name>field system</name>
+					<definition><![CDATA[<i><a href="#idF1E402D380EE478c957A2FF53D9EA0C5"><font color="#0000ff"><u>ITS station</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF1E402D380EE478c957A2FF53D9EA0C5 <span style='mso-element:field-end'></span> ) that performs localized surveillance, traffic control, information provision, payment transaction, wireless communication services between mobile elements and fixed infrastructure, and/or other services. ]]></definition>
+					<note>Typically, field systems are located along the roadside.</note>
+					<note>Typically, the operation of field systems are governed by management functions running in centre systems. </note>
+					<example>traffic detector, camera, signal controller, message sign, tolling station</example>
+					<index>field system</index>
+				</term>
+				<term>
+					<id>11</id>
+					<clause>3.4.6.11</clause>
+					<guid>idB6702EA11A52412eA44F00E7A7D44F40</guid>
+					<name>ITS roadway equipment</name>
+					<definition><![CDATA[<i><a href="#idC7D0D59CB4CF482c92AAA0D821A13A05"><font color="#0000ff"><u>field system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC7D0D59CB4CF482c92AAA0D821A13A05 <span style='mso-element:field-end'></span> ) that performs localized surveillance, traffic control, information provision, and/or payment transaction services]]></definition>
+					<index>ITS roadway equipment</index>
+				</term>
+				<term>
+					<id>15</id>
+					<clause>3.4.6.15</clause>
+					<guid>idE45DA43FC9F142959B6F1882CDA5228B</guid>
+					<name>ITS roadway unit</name>
+					<definition><![CDATA[component of <i><a href="#idB6702EA11A52412eA44F00E7A7D44F40"><font color="#0000ff"><u>ITS roadway equipment</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idB6702EA11A52412eA44F00E7A7D44F40 <span style='mso-element:field-end'></span> ) that performs the logical control functions]]></definition>
+					<index>ITS roadway unit</index>
+				</term>
+				<term>
+					<id>2</id>
+					<clause>3.4.6.2</clause>
+					<guid>idF1E402D380EE478c957A2FF53D9EA0C5</guid>
+					<name>ITS station</name>
+					<definition><![CDATA[<i><a href="#id3783095C41E041c8B0CC1813CBCAEE44"><font color="#0000ff"><u>ITS component</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3783095C41E041c8B0CC1813CBCAEE44 <span style='mso-element:field-end'></span> ) that provides a <i><a href="#id866BE3730A304564BBC18CA138D01808"><font color="#0000ff"><u>bounded secured managed domain</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id866BE3730A304564BBC18CA138D01808 <span style='mso-element:field-end'></span> ) and conforms to the <i><a href="#idCAC31494A311430cBB567F2A82C166EC"><font color="#0000ff"><u>ITS-S reference architecture</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idCAC31494A311430cBB567F2A82C166EC <span style='mso-element:field-end'></span> )\r\n<br />Note 1 to entry:	\r\n<br />EDITOR’S NOTE 1	There appears to be ambiguity (and perhaps disagreement within the industry) as to whether a "bounded secured managed domain" is the logical domain within each ITS-S or if it represents the ITS-S network. The proposed definition uses the former concept.\r\n<br />EDITOR’S NOTE 2	The proposed definition assumes that an ITS-S does not cease being an ITS-S simply because it is disconnected from any network; therefore "in a communications network" is an invalid constraint.\r\n<br />EDITOR’S NOTE 3	As can be seen in a few examples, the phrase "network, comprised of applications…" is ambiguous as it is unclear if the ITS-S is comprised of the items or if the network is comprised of the items.\r\n<br />EDITOR’S NOTE 4	The proposed definition assumes that ITS-S are not required to have a wireless network interface. It is my understanding that any ITS device that conformed to the ITS-S architecture (which is almost a null requirement) and provides a BSMD (which is ill-defined) would be considered an ITS-S. Thus, at least at present, I see the term ITS-S to really mean any ITS physical entity that can claim to be secure (and it would be just a claim since there are no measurable requirements). And in fact, some definitions even make the BSMD optional – though I think this is wildly unwise.\r\n<br />EDITOR’S NOTE 5	Logically, an ITS-S seldom (if ever) provides ITS services because an ITS-S is a component of an ITS network; the ITS service is provided by the ITS as a whole. The ITS-S logically should provide ITS-S services, or more specifically, the ITS-S is comprised of the ITS-S architectural components (i.e., applications entity, facilities layer, etc), which all provide ITS-S services. \r\n<br />]]></definition>
+					<note>The ITS station architecture is defined in ISO 21217.</note>
+					<index>ITS station</index>
+				</term>
+				<term>
+					<id>3</id>
+					<clause>3.4.6.3</clause>
+					<guid>id32A3B8B6410142fd9540A71FEF5521A5</guid>
+					<name>ITS-S unit</name>
+					<definition><![CDATA[implementation of an <i><a href="#idF1E402D380EE478c957A2FF53D9EA0C5"><font color="#0000ff"><u>ITS station</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF1E402D380EE478c957A2FF53D9EA0C5 <span style='mso-element:field-end'></span> )]]></definition>
+					<index>ITS-S unit</index>
+				</term>
+				<term>
+					<id>10</id>
+					<clause>3.4.6.10</clause>
+					<guid>idB2AFCEA42AC34410BBD8D0FDE1EB8B5C</guid>
+					<name>map update system</name>
+					<definition><![CDATA[<i><a href="#id23E6CD14703145869348FF4FB599A887"><font color="#0000ff"><u>support system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id23E6CD14703145869348FF4FB599A887 <span style='mso-element:field-end'></span> ) that provides map databases used to support <i><a href="#id4D485872E9EE414e9CE1AB855A03540B"><font color="#0000ff"><u>ITS services</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id4D485872E9EE414e9CE1AB855A03540B <span style='mso-element:field-end'></span> )]]></definition>
+					<index>map update system</index>
+				</term>
+				<term>
+					<id>14</id>
+					<clause>3.4.6.14</clause>
+					<guid>id00EBE70F3F1241aaA9CA37A15B673552</guid>
+					<name>nomadic device</name>
+					<definition><![CDATA[personal <i><a href="#id3237352F30AA4cbeA2A9728C0671B5A4"><font color="#0000ff"><u>traveller system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3237352F30AA4cbeA2A9728C0671B5A4 <span style='mso-element:field-end'></span> ) that is taken with and can be accessed by the traveller on a journey]]></definition>
+					<index>nomadic device</index>
+				</term>
+				<term>
+					<id>17</id>
+					<clause>3.4.6.17</clause>
+					<guid>idE1D193F17654409cA350D9BECAAB4943</guid>
+					<name>on-board unit</name>
+					<definition><![CDATA[component of <i><a href="#id19370BF79EB84485AEAD2DDF5F784F2F"><font color="#0000ff"><u>vehicle on-board equipment</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id19370BF79EB84485AEAD2DDF5F784F2F <span style='mso-element:field-end'></span> ) that performs the logical control functions]]></definition>
+					<index>on-board unit</index>
+				</term>
+				<term>
+					<id>12</id>
+					<clause>3.4.6.12</clause>
+					<guid>id5DAF919582BA4ebcA9458826C7601B83</guid>
+					<name>roadside equipment</name>
+					<deprecatedTerm>roadside ITS station</deprecatedTerm>
+					<definition><![CDATA[<i><a href="#idC7D0D59CB4CF482c92AAA0D821A13A05"><font color="#0000ff"><u>field system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC7D0D59CB4CF482c92AAA0D821A13A05 <span style='mso-element:field-end'></span> ) used to send electronic messages to and receive messages from nearby <i><a href="#id12A56C8A1EFE4cb8983C1C23C593EB84"><font color="#0000ff"><u>vehicle systems</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id12A56C8A1EFE4cb8983C1C23C593EB84 <span style='mso-element:field-end'></span> ) and <i><a href="#id3237352F30AA4cbeA2A9728C0671B5A4"><font color="#0000ff"><u>traveller systems</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3237352F30AA4cbeA2A9728C0671B5A4 <span style='mso-element:field-end'></span> ) via wireless technologies]]></definition>
+					<index>roadside equipment</index>
+					<index>roadside ITS station</index>
+				</term>
+				<term>
+					<id>16</id>
+					<clause>3.4.6.16</clause>
+					<guid>id86A6D20743C74d40A0666588BA0B2932</guid>
+					<name>roadside unit</name>
+					<definition><![CDATA[component of <i><a href="#id5DAF919582BA4ebcA9458826C7601B83"><font color="#0000ff"><u>roadside equipment</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id5DAF919582BA4ebcA9458826C7601B83 <span style='mso-element:field-end'></span> ) that performs the logical control functions]]></definition>
+					<index>roadside unit</index>
+				</term>
+				<term>
+					<id>5</id>
+					<clause>3.4.6.5</clause>
+					<guid>id23E6CD14703145869348FF4FB599A887</guid>
+					<name>support system</name>
+					<definition><![CDATA[<i><a href="#idF1E402D380EE478c957A2FF53D9EA0C5"><font color="#0000ff"><u>ITS station</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF1E402D380EE478c957A2FF53D9EA0C5 <span style='mso-element:field-end'></span> ) that provides support services for one or more other <i><a href="#idF1E402D380EE478c957A2FF53D9EA0C5"><font color="#0000ff"><u>ITS stations</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF1E402D380EE478c957A2FF53D9EA0C5 <span style='mso-element:field-end'></span> ) ]]></definition>
+					<index>support system</index>
+				</term>
+				<term>
+					<id>9</id>
+					<clause>3.4.6.9</clause>
+					<guid>id89A064E112394901928AA7701E97972D</guid>
+					<name>traffic management centre</name>
+					<definition><![CDATA[<i><a href="#id75E3C9D3F2084e00BA93F5DD34084653"><font color="#0000ff"><u>centre system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id75E3C9D3F2084e00BA93F5DD34084653 <span style='mso-element:field-end'></span> ) that monitors and controls traffic and the road network]]></definition>
+					<index>traffic management centre</index>
+				</term>
+				<term>
+					<id>8</id>
+					<clause>3.4.6.8</clause>
+					<guid>id3237352F30AA4cbeA2A9728C0671B5A4</guid>
+					<name>traveller system</name>
+					<definition><![CDATA[<i><a href="#idF1E402D380EE478c957A2FF53D9EA0C5"><font color="#0000ff"><u>ITS station</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF1E402D380EE478c957A2FF53D9EA0C5 <span style='mso-element:field-end'></span> ), other than a <i><a href="#id12A56C8A1EFE4cb8983C1C23C593EB84"><font color="#0000ff"><u>vehicle system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id12A56C8A1EFE4cb8983C1C23C593EB84 <span style='mso-element:field-end'></span> ), that is used by a person in relation to a past, current, or upcoming journey]]></definition>
+					<index>traveller system</index>
+				</term>
+				<term>
+					<id>13</id>
+					<clause>3.4.6.13</clause>
+					<guid>id19370BF79EB84485AEAD2DDF5F784F2F</guid>
+					<name>vehicle on-board equipment</name>
+					<definition><![CDATA[<i><a href="#id12A56C8A1EFE4cb8983C1C23C593EB84"><font color="#0000ff"><u>vehicle system</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id12A56C8A1EFE4cb8983C1C23C593EB84 <span style='mso-element:field-end'></span> ) that is generic to any <i><a href="#id555BFAB2A747457fB01D99511FDE885A"><font color="#0000ff"><u>vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id555BFAB2A747457fB01D99511FDE885A <span style='mso-element:field-end'></span> )]]></definition>
+					<index>vehicle on-board equipment</index>
+				</term>
+				<term>
+					<id>7</id>
+					<clause>3.4.6.7</clause>
+					<guid>id12A56C8A1EFE4cb8983C1C23C593EB84</guid>
+					<name>vehicle system</name>
+					<definition><![CDATA[<i><a href="#idF1E402D380EE478c957A2FF53D9EA0C5"><font color="#0000ff"><u>ITS station</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF1E402D380EE478c957A2FF53D9EA0C5 <span style='mso-element:field-end'></span> ) that is installed as a component of a <i><a href="#id555BFAB2A747457fB01D99511FDE885A"><font color="#0000ff"><u>vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id555BFAB2A747457fB01D99511FDE885A <span style='mso-element:field-end'></span> )]]></definition>
+					<index>vehicle system</index>
+				</term>
+			</package>
 		</package>
 		<package>
 			<id>5</id>
 			<clause>3.5</clause>
-			<name>3.5 Data concepts</name>
+			<name>3.5 Data concept terms</name>
 			<package>
 				<id>1</id>
 				<clause>3.5.1</clause>
-				<name>3.5.1 Data concept management</name>
+				<name>3.5.1 Data concept management terms</name>
+				<figure>
+					<guid>idD066733E63EB4183BA678B5EC4706E66</guid>
+					<name>data concept management terms</name>
+					<img><![CDATA[<img src="images/data concept management terms.png" alt="data concept management terms" />]]></img>
+					<text>
+</text>
+				</figure>
 				<term>
 					<id>1</id>
 					<clause>3.5.1.1</clause>
 					<guid>id5C989C1352B14d07BB1E631FC7D46F8F</guid>
 					<name>data concept</name>
-					<definition><![CDATA[item that may be stored in a data dictionary that refers to an abstraction or thing in the natural world that can be identified with explicit boundaries and meaning and whose properties and behaviour all follow the same rules
-Note 1 to entry:	Data concepts can be classified into the following types: object class, value domain, data element, aggregate domain, data frame, message, interface dialogue, dictionary document, or module
-[ISO 14817-1]
-]]></definition>
+					<definition><![CDATA[item that refers to an abstraction or thing in the natural world that can be identified with explicit boundaries and meaning and whose properties and behaviour all follow the same rules\r\n<br />]]></definition>
+					<note>Data concepts can be classified into the following types: object class, value domain, data element, aggregate domain, data frame, message, interface dialogue, dictionary document, or module</note>
+					<source>ISO 14817-1</source>
 					<index>data concept</index>
 				</term>
 				<term>
@@ -819,8 +905,9 @@ Note 1 to entry:	Data concepts can be classified into the following types: objec
 					<clause>3.5.1.2</clause>
 					<guid>id8ED0B56A7A7C46369CAC281E4716F553</guid>
 					<name>data concept registry</name>
-					<definition><![CDATA[<font color="#313131">electronic data dictionary that follows precise documented rules for the registration and management of stored data concepts; it typically also includes advanced features for adding, retrieving, and working with its contents</font>
-<font color="#313131">Note 1 to entry: The data concept registry contains meta-attributes about data concepts in terms of their names and representational forms as well as the semantics associated with the data concepts. A data concept registry may contain data that assists information interchange and re-use, both from the perspective of human users and for machine-interpretation of data concepts.</font>]]></definition>
+					<definition><![CDATA[<font color="#313131">electronic </font><i><a href="#idB06371D38EFC48e299F50E38BFECA3F5"><font color="#0000ff"><u>data dictionary</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idB06371D38EFC48e299F50E38BFECA3F5 <span style='mso-element:field-end'></span> )<font color="#313131"> that follows precise documented rules for the registration and management of stored </font><i><a href="#id5C989C1352B14d07BB1E631FC7D46F8F"><font color="#0000ff"><u>data concepts</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id5C989C1352B14d07BB1E631FC7D46F8F <span style='mso-element:field-end'></span> )<font color="#313131">; it typically also includes advanced features for adding, retrieving, and working with its contents</font>]]></definition>
+					<note>The data concept registry contains meta-attributes about data concepts in terms of their names and representational forms as well as the semantics associated with the data concepts. A data concept registry may contain data that assists information interchange and re-use, both from the perspective of human users and for machine-interpretation of data concepts.
+</note>
 					<index>data concept registry</index>
 				</term>
 				<term>
@@ -828,7 +915,7 @@ Note 1 to entry:	Data concepts can be classified into the following types: objec
 					<clause>3.5.1.3</clause>
 					<guid>idB06371D38EFC48e299F50E38BFECA3F5</guid>
 					<name>data dictionary</name>
-					<definition><![CDATA[<font color="#313131">listing of data concepts and their meta-attributes in a consistent format</font>]]></definition>
+					<definition><![CDATA[<font color="#313131">listing of </font><i><a href="#id5C989C1352B14d07BB1E631FC7D46F8F"><font color="#0000ff"><u>data concepts</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id5C989C1352B14d07BB1E631FC7D46F8F <span style='mso-element:field-end'></span> )<font color="#313131"> and their meta-attributes in a consistent format</font>]]></definition>
 					<index>data dictionary</index>
 				</term>
 				<term>
@@ -836,21 +923,25 @@ Note 1 to entry:	Data concepts can be classified into the following types: objec
 					<clause>3.5.1.4</clause>
 					<guid>id5E5AB08C409C4757A21F0C4353B6F6D9</guid>
 					<name>meta-attribute</name>
-					<definition><![CDATA[<font color="#313131">documenting characteristic of a data concept that is stored in a data dictionary</font>]]></definition>
+					<definition><![CDATA[<font color="#313131">documenting characteristic of a </font><i><a href="#id5C989C1352B14d07BB1E631FC7D46F8F"><font color="#0000ff"><u>data concept</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id5C989C1352B14d07BB1E631FC7D46F8F <span style='mso-element:field-end'></span> )<font color="#313131"> that is stored in a </font><i><a href="#idB06371D38EFC48e299F50E38BFECA3F5"><font color="#0000ff"><u>data dictionary</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idB06371D38EFC48e299F50E38BFECA3F5 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>meta-attribute</index>
 				</term>
 			</package>
 			<package>
 				<id>2</id>
 				<clause>3.5.2</clause>
-				<name>3.5.2 Types of data concepts</name>
+				<name>3.5.2 Data concept type terms</name>
+				<figure>
+					<guid>id196AC355D76F4585B1EBC2824F05C466</guid>
+					<name>data concept type terms</name>
+					<img><![CDATA[<img src="images/data concept type terms.png" alt="data concept type terms" />]]></img>
+				</figure>
 				<term>
 					<id>1</id>
 					<clause>3.5.2.1</clause>
 					<guid>id3885C6F4DEBA4ad3952CF6E500F10712</guid>
 					<name>aggregate domain</name>
-					<definition><![CDATA[<b>data concept</b> that defines a grouping of <b>data elements</b> and/or <b>data frames</b> 
-]]></definition>
+					<definition><![CDATA[<i><a href="#id5C989C1352B14d07BB1E631FC7D46F8F"><font color="#0000ff"><u>data concept</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id5C989C1352B14d07BB1E631FC7D46F8F <span style='mso-element:field-end'></span> ) that defines a grouping of <i><a href="#id6ADFFDA7618A4047AE100991CBCE83C7"><font color="#0000ff"><u>data elements</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id6ADFFDA7618A4047AE100991CBCE83C7 <span style='mso-element:field-end'></span> ) and/or <i><a href="#idD0B512E1030A4b998CB13473D336CBFC"><font color="#0000ff"><u>data frames</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idD0B512E1030A4b998CB13473D336CBFC <span style='mso-element:field-end'></span> ) \r\n<br />]]></definition>
 					<index>aggregate domain</index>
 				</term>
 				<term>
@@ -858,9 +949,8 @@ Note 1 to entry:	Data concepts can be classified into the following types: objec
 					<clause>3.5.2.2</clause>
 					<guid>id6ADFFDA7618A4047AE100991CBCE83C7</guid>
 					<name>data element</name>
-					<definition><![CDATA[<b>data concept</b> represented by a specific <b>value domain</b> and that describes a single atomic property about an <b>object class</b>. 
-Note 1 to entry:	A data element is composed of an object class, a property of the represented object class and a value domain.
-]]></definition>
+					<definition><![CDATA[<i><a href="#id5C989C1352B14d07BB1E631FC7D46F8F"><font color="#0000ff"><u>data concept</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id5C989C1352B14d07BB1E631FC7D46F8F <span style='mso-element:field-end'></span> ) represented by a specific <i><a href="#idACC1C171626D40479E3CC4C273BEA796"><font color="#0000ff"><u>value domain</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idACC1C171626D40479E3CC4C273BEA796 <span style='mso-element:field-end'></span> ) and that describes a single atomic property about an <i><a href="#idDF674EF5FB8049aaBE03DC6E5FF03853"><font color="#0000ff"><u>object class</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idDF674EF5FB8049aaBE03DC6E5FF03853 <span style='mso-element:field-end'></span> ). ]]></definition>
+					<note>A data element is composed of an object class, a property of the represented object class and a value domain.</note>
 					<index>data element</index>
 				</term>
 				<term>
@@ -868,9 +958,8 @@ Note 1 to entry:	A data element is composed of an object class, a property of th
 					<clause>3.5.2.3</clause>
 					<guid>idD0B512E1030A4b998CB13473D336CBFC</guid>
 					<name>data frame</name>
-					<definition><![CDATA[<b>data concept</b> represented by a specific <b>aggregate domain</b> and that describes information of interest through a useful grouping of more atomic properties about one or more <b>object classes</b>. 
-Note 1 to entry:	The grouping may be a set, sequence, or a choice.
-]]></definition>
+					<definition><![CDATA[<i><a href="#id5C989C1352B14d07BB1E631FC7D46F8F"><font color="#0000ff"><u>data concept</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id5C989C1352B14d07BB1E631FC7D46F8F <span style='mso-element:field-end'></span> ) represented by a specific <i><a href="#id3885C6F4DEBA4ad3952CF6E500F10712"><font color="#0000ff"><u>aggregate domain</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3885C6F4DEBA4ad3952CF6E500F10712 <span style='mso-element:field-end'></span> ) and that describes information of interest through a useful grouping of more atomic properties about one or more <i><a href="#idDF674EF5FB8049aaBE03DC6E5FF03853"><font color="#0000ff"><u>object classes</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idDF674EF5FB8049aaBE03DC6E5FF03853 <span style='mso-element:field-end'></span> ). ]]></definition>
+					<note>The grouping may be a set, sequence, or a choice.</note>
 					<index>data frame</index>
 				</term>
 				<term>
@@ -878,8 +967,7 @@ Note 1 to entry:	The grouping may be a set, sequence, or a choice.
 					<clause>3.5.2.4</clause>
 					<guid>idA5ED9D410EE248389659C4C127C6159A</guid>
 					<name>interface dialogue</name>
-					<definition><![CDATA[<b>data concept</b> that defines bi-directional communication sequence between two parties in accordance with predetermined protocols
-]]></definition>
+					<definition><![CDATA[<i><a href="#id5C989C1352B14d07BB1E631FC7D46F8F"><font color="#0000ff"><u>data concept</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id5C989C1352B14d07BB1E631FC7D46F8F <span style='mso-element:field-end'></span> ) that defines bi-directional communication sequence between two parties in accordance with predetermined protocols\r\n<br />]]></definition>
 					<index>interface dialogue</index>
 				</term>
 				<term>
@@ -887,7 +975,7 @@ Note 1 to entry:	The grouping may be a set, sequence, or a choice.
 					<clause>3.5.2.5</clause>
 					<guid>id7E8CF3F643284ed199FEF6FA0A1FDADC</guid>
 					<name>message</name>
-					<definition><![CDATA[<b>data concept</b> that is a grouping of <b>data elements</b>, <b>data frames</b>, or <b>data elements</b> and <b>data frames </b>that is used to convey a complete set of information ]]></definition>
+					<definition><![CDATA[<i><a href="#id5C989C1352B14d07BB1E631FC7D46F8F"><font color="#0000ff"><u>data concept</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id5C989C1352B14d07BB1E631FC7D46F8F <span style='mso-element:field-end'></span> ) that is a grouping of <i><a href="#id6ADFFDA7618A4047AE100991CBCE83C7"><font color="#0000ff"><u>data elements</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id6ADFFDA7618A4047AE100991CBCE83C7 <span style='mso-element:field-end'></span> ), <i><a href="#idD0B512E1030A4b998CB13473D336CBFC"><font color="#0000ff"><u>data frames</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idD0B512E1030A4b998CB13473D336CBFC <span style='mso-element:field-end'></span> ), or <i><a href="#id6ADFFDA7618A4047AE100991CBCE83C7"><font color="#0000ff"><u>data elements</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id6ADFFDA7618A4047AE100991CBCE83C7 <span style='mso-element:field-end'></span> ) and <i><a href="#idD0B512E1030A4b998CB13473D336CBFC"><font color="#0000ff"><u>data frames</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idD0B512E1030A4b998CB13473D336CBFC <span style='mso-element:field-end'></span> )<b> </b>that is used to convey a complete set of information ]]></definition>
 					<index>message</index>
 				</term>
 				<term>
@@ -895,9 +983,8 @@ Note 1 to entry:	The grouping may be a set, sequence, or a choice.
 					<clause>3.5.2.6</clause>
 					<guid>idDF674EF5FB8049aaBE03DC6E5FF03853</guid>
 					<name>object class</name>
-					<definition><![CDATA[description of a set of objects that share the same properties, relationships, and semantics
-Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptually similar to an ISO/IEC 11179 object, but it does not include operations or methods and ISO/IEC 11179 "attributes" are called "properties" in this International Standard. 
-]]></definition>
+					<definition><![CDATA[description of a set of objects that share the same properties, relationships, and semantics]]></definition>
+					<note>Adapted from ISO/IEC 11179-1:2013; an object class is conceptually similar to an ISO/IEC 11179 object, but it does not include operations or methods and ISO/IEC 11179 "attributes" are called "properties" in this International Standard.</note>
 					<index>object class</index>
 				</term>
 				<term>
@@ -905,8 +992,7 @@ Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptua
 					<clause>3.5.2.7</clause>
 					<guid>idACC1C171626D40479E3CC4C273BEA796</guid>
 					<name>value domain</name>
-					<definition><![CDATA[<b>data concept</b> that defines a set of permissible values
-]]></definition>
+					<definition><![CDATA[<i><a href="#id5C989C1352B14d07BB1E631FC7D46F8F"><font color="#0000ff"><u>data concept</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id5C989C1352B14d07BB1E631FC7D46F8F <span style='mso-element:field-end'></span> ) that defines a set of permissible values\r\n<br />]]></definition>
 					<index>value domain</index>
 				</term>
 			</package>
@@ -914,25 +1000,27 @@ Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptua
 		<package>
 			<id>6</id>
 			<clause>3.6</clause>
-			<name>3.6 Location model</name>
+			<name>3.6 Location terms</name>
+			<figure>
+				<guid>id350F64D1CC354d3d9701B095B914F017</guid>
+				<name>location terms</name>
+				<img><![CDATA[<img src="images/location terms.png" alt="location terms" />]]></img>
+			</figure>
 			<term>
-				<id>2</id>
-				<clause>3.6.2</clause>
+				<id>4</id>
+				<clause>3.6.4</clause>
 				<guid>id343F8CD601FC4dc58ECD036531891EFE</guid>
 				<name>area location</name>
-				<definition><![CDATA[<b>location</b> that has a two-dimensional character
-
-]]></definition>
+				<definition><![CDATA[<i><a href="#id3A8D97796CC142fa8882F36C623AA755"><font color="#0000ff"><u>location</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3A8D97796CC142fa8882F36C623AA755 <span style='mso-element:field-end'></span> ) that has a two-dimensional character\r\n<br />\r\n<br />]]></definition>
 				<index>area location</index>
 			</term>
 			<term>
-				<id>7</id>
-				<clause>3.6.7</clause>
+				<id>8</id>
+				<clause>3.6.8</clause>
 				<guid>id9F4FE27F1B414712ACD9752109E5DBC1</guid>
 				<name>dynamic location reference</name>
-				<definition><![CDATA[<font color="#313131"><b>location reference</b> generated on-the-fly based on geographic properties in a digital map database</font>
-<font color="#042655">[ISO 17572-1:2015(en), 2.1.11]</font>
-]]></definition>
+				<definition><![CDATA[<i><a href="#id0F23B7B6B1C64d828035A246CDCC780C"><font color="#0000ff"><u>location reference</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id0F23B7B6B1C64d828035A246CDCC780C <span style='mso-element:field-end'></span> )<font color="#313131"> generated on-the-fly based on geographic properties in a digital map database</font>\r\n<br />]]></definition>
+				<source>ISO 17572-1:2015(en), 2.1.11</source>
 				<index>dynamic location reference</index>
 			</term>
 			<term>
@@ -940,9 +1028,8 @@ Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptua
 				<clause>3.6.3</clause>
 				<guid>id5483A2A7CDBD49d2B369044AA6963623</guid>
 				<name>linear location</name>
-				<definition><![CDATA[<font color="#313131">location that has a one-dimensional character</font>
-<font color="#042655">ISO 17572-1:2015(en), 2.1.19</font>
-]]></definition>
+				<definition><![CDATA[<i><a href="#id3A8D97796CC142fa8882F36C623AA755"><font color="#0000ff"><u>location</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3A8D97796CC142fa8882F36C623AA755 <span style='mso-element:field-end'></span> )<font color="#313131"> that has a one-dimensional character</font>]]></definition>
+				<source>ISO 17572-1:2015(en), 2.1.19</source>
 				<index>linear location</index>
 			</term>
 			<term>
@@ -950,9 +1037,8 @@ Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptua
 				<clause>3.6.9</clause>
 				<guid>id8B91C71A6B2E407e93778139104184DA</guid>
 				<name>link location</name>
-				<definition><![CDATA[<font color="#313131">location identifiable by a part of the road network database having one identifier or having a uniquely identifiable combination of attributes throughout the continuous stretch</font>
-<font color="#042655">ISO 17572-1:2015(en), 2.1.22</font>
-]]></definition>
+				<definition><![CDATA[<font color="#313131">location identifiable by a part of the road network database having one identifier or having a uniquely identifiable combination of attributes throughout the continuous stretch</font>\r\n<br />]]></definition>
+				<source>ISO 17572-1:2015(en), 2.1.22</source>
 				<index>link location</index>
 			</term>
 			<term>
@@ -960,8 +1046,7 @@ Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptua
 				<clause>3.6.1</clause>
 				<guid>id3A8D97796CC142fa8882F36C623AA755</guid>
 				<name>location</name>
-				<definition><![CDATA[<font color="#313131">position on the surface of the earth</font>
-]]></definition>
+				<definition><![CDATA[<font color="#313131">position on the surface of the earth</font>\r\n<br />]]></definition>
 				<index>location</index>
 			</term>
 			<term>
@@ -969,9 +1054,8 @@ Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptua
 				<clause>3.6.6</clause>
 				<guid>id93B9D867543E426aB2AA9E3422A10123</guid>
 				<name>location code</name>
-				<definition><![CDATA[<font color="#042655">identifier assigned to a location reference</font>
-<font color="#042655">Note 1 to entry: A location code is often a numeric or alphanumeric identifier, but could be a textual name, symbol, or any other type of identifier.</font>
-]]></definition>
+				<definition><![CDATA[<font color="#042655">identifier assigned to a </font><i><a href="#id0F23B7B6B1C64d828035A246CDCC780C"><font color="#0000ff"><u>location reference</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id0F23B7B6B1C64d828035A246CDCC780C <span style='mso-element:field-end'></span> )]]></definition>
+				<note>A location code is often a numeric or alphanumeric identifier, but could be a textual name, symbol, or any other type of identifier.</note>
 				<index>location code</index>
 			</term>
 			<term>
@@ -979,8 +1063,7 @@ Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptua
 				<clause>3.6.5</clause>
 				<guid>id0F23B7B6B1C64d828035A246CDCC780C</guid>
 				<name>location reference</name>
-				<definition><![CDATA[<font color="#042655">specification of a location </font><font color="#313131">according to a specific set of rules</font>
-]]></definition>
+				<definition><![CDATA[<font color="#042655">specification of a </font><i><a href="#id3A8D97796CC142fa8882F36C623AA755"><font color="#0000ff"><u>location</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3A8D97796CC142fa8882F36C623AA755 <span style='mso-element:field-end'></span> )<font color="#042655"> </font><font color="#313131">according to a specific set of rules</font>\r\n<br />]]></definition>
 				<index>location reference</index>
 			</term>
 			<term>
@@ -988,9 +1071,8 @@ Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptua
 				<clause>3.6.10</clause>
 				<guid>idBC453AADCE4944dfB79F29F6D270AFFC</guid>
 				<name>location referencing</name>
-				<definition><![CDATA[<font color="#313131">method for referencing locations to facilitate the exchange of location related information between different systems</font>
-<font color="#042655">ISO/TS 18234-4:2006(en), 3.4</font>
-]]></definition>
+				<definition><![CDATA[<font color="#313131">method for referencing locations to facilitate the exchange of location related information between different systems</font>\r\n<br />]]></definition>
+				<source>ISO/TS 18234-4:2006(en), 3.4</source>
 				<index>location referencing</index>
 			</term>
 			<term>
@@ -1002,41 +1084,43 @@ Note 1 to entry:	Adapted from ISO/IEC 11179-1:2013; an object class is conceptua
 				<index>location table</index>
 			</term>
 			<term>
-				<id>4</id>
-				<clause>3.6.4</clause>
+				<id>2</id>
+				<clause>3.6.2</clause>
 				<guid>id877B14CA611F495089D65BE3C5CC9A53</guid>
 				<name>point location</name>
-				<definition><![CDATA[<font color="#313131">location that has a zero-dimensional character</font>
-<font color="#042655">ISO 17572-1:2015(en), 2.1.33</font>
-]]></definition>
+				<definition><![CDATA[<i><a href="#id3A8D97796CC142fa8882F36C623AA755"><font color="#0000ff"><u>location</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3A8D97796CC142fa8882F36C623AA755 <span style='mso-element:field-end'></span> )<font color="#313131"> that has a zero-dimensional character</font>\r\n<br />\r\n<br />]]></definition>
+				<source>ISO 17572-1:2015(en), 2.1.33</source>
 				<index>point location</index>
 			</term>
 			<term>
-				<id>8</id>
-				<clause>3.6.8</clause>
+				<id>7</id>
+				<clause>3.6.7</clause>
 				<guid>id3A329C6B79D9436bA72E60C0685FE27D</guid>
 				<name>pre-coded location reference</name>
-				<definition><![CDATA[<font color="#313131">location reference using a unique identifier that is agreed upon in both sender and receiver system to select a location from a set of pre-coded locations</font>
-<font color="#042655">ISO 17572-1:2015(en), 2.1.35</font>
-]]></definition>
+				<definition><![CDATA[<i><a href="#id0F23B7B6B1C64d828035A246CDCC780C"><font color="#0000ff"><u>location reference</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id0F23B7B6B1C64d828035A246CDCC780C <span style='mso-element:field-end'></span> )<font color="#313131"> using a unique identifier that is agreed upon in both sender and receiver system to select a </font><i><a href="#id3A8D97796CC142fa8882F36C623AA755"><font color="#0000ff"><u>location</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3A8D97796CC142fa8882F36C623AA755 <span style='mso-element:field-end'></span> )<font color="#313131"> from a set of pre-coded locations</font>\r\n<br />]]></definition>
+				<source>ISO 17572-1:2015(en), 2.1.35</source>
 				<index>pre-coded location reference</index>
 			</term>
 		</package>
 		<package>
 			<id>7</id>
 			<clause>3.7</clause>
-			<name>3.7 Infrastructure</name>
+			<name>3.7 Infrastructure terms</name>
 			<package>
 				<id>1</id>
 				<clause>3.7.1</clause>
-				<name>3.7.1 Road components</name>
+				<name>3.7.1 Road component terms</name>
+				<figure>
+					<guid>idBF9F73F241F94ddaAB519F5EA0E4453F</guid>
+					<name>roadway component terms</name>
+					<img><![CDATA[<img src="images/roadway component terms.png" alt="roadway component terms" />]]></img>
+				</figure>
 				<term>
 					<id>5</id>
 					<clause>3.7.1.5</clause>
 					<guid>id855CC715739D462e9790E893914D8768</guid>
 					<name>carriageway</name>
-					<definition><![CDATA[syn: roadway
-part of road link designed for use by motor vehicles]]></definition>
+					<definition><![CDATA[syn: roadway\r\n<br />part of road link designed for use by motor vehicles\r\n<br />\r\n<br />contiguous width of <i><a href="#id3F880EDEBFE84014A43B46167936F4B1"><font color="#0000ff"><u>roadway</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3F880EDEBFE84014A43B46167936F4B1 <span style='mso-element:field-end'></span> )\r\n<br />Note 1 to entry: When looking at a cross-section of the right-of-way, the roadway consists of all of the carriageways and carriageways are separated by physical barriers. ]]></definition>
 					<index>carriageway</index>
 				</term>
 				<term>
@@ -1044,40 +1128,45 @@ part of road link designed for use by motor vehicles]]></definition>
 					<clause>3.7.1.3</clause>
 					<guid>id8F324A220854441d973364AB921327C2</guid>
 					<name>dual carriageway</name>
-					<definition><![CDATA[syn: divided highway
-roadway comprised of exactly two carriageways
-Note 1 to entry: The two carriageways are typically designed for travel in opposite directions. ]]></definition>
+					<admittedTerm>divided highway</admittedTerm>
+					<definition><![CDATA[<i><a href="#id3F880EDEBFE84014A43B46167936F4B1"><font color="#0000ff"><u>roadway</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3F880EDEBFE84014A43B46167936F4B1 <span style='mso-element:field-end'></span> ) comprised of exactly two <i><a href="#id855CC715739D462e9790E893914D8768"><font color="#0000ff"><u>carriageways</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id855CC715739D462e9790E893914D8768 <span style='mso-element:field-end'></span> ) ]]></definition>
+					<note>The two carriageways are typically designed for travel in opposite directions. </note>
 					<index>dual carriageway</index>
+					<index>divided highway</index>
+				</term>
+				<term>
+					<id>12</id>
+					<clause>3.7.1.12</clause>
+					<guid>idF9F0ACCE2D49434a803C0D87211F753A</guid>
+					<name>easement</name>
+					<deprecatedTerm>right-of-way</deprecatedTerm>
+					<deprecatedTerm>right-of-way</deprecatedTerm>
+					<definition><![CDATA[stretch of land reserved for transportation purposes]]></definition>
+					<note>The easement includes all carriageways as well as a significant width to allow for roadside devices, clearance zones, sidewalks, drainage facilities, sound walls, etc.</note>
+					<note>Usage of the term "right-of-way" for this conceptthe preferred meaning of "right-of-way" relates to which vehicle has the legal authority to access a portion of roadway.</note>
+					<index>easement</index>
+					<index>right-of-way</index>
+					<index>right-of-way</index>
 				</term>
 				<term>
 					<id>7</id>
 					<clause>3.7.1.7</clause>
 					<guid>idDAF8D75AA574422cADE5F6D094406BB4</guid>
 					<name>lane</name>
-					<definition><![CDATA[strip of roadway intended for a specific purpose along its length with adequate clearance for its purpose
-
-Note 1 to entry: Lanes are often bounded by lane markings.
-Note 2 to entry: Lanes may be significantly wider than the normal vehicle width to allow variance in lane position of the vehicle as well as for various vehicle dimensions.
-Note 3 to entry: The term "lane" is often used in place of "travel lane" but other lane types exist.
-EXAMPLE	shoulder ]]></definition>
+					<definition><![CDATA[width of <i><a href="#idF9F0ACCE2D49434a803C0D87211F753A"><font color="#0000ff"><u>right-of-way</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF9F0ACCE2D49434a803C0D87211F753A <span style='mso-element:field-end'></span> ) intended for a specific purpose along its length with adequate clearance for its purpose]]></definition>
+					<note>Lanes are often bounded by lane markings.</note>
+					<note>Lanes may be significantly wider than the normal vehicle width to allow variance in lane position of the vehicle as well as for various vehicle dimensions.</note>
+					<note>The "lane" nomenclature typically refers to motor vehicle usage, but can also refer to other purposes, such as sidewalks.</note>
+					<note>The term "lane" is often used in place of "travel lane" but other lane types exist.</note>
+					<example>shoulder</example>
 					<index>lane</index>
-				</term>
-				<term>
-					<id>14</id>
-					<clause>3.7.1.14</clause>
-					<guid>id31A996B22C8148cd82601B8EF09D16CD</guid>
-					<name>lane group</name>
-					<definition><![CDATA[]]></definition>
-					<index>lane group</index>
 				</term>
 				<term>
 					<id>9</id>
 					<clause>3.7.1.9</clause>
 					<guid>id41E38785253045dfB624340C101985B5</guid>
 					<name>lay-by</name>
-					<definition><![CDATA[short lane at the edge of a carriageway designed to allow a motor vehicle to temporarily stop while traffic in other lanes proceed
-
-Note 1 to entry: Lay-bys might be used for emergency situations, picking up/dropping off passengers, etc.]]></definition>
+					<definition><![CDATA[short <i><a href="#idDAF8D75AA574422cADE5F6D094406BB4"><font color="#0000ff"><u>lane</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idDAF8D75AA574422cADE5F6D094406BB4 <span style='mso-element:field-end'></span> ) at the edge of a <i><a href="#id855CC715739D462e9790E893914D8768"><font color="#0000ff"><u>carriageway</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id855CC715739D462e9790E893914D8768 <span style='mso-element:field-end'></span> ) designed to allow a <i><a href="#idC836FDA5C4344a98BC71F1C25FDC5A5E"><font color="#0000ff"><u>motor vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC836FDA5C4344a98BC71F1C25FDC5A5E <span style='mso-element:field-end'></span> ) to temporarily stop while traffic in other <i><a href="#idDAF8D75AA574422cADE5F6D094406BB4"><font color="#0000ff"><u>lanes</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idDAF8D75AA574422cADE5F6D094406BB4 <span style='mso-element:field-end'></span> ) proceed]]></definition>
 					<index>lay-by</index>
 				</term>
 				<term>
@@ -1085,8 +1174,8 @@ Note 1 to entry: Lay-bys might be used for emergency situations, picking up/drop
 					<clause>3.7.1.4</clause>
 					<guid>id7B16CBDFBD9E42008A5F6C13E5CF80CE</guid>
 					<name>multi-carriageway</name>
-					<definition><![CDATA[roadway comprised of more than two carriageways
-Note 1 to entry: The separate carriageways are typically designed for separate traffic for (often multiple) specific operational reasons, such as direction of travel, category of vehicle (e.g., high occupancy vehicle), local versus through travel, etc.]]></definition>
+					<definition><![CDATA[<i><a href="#id3F880EDEBFE84014A43B46167936F4B1"><font color="#0000ff"><u>roadway</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3F880EDEBFE84014A43B46167936F4B1 <span style='mso-element:field-end'></span> ) comprised of more than two <i><a href="#id855CC715739D462e9790E893914D8768"><font color="#0000ff"><u>carriageways</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id855CC715739D462e9790E893914D8768 <span style='mso-element:field-end'></span> )]]></definition>
+					<note>The separate carriageways are typically designed for separate traffic for (often multiple) specific operational reasons, such as direction of travel, category of vehicle (e.g., high occupancy vehicle), local versus through travel, etc.</note>
 					<index>multi-carriageway</index>
 				</term>
 				<term>
@@ -1094,31 +1183,19 @@ Note 1 to entry: The separate carriageways are typically designed for separate t
 					<clause>3.7.1.11</clause>
 					<guid>id5F800D4BC9554ef0B8B5174EDCCD4192</guid>
 					<name>reserved lane</name>
-					<definition><![CDATA[travel lane restricted to a specific subset of motor vehicles
-
-EXAMPLE 1	Bus lane
-EXAMPLE 2	High-occupancy vehicle lane]]></definition>
+					<definition><![CDATA[<i><a href="#id1240152ED5B6429eA0A4B380F1D798E4"><font color="#0000ff"><u>travel lane</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1240152ED5B6429eA0A4B380F1D798E4 <span style='mso-element:field-end'></span> ) restricted to a specific subset of <i><a href="#idC836FDA5C4344a98BC71F1C25FDC5A5E"><font color="#0000ff"><u>motor vehicles</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC836FDA5C4344a98BC71F1C25FDC5A5E <span style='mso-element:field-end'></span> )]]></definition>
+					<example>Bus lane</example>
+					<example>High-occupancy vehicle lane</example>
 					<index>reserved lane</index>
 				</term>
 				<term>
-					<id>12</id>
-					<clause>3.7.1.12</clause>
-					<guid>idF9F0ACCE2D49434a803C0D87211F753A</guid>
-					<name>right-of-way</name>
-					<definition><![CDATA[easement of land reserved for transportation purposes
-Note 1 to entry: The right-of-way includes all carriageways as well as a significant width to allow for roadside devices, clearance zones, sidewalks, drainage facilities, sound walls, etc.]]></definition>
-					<index>right-of-way</index>
-				</term>
-				<term>
-					<id>16</id>
-					<clause>3.7.1.16</clause>
+					<id>15</id>
+					<clause>3.7.1.15</clause>
 					<guid>id72937CE094414775B90C995DFCB64EEB</guid>
 					<name>road</name>
-					<definition><![CDATA[contiguous curvilinear length of the road network that shares the same name
-
-Note 1 to entry:	A road may turn at a junction.
-
-Note 2 to entry: A length of the road network may be referenced by multiple names (e.g., Main Street and Route 7). In this case, there would be two "roads" that share the same set of "carriageways".]]></definition>
+					<definition><![CDATA[contiguous curvilinear length of the <i><a href="#idEF0DB12C0BE247319EF2AC75AC234F8F"><font color="#0000ff"><u>road network</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idEF0DB12C0BE247319EF2AC75AC234F8F <span style='mso-element:field-end'></span> ) that shares the same name]]></definition>
+					<note>A length of the road network may be referenced by multiple names (e.g., Main Street and Route 7). In this case, there would be two "roads" that share the same set of "carriageways".</note>
+					<note>A road may turn at a junction.</note>
 					<index>road</index>
 				</term>
 				<term>
@@ -1126,7 +1203,7 @@ Note 2 to entry: A length of the road network may be referenced by multiple name
 					<clause>3.7.1.13</clause>
 					<guid>id718D31DE1698436a9BA71D3F4512432A</guid>
 					<name>roadside</name>
-					<definition><![CDATA[width between one edge of the right-of-way and the closest edge of a carriageway]]></definition>
+					<definition><![CDATA[width between one edge of the <i><a href="#idF9F0ACCE2D49434a803C0D87211F753A"><font color="#0000ff"><u>right-of-way</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF9F0ACCE2D49434a803C0D87211F753A <span style='mso-element:field-end'></span> ) and the closest edge of a <i><a href="#id855CC715739D462e9790E893914D8768"><font color="#0000ff"><u>carriageway</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id855CC715739D462e9790E893914D8768 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>roadside</index>
 				</term>
 				<term>
@@ -1134,8 +1211,8 @@ Note 2 to entry: A length of the road network may be referenced by multiple name
 					<clause>3.7.1.1</clause>
 					<guid>id3F880EDEBFE84014A43B46167936F4B1</guid>
 					<name>roadway</name>
-					<definition><![CDATA[part of the right-of-way designed for use by motor vehicles
-Note 1 to entry: Roadway relates to a cross-section of a road facility (i.e., zero length). See "road", "road section", "road segment", and "road link" for different types of stretches of roadway. ]]></definition>
+					<definition><![CDATA[part of the <i><a href="#idF9F0ACCE2D49434a803C0D87211F753A"><font color="#0000ff"><u>easement</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF9F0ACCE2D49434a803C0D87211F753A <span style='mso-element:field-end'></span> ) designed for use by <i><a href="#idC836FDA5C4344a98BC71F1C25FDC5A5E"><font color="#0000ff"><u>motor vehicles</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC836FDA5C4344a98BC71F1C25FDC5A5E <span style='mso-element:field-end'></span> )]]></definition>
+					<note>Roadway relates to a cross-section of a road facility (i.e., zero length). See "road", "road section", "road segment", and "road link" for different types of stretches of roadway.</note>
 					<index>roadway</index>
 				</term>
 				<term>
@@ -1143,7 +1220,7 @@ Note 1 to entry: Roadway relates to a cross-section of a road facility (i.e., ze
 					<clause>3.7.1.6</clause>
 					<guid>id947856123B8C483fA4EA168B5D71D241</guid>
 					<name>separation barrier</name>
-					<definition><![CDATA[barrier that separates carriageways]]></definition>
+					<definition><![CDATA[barrier that separates <i><a href="#id855CC715739D462e9790E893914D8768"><font color="#0000ff"><u>carriageways</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id855CC715739D462e9790E893914D8768 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>separation barrier</index>
 				</term>
 				<term>
@@ -1151,8 +1228,8 @@ Note 1 to entry: Roadway relates to a cross-section of a road facility (i.e., ze
 					<clause>3.7.1.10</clause>
 					<guid>id3ED71F1C6B5043bfA551091CE068AA9D</guid>
 					<name>shoulder</name>
-					<definition><![CDATA[lane between the edge of a carriageway and any slope or edge of right-of-way.
-Note 1 to entry: The shoulder might be used for emergency stops or other purposes in addition to providing a clear zone and to promote ground stability at the edge of the carriageway.]]></definition>
+					<definition><![CDATA[<i><a href="#idDAF8D75AA574422cADE5F6D094406BB4"><font color="#0000ff"><u>lane</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idDAF8D75AA574422cADE5F6D094406BB4 <span style='mso-element:field-end'></span> ) between the edge of a <i><a href="#id855CC715739D462e9790E893914D8768"><font color="#0000ff"><u>carriageway</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id855CC715739D462e9790E893914D8768 <span style='mso-element:field-end'></span> ) and any slope or edge of <i><a href="#idF9F0ACCE2D49434a803C0D87211F753A"><font color="#0000ff"><u>right-of-way</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF9F0ACCE2D49434a803C0D87211F753A <span style='mso-element:field-end'></span> )]]></definition>
+					<note>The shoulder might be used for emergency stops or other purposes in addition to providing a clear zone and to promote ground stability at the edge of the carriageway.</note>
 					<index>shoulder</index>
 				</term>
 				<term>
@@ -1160,16 +1237,17 @@ Note 1 to entry: The shoulder might be used for emergency stops or other purpose
 					<clause>3.7.1.2</clause>
 					<guid>idE5751E37A4C94387B5E781D19EDB099A</guid>
 					<name>single carriageway</name>
-					<definition><![CDATA[syn: undivided highway
-roadway comprised of exactly one carriageway]]></definition>
+					<admittedTerm>undivided highway</admittedTerm>
+					<definition><![CDATA[<i><a href="#id3F880EDEBFE84014A43B46167936F4B1"><font color="#0000ff"><u>roadway</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3F880EDEBFE84014A43B46167936F4B1 <span style='mso-element:field-end'></span> ) comprised of exactly one <i><a href="#id855CC715739D462e9790E893914D8768"><font color="#0000ff"><u>carriageway</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id855CC715739D462e9790E893914D8768 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>single carriageway</index>
+					<index>undivided highway</index>
 				</term>
 				<term>
 					<id>8</id>
 					<clause>3.7.1.8</clause>
 					<guid>id1240152ED5B6429eA0A4B380F1D798E4</guid>
 					<name>travel lane</name>
-					<definition><![CDATA[<b>lane</b> intended to allow <b>motor vehicles</b> to travel from one end of a <b>road link</b> to the other]]></definition>
+					<definition><![CDATA[<i><a href="#idDAF8D75AA574422cADE5F6D094406BB4"><font color="#0000ff"><u>lane</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idDAF8D75AA574422cADE5F6D094406BB4 <span style='mso-element:field-end'></span> ) intended to allow <i><a href="#idC836FDA5C4344a98BC71F1C25FDC5A5E"><font color="#0000ff"><u>motor vehicles</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC836FDA5C4344a98BC71F1C25FDC5A5E <span style='mso-element:field-end'></span> ) to travel from one end of a <i><a href="#idC615C2E3B7124c83B83FE649EAF6AD04"><font color="#0000ff"><u>road link</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC615C2E3B7124c83B83FE649EAF6AD04 <span style='mso-element:field-end'></span> ) to the other]]></definition>
 					<index>travel lane</index>
 				</term>
 				<term>
@@ -1184,16 +1262,18 @@ roadway comprised of exactly one carriageway]]></definition>
 			<package>
 				<id>2</id>
 				<clause>3.7.2</clause>
-				<name>3.7.2 Road network</name>
+				<name>3.7.2 Road network terms</name>
+				<figure>
+					<guid>idBA23380A60C8430dBBAC4BD0464A7BC3</guid>
+					<name>road network terms</name>
+					<img><![CDATA[<img src="images/road network terms.png" alt="road network terms" />]]></img>
+				</figure>
 				<term>
 					<id>1</id>
 					<clause>3.7.2.1</clause>
 					<guid>id4D454D04956F440b8C7812E326195D21</guid>
 					<name>directional lanes</name>
-					<definition><![CDATA[collection of all travel lanes of a road link that are intended to allow travel in the same direction 
-Note 1 to entry: In actual use, an indication of the direction typically replaces the term "directional"
-EXAMPLE 1 The eastbound lanes on a road
-EXAMPLE 2 The north approach lanes at an intersection]]></definition>
+					<definition><![CDATA[collection of all <i><a href="#id1240152ED5B6429eA0A4B380F1D798E4"><font color="#0000ff"><u>travel lanes</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1240152ED5B6429eA0A4B380F1D798E4 <span style='mso-element:field-end'></span> ) of a <i><a href="#idC615C2E3B7124c83B83FE649EAF6AD04"><font color="#0000ff"><u>road link</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC615C2E3B7124c83B83FE649EAF6AD04 <span style='mso-element:field-end'></span> ) that are intended to allow travel in the same direction \r\n<br />Note 1 to entry: In actual use, an indication of the direction typically replaces the term "directional"\r\n<br />EXAMPLE 1 The eastbound lanes on a road\r\n<br />EXAMPLE 2 The north approach lanes at an intersection]]></definition>
 					<index>directional lanes</index>
 				</term>
 				<term>
@@ -1201,7 +1281,7 @@ EXAMPLE 2 The north approach lanes at an intersection]]></definition>
 					<clause>3.7.2.2</clause>
 					<guid>id127FB835502F497a9F4FB2F5C4291560</guid>
 					<name>directional lanes link</name>
-					<definition><![CDATA[collection of all lane links of the same road link designed for travel in the same direction]]></definition>
+					<definition><![CDATA[collection of all <i><a href="#id71C155448DD245f68AFCA875F0884C00"><font color="#0000ff"><u>lane links</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id71C155448DD245f68AFCA875F0884C00 <span style='mso-element:field-end'></span> ) of the same <i><a href="#idC615C2E3B7124c83B83FE649EAF6AD04"><font color="#0000ff"><u>road link</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC615C2E3B7124c83B83FE649EAF6AD04 <span style='mso-element:field-end'></span> ) and <i><a href="#id855CC715739D462e9790E893914D8768"><font color="#0000ff"><u>carriageway</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id855CC715739D462e9790E893914D8768 <span style='mso-element:field-end'></span> ) designed for travel in the same direction]]></definition>
 					<index>directional lanes link</index>
 				</term>
 				<term>
@@ -1209,7 +1289,7 @@ EXAMPLE 2 The north approach lanes at an intersection]]></definition>
 					<clause>3.7.2.3</clause>
 					<guid>id71C155448DD245f68AFCA875F0884C00</guid>
 					<name>lane link</name>
-					<definition><![CDATA[lane with starting and ending points that correspond to the starting and ending points of a road link]]></definition>
+					<definition><![CDATA[<i><a href="#idDAF8D75AA574422cADE5F6D094406BB4"><font color="#0000ff"><u>lane</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idDAF8D75AA574422cADE5F6D094406BB4 <span style='mso-element:field-end'></span> ) with starting and ending points that correspond to the starting and ending points of a <i><a href="#idC615C2E3B7124c83B83FE649EAF6AD04"><font color="#0000ff"><u>road link</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC615C2E3B7124c83B83FE649EAF6AD04 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>lane link</index>
 				</term>
 				<term>
@@ -1217,7 +1297,7 @@ EXAMPLE 2 The north approach lanes at an intersection]]></definition>
 					<clause>3.7.2.4</clause>
 					<guid>idBD5D2448C2D54cf1975BD44B0B0F0A99</guid>
 					<name>lane section</name>
-					<definition><![CDATA[complete sequential series of lane segments within a road section]]></definition>
+					<definition><![CDATA[complete sequential series of <i><a href="#idE28C5D7863C84be78BBC6FDBB1153BBB"><font color="#0000ff"><u>lane segments</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idE28C5D7863C84be78BBC6FDBB1153BBB <span style='mso-element:field-end'></span> ) within a <i><a href="#id3A03AC4535C54232A92AD8E01B5AFDA0"><font color="#0000ff"><u>road section</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3A03AC4535C54232A92AD8E01B5AFDA0 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>lane section</index>
 				</term>
 				<term>
@@ -1225,8 +1305,7 @@ EXAMPLE 2 The north approach lanes at an intersection]]></definition>
 					<clause>3.7.2.5</clause>
 					<guid>idE28C5D7863C84be78BBC6FDBB1153BBB</guid>
 					<name>lane segment</name>
-					<definition><![CDATA[complete sequential series of lane links within a road segment 
-Note 1 to entry: A lane segment might start or end at locations other than the start or end of the corresponding road segment (e.g., a lane may start mid-block).]]></definition>
+					<definition><![CDATA[complete sequential series of <i><a href="#id71C155448DD245f68AFCA875F0884C00"><font color="#0000ff"><u>lane links</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id71C155448DD245f68AFCA875F0884C00 <span style='mso-element:field-end'></span> ) within a <i><a href="#idE86C320F77B445a18BB03478ACD8CBB2"><font color="#0000ff"><u>road segment</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idE86C320F77B445a18BB03478ACD8CBB2 <span style='mso-element:field-end'></span> ) \r\n<br />Note 1 to entry: A lane segment might start or end at locations other than the start or end of the corresponding road segment (e.g., a lane may start mid-block).]]></definition>
 					<index>lane segment</index>
 				</term>
 				<term>
@@ -1234,9 +1313,7 @@ Note 1 to entry: A lane segment might start or end at locations other than the s
 					<clause>3.7.2.6</clause>
 					<guid>idC615C2E3B7124c83B83FE649EAF6AD04</guid>
 					<name>road link</name>
-					<definition><![CDATA[contiguous length of a road segment that is described by the same set of physical characteristics
-
-Note 1 to entry: The definition of road segments is highly dependent on what characteristics are modelled by the implementation. Characteristics that might result in a new road segment include: addition or subtraction of a lane, a change in roadway width, the change of road type (e.g., start/end of a bridge), etc. ]]></definition>
+					<definition><![CDATA[contiguous length of a <i><a href="#idE86C320F77B445a18BB03478ACD8CBB2"><font color="#0000ff"><u>road segment</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idE86C320F77B445a18BB03478ACD8CBB2 <span style='mso-element:field-end'></span> ) that is described by the same set of physical characteristics\r\n<br />\r\n<br />Note 1 to entry: The definition of road segments is highly dependent on what characteristics are modelled by the implementation. Characteristics that might result in a new road segment include: addition or subtraction of a lane, a change in roadway width, the change of road type (e.g., start/end of a bridge), etc. ]]></definition>
 					<index>road link</index>
 				</term>
 				<term>
@@ -1244,7 +1321,7 @@ Note 1 to entry: The definition of road segments is highly dependent on what cha
 					<clause>3.7.2.7</clause>
 					<guid>idEF0DB12C0BE247319EF2AC75AC234F8F</guid>
 					<name>road network</name>
-					<definition><![CDATA[network of routes designed for the use of motor vehicles ]]></definition>
+					<definition><![CDATA[network of routes designed for the use of <i><a href="#idC836FDA5C4344a98BC71F1C25FDC5A5E"><font color="#0000ff"><u>motor vehicles</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC836FDA5C4344a98BC71F1C25FDC5A5E <span style='mso-element:field-end'></span> ) ]]></definition>
 					<index>road network</index>
 				</term>
 				<term>
@@ -1252,9 +1329,7 @@ Note 1 to entry: The definition of road segments is highly dependent on what cha
 					<clause>3.7.2.8</clause>
 					<guid>id3A03AC4535C54232A92AD8E01B5AFDA0</guid>
 					<name>road section</name>
-					<definition><![CDATA[contiguous length of a road that shares the same management and operational characteristics
-
-EXAMPLE	A traffic signal timing plan is applied to one road section.]]></definition>
+					<definition><![CDATA[contiguous length of a <i><a href="#id72937CE094414775B90C995DFCB64EEB"><font color="#0000ff"><u>road</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id72937CE094414775B90C995DFCB64EEB <span style='mso-element:field-end'></span> ) that shares the same management and operational characteristics\r\n<br />\r\n<br />EXAMPLE	A traffic signal timing plan is applied to one road section.]]></definition>
 					<index>road section</index>
 				</term>
 				<term>
@@ -1262,20 +1337,25 @@ EXAMPLE	A traffic signal timing plan is applied to one road section.]]></definit
 					<clause>3.7.2.9</clause>
 					<guid>idE86C320F77B445a18BB03478ACD8CBB2</guid>
 					<name>road segment</name>
-					<definition><![CDATA[contiguous length of a road section bounded by a junction or a termination point at both ends]]></definition>
+					<definition><![CDATA[contiguous length of a <i><a href="#id3A03AC4535C54232A92AD8E01B5AFDA0"><font color="#0000ff"><u>road section</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id3A03AC4535C54232A92AD8E01B5AFDA0 <span style='mso-element:field-end'></span> ) bounded by a <i><a href="#id6C52075FBEAD42d4B0FB9C8A7F8FD833"><font color="#0000ff"><u>junction</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id6C52075FBEAD42d4B0FB9C8A7F8FD833 <span style='mso-element:field-end'></span> ) or a termination point at both ends\r\n<br />\r\n<br />MIGHT END POINTS ALSO INCLUDE JURISDICTIONAL BOUNDARIES?]]></definition>
 					<index>road segment</index>
 				</term>
 			</package>
 			<package>
 				<id>3</id>
 				<clause>3.7.3</clause>
-				<name>3.7.3 Junction</name>
+				<name>3.7.3 Junction terms</name>
+				<figure>
+					<guid>id9FF54E46A2C94df09BCC75329B18FDC4</guid>
+					<name>junction terms</name>
+					<img><![CDATA[<img src="images/junction terms.png" alt="junction terms" />]]></img>
+				</figure>
 				<term>
 					<id>4</id>
 					<clause>3.7.3.4</clause>
 					<guid>idA779A8E79A9446949679D6C81EA7934A</guid>
 					<name>approach lane</name>
-					<definition><![CDATA[travel lane designed for entry into a junction]]></definition>
+					<definition><![CDATA[<i><a href="#id1240152ED5B6429eA0A4B380F1D798E4"><font color="#0000ff"><u>travel lane</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1240152ED5B6429eA0A4B380F1D798E4 <span style='mso-element:field-end'></span> ) designed for entry into a <i><a href="#id6C52075FBEAD42d4B0FB9C8A7F8FD833"><font color="#0000ff"><u>junction</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id6C52075FBEAD42d4B0FB9C8A7F8FD833 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>approach lane</index>
 				</term>
 				<term>
@@ -1283,7 +1363,7 @@ EXAMPLE	A traffic signal timing plan is applied to one road section.]]></definit
 					<clause>3.7.3.7</clause>
 					<guid>idDD820C7BE8CD41e9A34015AFAF30ABE1</guid>
 					<name>approach link</name>
-					<definition><![CDATA[directional lanes link representing all approach lanes on a road link]]></definition>
+					<definition><![CDATA[<i><a href="#id127FB835502F497a9F4FB2F5C4291560"><font color="#0000ff"><u>directional lanes link</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id127FB835502F497a9F4FB2F5C4291560 <span style='mso-element:field-end'></span> ) representing all <i><a href="#idA779A8E79A9446949679D6C81EA7934A"><font color="#0000ff"><u>approach lanes</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idA779A8E79A9446949679D6C81EA7934A <span style='mso-element:field-end'></span> ) on a <i><a href="#idC615C2E3B7124c83B83FE649EAF6AD04"><font color="#0000ff"><u>road link</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC615C2E3B7124c83B83FE649EAF6AD04 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>approach link</index>
 				</term>
 				<term>
@@ -1291,7 +1371,7 @@ EXAMPLE	A traffic signal timing plan is applied to one road section.]]></definit
 					<clause>3.7.3.5</clause>
 					<guid>idCC2F0AF206E94b6c811F65B1BC7B60A7</guid>
 					<name>egress lane</name>
-					<definition><![CDATA[travel lane designed for exiting from a junction]]></definition>
+					<definition><![CDATA[<i><a href="#id1240152ED5B6429eA0A4B380F1D798E4"><font color="#0000ff"><u>travel lane</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id1240152ED5B6429eA0A4B380F1D798E4 <span style='mso-element:field-end'></span> ) designed for exiting from a <i><a href="#id6C52075FBEAD42d4B0FB9C8A7F8FD833"><font color="#0000ff"><u>junction</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id6C52075FBEAD42d4B0FB9C8A7F8FD833 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>egress lane</index>
 				</term>
 				<term>
@@ -1299,7 +1379,7 @@ EXAMPLE	A traffic signal timing plan is applied to one road section.]]></definit
 					<clause>3.7.3.8</clause>
 					<guid>id323A4AC5269841cc961EF73B00C2284F</guid>
 					<name>egress link</name>
-					<definition><![CDATA[directional lanes link representing all egress lanes on a road link]]></definition>
+					<definition><![CDATA[<i><a href="#id127FB835502F497a9F4FB2F5C4291560"><font color="#0000ff"><u>directional lanes link</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id127FB835502F497a9F4FB2F5C4291560 <span style='mso-element:field-end'></span> ) representing all <i><a href="#idCC2F0AF206E94b6c811F65B1BC7B60A7"><font color="#0000ff"><u>egress lanes</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idCC2F0AF206E94b6c811F65B1BC7B60A7 <span style='mso-element:field-end'></span> ) on a <i><a href="#idC615C2E3B7124c83B83FE649EAF6AD04"><font color="#0000ff"><u>road link</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC615C2E3B7124c83B83FE649EAF6AD04 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>egress link</index>
 				</term>
 				<term>
@@ -1307,10 +1387,7 @@ EXAMPLE	A traffic signal timing plan is applied to one road section.]]></definit
 					<clause>3.7.3.3</clause>
 					<guid>idDECB4F677C08443cA409BFF38F03753A</guid>
 					<name>interchange</name>
-					<definition><![CDATA[junction where at least one movement is grade separated from all other movements
-Note 1 to entry: The grade separation allows travelers on the link to pass unimpeded through the junction when congestion is not present.
-Note 2 to entry: The concept of an interchange includes all movements at the junction, which may include multiple intersections.
-Example: A diamond interchange has two intersections. ]]></definition>
+					<definition><![CDATA[<i><a href="#id6C52075FBEAD42d4B0FB9C8A7F8FD833"><font color="#0000ff"><u>junction</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id6C52075FBEAD42d4B0FB9C8A7F8FD833 <span style='mso-element:field-end'></span> ) where at least one movement is grade separated from all other movements\r\n<br />Note 1 to entry: The grade separation allows travelers on the link to pass unimpeded through the junction when congestion is not present.\r\n<br />Note 2 to entry: The concept of an interchange includes all movements at the junction, which may include multiple intersections.\r\n<br />Example: A diamond interchange has two intersections. ]]></definition>
 					<index>interchange</index>
 				</term>
 				<term>
@@ -1318,7 +1395,7 @@ Example: A diamond interchange has two intersections. ]]></definition>
 					<clause>3.7.3.2</clause>
 					<guid>idA3C484DBF15D4b338F5C8C0A15EA4F2E</guid>
 					<name>intersection</name>
-					<definition><![CDATA[at-grade junction]]></definition>
+					<definition><![CDATA[at-grade <i><a href="#id6C52075FBEAD42d4B0FB9C8A7F8FD833"><font color="#0000ff"><u>junction</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id6C52075FBEAD42d4B0FB9C8A7F8FD833 <span style='mso-element:field-end'></span> ), or a portion thereof, that is operated as a single entity\r\n<br />Note 1 to entry: An at-grade junction of two dual carriageways would be considered a single intersection if right-of-way at the junction is determined by a single set of control logic (e.g., a traffic signal); however, such a junction could be operated as four distinct intersections, especially if the separation barriers were geographically large.]]></definition>
 					<index>intersection</index>
 				</term>
 				<term>
@@ -1326,9 +1403,7 @@ Example: A diamond interchange has two intersections. ]]></definition>
 					<clause>3.7.3.1</clause>
 					<guid>id6C52075FBEAD42d4B0FB9C8A7F8FD833</guid>
 					<name>junction</name>
-					<definition><![CDATA[nexus where two or more carriageways meet and travelers may connect to adjoining links
-
-Note 1 to entry: While the nexus is sometimes modelled as a point, it does in fact consume space]]></definition>
+					<definition><![CDATA[nexus where two or more roads meet in a manner that allows travelers to change roads\r\n<br />\r\n<br />Note 1 to entry: While the nexus is sometimes modelled as a point, it does in fact consume space]]></definition>
 					<index>junction</index>
 				</term>
 				<term>
@@ -1336,47 +1411,28 @@ Note 1 to entry: While the nexus is sometimes modelled as a point, it does in fa
 					<clause>3.7.3.6</clause>
 					<guid>id04E1EDE4CEA745d89693A1CAED746C7C</guid>
 					<name>maneuver</name>
-					<definition><![CDATA[movement from an approach lane to an egress lane]]></definition>
+					<definition><![CDATA[movement from an <i><a href="#idA779A8E79A9446949679D6C81EA7934A"><font color="#0000ff"><u>approach lane</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idA779A8E79A9446949679D6C81EA7934A <span style='mso-element:field-end'></span> ) to an <i><a href="#idCC2F0AF206E94b6c811F65B1BC7B60A7"><font color="#0000ff"><u>egress lane</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idCC2F0AF206E94b6c811F65B1BC7B60A7 <span style='mso-element:field-end'></span> )]]></definition>
 					<index>maneuver</index>
-				</term>
-				<term>
-					<id>9</id>
-					<clause>3.7.3.9</clause>
-					<guid>id12F5723EEBFB4274BC7CE01D5AF7B22D</guid>
-					<name>signal</name>
-					<definition><![CDATA[]]></definition>
-					<index>signal</index>
 				</term>
 			</package>
 		</package>
 		<package>
 			<id>8</id>
 			<clause>3.8</clause>
-			<name>3.8 Vehicle types</name>
-			<term>
-				<id>17</id>
-				<clause>3.8.17</clause>
-				<guid>idD0C58DE87412439c9CE7773DC5E2FB37</guid>
-				<name>articulated vehicle</name>
-				<definition><![CDATA["Articulated vehicle" means a vehicle which consists of two or more rigid sections which articulate relative to one another; the passenger compartments of each section intercommunicate so that passengers can move freely between them; the rigid sections are permanently connected so that they can only be separated by an operation involving facilities which are normally only found in a workshop;
-[UNECE WP.29/1045]]]></definition>
-				<index>articulated vehicle</index>
-			</term>
-			<term>
-				<id>18</id>
-				<clause>3.8.18</clause>
-				<guid>id30D0139B138E427995A7169B36C821FA</guid>
-				<name>automated vehicle</name>
-				<definition><![CDATA[]]></definition>
-				<index>automated vehicle</index>
-			</term>
+			<name>3.8 Vehicle type terms</name>
+			<figure>
+				<guid>id5DF474B621604ed1BF9838237757D315</guid>
+				<name>vehicle type terms</name>
+				<img><![CDATA[<img src="images/vehicle type terms.png" alt="vehicle type terms" />]]></img>
+				<text>
+</text>
+			</figure>
 			<term>
 				<id>11</id>
 				<clause>3.8.11</clause>
 				<guid>id29D960837EC74ef5A4A17023C48287E8</guid>
 				<name>bicycle</name>
-				<definition><![CDATA[human-powered vehicle with two wheels 
-]]></definition>
+				<definition><![CDATA[<i><a href="#id49A50B8238DB4306938080630FB05EEC"><font color="#0000ff"><u>human-powered vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id49A50B8238DB4306938080630FB05EEC <span style='mso-element:field-end'></span> ) with two wheels \r\n<br />]]></definition>
 				<index>bicycle</index>
 			</term>
 			<term>
@@ -1384,77 +1440,15 @@ Note 1 to entry: While the nexus is sometimes modelled as a point, it does in fa
 				<clause>3.8.13</clause>
 				<guid>id05976B8BC7A84b0e93DA8793E35357A0</guid>
 				<name>cart</name>
-				<definition><![CDATA[externally-propelled vehicle propelled by an animal (which might be a person)
-]]></definition>
+				<definition><![CDATA[<i><a href="#id9FB48FCCA5BD47288C38AFE544A2F3EC"><font color="#0000ff"><u>externally-propelled vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id9FB48FCCA5BD47288C38AFE544A2F3EC <span style='mso-element:field-end'></span> ) propelled by an animal (which might be a person)\r\n<br />]]></definition>
 				<index>cart</index>
-			</term>
-			<term>
-				<id>19</id>
-				<clause>3.8.19</clause>
-				<guid>idE88517ED51CC44d3B4E0A276A7AA06A8</guid>
-				<name>commercial vehicle</name>
-				<definition><![CDATA[<font color="#313131">any type of motor vehicle used for transporting goods or paid passengers</font>
-<font color="#042655">ISO/TR 19083-1:2016(en), 3.5</font>
-]]></definition>
-				<index>commercial vehicle</index>
-			</term>
-			<term>
-				<id>20</id>
-				<clause>3.8.20</clause>
-				<guid>id4124C2CE8DB64b6a832067B2074BF266</guid>
-				<name>commerical motor vehicle</name>
-				<definition><![CDATA[<font color="#313131">self-propelled or towed motor <b>vehicle </b>(3.50) used on a highway in interstate commerce to transport passengers or property when the vehicle</font>
-<ul>
-	<li><font color="#313131">		a) has a gross vehicle weight rating or gross combination weight rating, or gross vehicle weight or gross combination weight, of 4 536 kg (10 001 pounds) or more, whichever is greater,</font></li>
-	<li><font color="#313131">		b) is designed or used to transport more than 8 passengers (including the driver) for compensation,</font></li>
-	<li><font color="#313131">		c) is designed or used to transport more than 15 passengers, including the driver, and is not used to transport passengers for compensation, or</font></li>
-	<li><font color="#313131">		d) is used in transporting material found by the Secretary of Transportation to be hazardous under 49 USC 5103 and transported in a quantity requiring placarding under regulations prescribed by the Secretary under 49 CFR, subtitle B, chapter I, subchapter C</font></li>
-</ul>
-<font color="#042655">ISO/TS 19091:2017(en), 3.6</font>
-]]></definition>
-				<index>commerical motor vehicle</index>
-			</term>
-			<term>
-				<id>21</id>
-				<clause>3.8.21</clause>
-				<guid>id49FF108A0CA140d49A439CF9BBABA1BB</guid>
-				<name>connected vehicle</name>
-				<definition><![CDATA[<font color="#313131">vehicle that contains a <b>connected device </b>(3.8)</font>
-<font color="#042655">ISO/TS 19091:2017(en), 3.9</font>
-<font color="#313131"><b>equipped </b><b>vehicle</b><b>(s)</b></font>
-<font color="#313131">vehicles equipped with the device(s) that provide the role of an <i>ITS-station</i> in the <b>C-ITS </b>(3.6) context</font>
-<font color="#042655">ISO/TR 17427-3:2015(en), 3.14</font>
-]]></definition>
-				<index>connected vehicle</index>
-			</term>
-			<term>
-				<id>22</id>
-				<clause>3.8.22</clause>
-				<guid>id75E34C40DC3A494dAC83E81955262D3F</guid>
-				<name>electric vehicle</name>
-				<definition><![CDATA[<font color="#313131">vehicle that is (partly) electrically powered and operated</font>
-<font color="#042655">ISO/TS 21219-25:2017(en), 3.1</font>
-]]></definition>
-				<index>electric vehicle</index>
-			</term>
-			<term>
-				<id>23</id>
-				<clause>3.8.23</clause>
-				<guid>id51C1CD32427548d6A3CA36D656564FCE</guid>
-				<name>external in-vehicle device</name>
-				<definition><![CDATA[<font color="#313131">devices such as mobile phones or dedicated units consisting of GNSS and/or cellular modules that are connected to DSRC-OBE for upgrading the functionalities of it</font>
-<font color="#042655">ISO/TS 16785:2014(en), 3.8</font>
-]]></definition>
-				<index>external in-vehicle device</index>
 			</term>
 			<term>
 				<id>12</id>
 				<clause>3.8.12</clause>
 				<guid>id9FB48FCCA5BD47288C38AFE544A2F3EC</guid>
 				<name>externally-propelled vehicle</name>
-				<definition><![CDATA[vehicle propelled by an external entity
-Note 1 to entry: 	The external entity is often a self-propelled vehicle, but may be any external source, including and not limited to an animal (e.g., an ox pulling a cart), a cable (e.g., San Francisco Trolley cars), or magnets (e.g., a maglev train).
-]]></definition>
+				<definition><![CDATA[<i><a href="#id555BFAB2A747457fB01D99511FDE885A"><font color="#0000ff"><u>vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id555BFAB2A747457fB01D99511FDE885A <span style='mso-element:field-end'></span> ) propelled by an external entity\r\n<br />Note 1 to entry: 	The external entity is often a self-propelled vehicle, but may be any external source, including and not limited to an animal (e.g., an ox pulling a cart), a cable (e.g., San Francisco Trolley cars), or magnets (e.g., a maglev train).\r\n<br />]]></definition>
 				<index>externally-propelled vehicle</index>
 			</term>
 			<term>
@@ -1462,28 +1456,15 @@ Note 1 to entry: 	The external entity is often a self-propelled vehicle, but may
 				<clause>3.8.7</clause>
 				<guid>id5D915587849B43558A29C56430F62C03</guid>
 				<name>goods vehicle</name>
-				<definition><![CDATA[motor vehicle with four or more wheels designed primarily for the carriage of goods per UNECE WP.29/1045
-Note 1 to entry:	UNECE WP.29/1045 provides a formula to disambiguate between passenger vehicles (Category 1 vehicles) and goods vehicles (Category 2 vehicles).
-]]></definition>
+				<definition><![CDATA[<i><a href="#idC836FDA5C4344a98BC71F1C25FDC5A5E"><font color="#0000ff"><u>motor vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC836FDA5C4344a98BC71F1C25FDC5A5E <span style='mso-element:field-end'></span> ) with four or more wheels designed primarily for the carriage of goods per UNECE WP.29/1045\r\n<br />Note 1 to entry:	UNECE WP.29/1045 provides a formula to disambiguate between passenger vehicles (Category 1 vehicles) and goods vehicles (Category 2 vehicles).\r\n<br />]]></definition>
 				<index>goods vehicle</index>
-			</term>
-			<term>
-				<id>24</id>
-				<clause>3.8.24</clause>
-				<guid>id213F1B0E86574a328BB521AD5CCDD8CD</guid>
-				<name>heavy vehicle</name>
-				<definition><![CDATA[<font color="#313131">any single vehicle or combination of vehicles defined as Category 1-2 or Category 2 in the United Nations Economic and Social Council World Forum for Harmonization of Vehicle Regulations (WP.29) TRANS/WP.29/1045</font>
-<font color="#042655">ISO 19237:2017(en), 3.4</font>
-]]></definition>
-				<index>heavy vehicle</index>
 			</term>
 			<term>
 				<id>10</id>
 				<clause>3.8.10</clause>
 				<guid>id49A50B8238DB4306938080630FB05EEC</guid>
 				<name>human-powered vehicle</name>
-				<definition><![CDATA[vehicle propelled by the muscular energy of one or more on-board person(s)
-]]></definition>
+				<definition><![CDATA[<i><a href="#idB08441BF9A294722835B3B7357A168C4"><font color="#0000ff"><u>self-propelled vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idB08441BF9A294722835B3B7357A168C4 <span style='mso-element:field-end'></span> ) propelled by the muscular energy of one or more on-board person(s)\r\n<br />]]></definition>
 				<index>human-powered vehicle</index>
 			</term>
 			<term>
@@ -1491,8 +1472,7 @@ Note 1 to entry:	UNECE WP.29/1045 provides a formula to disambiguate between pas
 				<clause>3.8.5</clause>
 				<guid>idD4A825C9195540028C470BC2D3E25807</guid>
 				<name>light-duty passenger vehicle</name>
-				<definition><![CDATA[passenger vehicle with not more than eight seating positions in addition to the driver’s seating position (if any) and not designed for standing passengers
-]]></definition>
+				<definition><![CDATA[<i><a href="#idF54BA07F34F947da99156CA6DC279B3B"><font color="#0000ff"><u>passenger vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF54BA07F34F947da99156CA6DC279B3B <span style='mso-element:field-end'></span> ) with not more than eight seating positions in addition to the driver’s seating position (if any) and not designed for standing passengers\r\n<br />]]></definition>
 				<index>light-duty passenger vehicle</index>
 			</term>
 			<term>
@@ -1500,7 +1480,7 @@ Note 1 to entry:	UNECE WP.29/1045 provides a formula to disambiguate between pas
 				<clause>3.8.14</clause>
 				<guid>id8E43F08CCF164a548E9B0FA81CC092A9</guid>
 				<name>maglev vehicle</name>
-				<definition><![CDATA[externally-propelled vehicle that is levitated through the use of opposing magnets and propelled through the use of coordinated electro-magnets along a track]]></definition>
+				<definition><![CDATA[<i><a href="#id9FB48FCCA5BD47288C38AFE544A2F3EC"><font color="#0000ff"><u>externally-propelled vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id9FB48FCCA5BD47288C38AFE544A2F3EC <span style='mso-element:field-end'></span> ) that is levitated through the use of opposing magnets and propelled through the use of coordinated electro-magnets along a track]]></definition>
 				<index>maglev vehicle</index>
 			</term>
 			<term>
@@ -1508,25 +1488,15 @@ Note 1 to entry:	UNECE WP.29/1045 provides a formula to disambiguate between pas
 				<clause>3.8.9</clause>
 				<guid>id922733CB88644a46B9EC338BEDABBD45</guid>
 				<name>moped</name>
-				<definition><![CDATA[motor vehicle with 2 or 3 wheels and a maximum design speed not exceeding 50 km/h
-]]></definition>
+				<definition><![CDATA[<i><a href="#idC836FDA5C4344a98BC71F1C25FDC5A5E"><font color="#0000ff"><u>motor vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC836FDA5C4344a98BC71F1C25FDC5A5E <span style='mso-element:field-end'></span> ) with 2 or 3 wheels and a maximum design speed not exceeding 50 km/h\r\n<br />]]></definition>
 				<index>moped</index>
-			</term>
-			<term>
-				<id>25</id>
-				<clause>3.8.25</clause>
-				<guid>idCF889FDE465A49f5A8F7F97ED69408FE</guid>
-				<name>motor</name>
-				<definition><![CDATA[]]></definition>
-				<index>motor</index>
 			</term>
 			<term>
 				<id>3</id>
 				<clause>3.8.3</clause>
 				<guid>idC836FDA5C4344a98BC71F1C25FDC5A5E</guid>
 				<name>motor vehicle</name>
-				<definition><![CDATA[vehicle propelled by an on-board motor, having at least two wheels, and designed to be used on a road network
-]]></definition>
+				<definition><![CDATA[<i><a href="#idB08441BF9A294722835B3B7357A168C4"><font color="#0000ff"><u>self-propelled vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idB08441BF9A294722835B3B7357A168C4 <span style='mso-element:field-end'></span> ) having at least two wheels, designed to be used on a road network, and propelled by an on-board motor\r\n<br />]]></definition>
 				<index>motor vehicle</index>
 			</term>
 			<term>
@@ -1534,8 +1504,7 @@ Note 1 to entry:	UNECE WP.29/1045 provides a formula to disambiguate between pas
 				<clause>3.8.8</clause>
 				<guid>id67B759675E174226A5272E7D8D7F6D93</guid>
 				<name>motorcycle</name>
-				<definition><![CDATA[motor vehicle with 2 or 3 wheels and a maximum design speed exceeding 50 km/h
-]]></definition>
+				<definition><![CDATA[<i><a href="#idC836FDA5C4344a98BC71F1C25FDC5A5E"><font color="#0000ff"><u>motor vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC836FDA5C4344a98BC71F1C25FDC5A5E <span style='mso-element:field-end'></span> ) with 2 or 3 wheels and a maximum design speed exceeding 50 km/h\r\n<br />]]></definition>
 				<index>motorcycle</index>
 			</term>
 			<term>
@@ -1543,8 +1512,7 @@ Note 1 to entry:	UNECE WP.29/1045 provides a formula to disambiguate between pas
 				<clause>3.8.6</clause>
 				<guid>id64B1872F39E1473cA68AED021CB6075F</guid>
 				<name>passenger shuttle</name>
-				<definition><![CDATA[passenger vehicle designed for the carriage of more than eight passengers, whether seated or standing, in addition to the driver (if any)
-]]></definition>
+				<definition><![CDATA[<i><a href="#idF54BA07F34F947da99156CA6DC279B3B"><font color="#0000ff"><u>passenger vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idF54BA07F34F947da99156CA6DC279B3B <span style='mso-element:field-end'></span> ) designed for the carriage of more than eight passengers, whether seated or standing, in addition to the driver (if any)\r\n<br />]]></definition>
 				<index>passenger shuttle</index>
 			</term>
 			<term>
@@ -1552,79 +1520,23 @@ Note 1 to entry:	UNECE WP.29/1045 provides a formula to disambiguate between pas
 				<clause>3.8.4</clause>
 				<guid>idF54BA07F34F947da99156CA6DC279B3B</guid>
 				<name>passenger vehicle</name>
-				<definition><![CDATA[motor vehicle with four or more wheels designed primarily for the carriage of (a) person(s)
-]]></definition>
+				<definition><![CDATA[<i><a href="#idC836FDA5C4344a98BC71F1C25FDC5A5E"><font color="#0000ff"><u>motor vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF idC836FDA5C4344a98BC71F1C25FDC5A5E <span style='mso-element:field-end'></span> ) with four or more wheels designed primarily for the carriage of (a) person(s)\r\n<br />]]></definition>
 				<index>passenger vehicle</index>
-			</term>
-			<term>
-				<id>26</id>
-				<clause>3.8.26</clause>
-				<guid>id57064E3D29D245af8B54F6ACC2501B42</guid>
-				<name>pedestrian</name>
-				<definition><![CDATA[]]></definition>
-				<index>pedestrian</index>
-			</term>
-			<term>
-				<id>27</id>
-				<clause>3.8.27</clause>
-				<guid>idEA16B706965E420696DDB434AAD5C8CD</guid>
-				<name>private vehicle</name>
-				<definition><![CDATA[]]></definition>
-				<index>private vehicle</index>
-			</term>
-			<term>
-				<id>28</id>
-				<clause>3.8.28</clause>
-				<guid>idE36A682688644e6dAC5000F6A04A6F14</guid>
-				<name>public transport vehicle</name>
-				<definition><![CDATA[<font color="#313131"><b>vehicle </b>(3.50) specifically designed to carry multiple passengers such as a bus</font>
-<font color="#042655">ISO/TS 19091:2017(en), 3.35</font>
-]]></definition>
-				<index>public transport vehicle</index>
-			</term>
-			<term>
-				<id>29</id>
-				<clause>3.8.29</clause>
-				<guid>id632C7350A10D49c1B863A47D7AC2B462</guid>
-				<name>regulated commercial freight vehicle</name>
-				<definition><![CDATA[<font color="#313131">vehicle that is subject to regulations determined by the <i>jurisdiction (</i></font><font color="#042655"><i>4.28</i></font><font color="#313131"><i>)</i> as to its use on the road system of the <i>jurisdiction</i> in regulated circumstances, subject to certain conditions, and in compliance with specific regulations for that class of regulated vehicle</font>
-<font color="#042655">ISO 15638-21:2018(en), 3.35</font>
-]]></definition>
-				<index>regulated commercial freight vehicle</index>
-			</term>
-			<term>
-				<id>30</id>
-				<clause>3.8.30</clause>
-				<guid>idA22E7FBF753F48db8A5EB07B74C4B7D8</guid>
-				<name>road network</name>
-				<definition><![CDATA[]]></definition>
-				<index>road network</index>
 			</term>
 			<term>
 				<id>2</id>
 				<clause>3.8.2</clause>
 				<guid>idB08441BF9A294722835B3B7357A168C4</guid>
 				<name>self-propelled vehicle</name>
-				<definition><![CDATA[vehicle propelled by an on-board source
-Note 1 to entry:	Contrast to externally propelled vehicle.
-]]></definition>
+				<definition><![CDATA[<i><a href="#id555BFAB2A747457fB01D99511FDE885A"><font color="#0000ff"><u>vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id555BFAB2A747457fB01D99511FDE885A <span style='mso-element:field-end'></span> ) propelled by an on-board source\r\n<br />Note 1 to entry:	Contrast to externally propelled vehicle.\r\n<br />]]></definition>
 				<index>self-propelled vehicle</index>
-			</term>
-			<term>
-				<id>33</id>
-				<clause>3.8.33</clause>
-				<guid>idCF21CD74EAA6465291309DC75A336664</guid>
-				<name>shared-use vehicle</name>
-				<definition><![CDATA[]]></definition>
-				<index>shared-use vehicle</index>
 			</term>
 			<term>
 				<id>15</id>
 				<clause>3.8.15</clause>
 				<guid>id944FF27412BA46beB3B0C9F7D02659E3</guid>
 				<name>sidecar</name>
-				<definition><![CDATA[externally-propelled vehicle attached to a motorcycle
-]]></definition>
+				<definition><![CDATA[<i><a href="#id9FB48FCCA5BD47288C38AFE544A2F3EC"><font color="#0000ff"><u>externally-propelled vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id9FB48FCCA5BD47288C38AFE544A2F3EC <span style='mso-element:field-end'></span> ) attached to a <i><a href="#id67B759675E174226A5272E7D8D7F6D93"><font color="#0000ff"><u>motorcycle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id67B759675E174226A5272E7D8D7F6D93 <span style='mso-element:field-end'></span> )\r\n<br />]]></definition>
 				<index>sidecar</index>
 			</term>
 			<term>
@@ -1632,49 +1544,33 @@ Note 1 to entry:	Contrast to externally propelled vehicle.
 				<clause>3.8.16</clause>
 				<guid>id9383B95BA1E54c6c8880451B3215F9FC</guid>
 				<name>trailer</name>
-				<definition><![CDATA[externally-propelled vehicle pulled by another vehicle
-EDITOR’S NOTE: Should this include self-propelled vehicles being towed?
-]]></definition>
+				<definition><![CDATA[<i><a href="#id9FB48FCCA5BD47288C38AFE544A2F3EC"><font color="#0000ff"><u>externally-propelled vehicle</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id9FB48FCCA5BD47288C38AFE544A2F3EC <span style='mso-element:field-end'></span> ) pulled by another vehicle\r\n<br />EDITOR’S NOTE: Should this include self-propelled vehicles being towed?\r\n<br />]]></definition>
 				<index>trailer</index>
-			</term>
-			<term>
-				<id>31</id>
-				<clause>3.8.31</clause>
-				<guid>idC0276FEEA91246af9AA2B7D2FC33E2FB</guid>
-				<name>transport user</name>
-				<definition><![CDATA[]]></definition>
-				<index>transport user</index>
 			</term>
 			<term>
 				<id>1</id>
 				<clause>3.8.1</clause>
 				<guid>id555BFAB2A747457fB01D99511FDE885A</guid>
 				<name>vehicle</name>
-				<definition><![CDATA[<font color="#042655">entity used to transport people or physical goods</font>
-]]></definition>
+				<definition><![CDATA[<i><a href="#id040D6A1B412A4cc6921882357A58F747"><font color="#0000ff"><u>entity</u></font></a></i> ( <span style='mso-element:field-begin'></span> REF id040D6A1B412A4cc6921882357A58F747 <span style='mso-element:field-end'></span> )<font color="#042655"> used to transport people or physical goods</font>\r\n<br />]]></definition>
 				<index>vehicle</index>
-			</term>
-			<term>
-				<id>32</id>
-				<clause>3.8.32</clause>
-				<guid>id593A35600C8C4d6aAC457D1BA8DE1B87</guid>
-				<name>wheel</name>
-				<definition><![CDATA[]]></definition>
-				<index>wheel</index>
 			</term>
 		</package>
 		<package>
 			<id>9</id>
 			<clause>3.9</clause>
-			<name>3.9 Documentation</name>
+			<name>3.9 Documentation terms</name>
+			<figure>
+				<guid>id9DCA05577E4B45199CC8302F4F1CE997</guid>
+				<name>documentation terms</name>
+				<img><![CDATA[<img src="images/documentation terms.png" alt="documentation terms" />]]></img>
+			</figure>
 			<term>
 				<id>1</id>
 				<clause>3.9.1</clause>
 				<guid>id4A70F89A05244b24BB1A8E79F4A960D7</guid>
 				<name>scenario</name>
-				<definition><![CDATA[&lt;use case&gt; a description of the sequence of events from the user’s perspective to perform a task in a specified context
-[ISO/IEC 25062:2006(en), A.17]
-]]></definition>
+				<definition><![CDATA[&lt;use case&gt; a description of the sequence of events from the user’s perspective to perform a task in a specified context\r\n<br />[ISO/IEC 25062:2006(en), A.17]\r\n<br />]]></definition>
 				<index>scenario</index>
 			</term>
 			<term>
@@ -1682,9 +1578,7 @@ EDITOR’S NOTE: Should this include self-propelled vehicles being towed?
 				<clause>3.9.2</clause>
 				<guid>idB812634369D2454eB386D61A68CA0B9A</guid>
 				<name>use case</name>
-				<definition><![CDATA[description of the behavioural requirements of a system and its interaction with a user
-[ISO/IEC/IEEE 26515:2011(en), 4.15]
-]]></definition>
+				<definition><![CDATA[description of the behavioural requirements of a system and its interaction with a user\r\n<br />[ISO/IEC/IEEE 26515:2011(en), 4.15]\r\n<br />]]></definition>
 				<index>use case</index>
 			</term>
 		</package>
