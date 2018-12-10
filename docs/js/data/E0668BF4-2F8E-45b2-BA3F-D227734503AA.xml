@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.3.1:1", "", "ITS service implementation", "EARoot/EA3/EA1/EA58.htm", "175.png", "6", "0", "", "Logical diagram0","{ECE6E788-7D66-4647-9EBB-5AD6249666CC}");
+tocTab[tocTab.length] = new Array("0.3.1:1", "", "ITS service implementation terms", "EARoot/EA3/EA1/EA58.htm", "175.png", "6", "0", "", "Logical diagram0","{ECE6E788-7D66-4647-9EBB-5AD6249666CC}");
 tocTab[tocTab.length] = new Array("0.3.1:2", "", "application template", "EARoot/EA3/EA1/EA62.htm", "5.png", "E241", "0", "", "Class0","{21EDE465-AC5A-4a85-A5EA-D8D0697DC4FF}");
 tocTab[tocTab.length] = new Array("0.3.1:3", "", "interoperability design", "EARoot/EA3/EA1/EA63.htm", "5.png", "E213", "0", "", "Class0","{57304751-4B81-4efe-85FC-FA271736EE72}");
 tocTab[tocTab.length] = new Array("0.3.1:4", "", "ITS application", "EARoot/EA3/EA1/EA64.htm", "5.png", "E35", "0", "", "Class0","{1A22C407-CEBA-41c4-95E1-D89FC4C87504}");

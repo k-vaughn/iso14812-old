@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.4.3:1", "", "ITS Architecture Views", "EARoot/EA4/EA3/EA109.htm", "175.png", "10", "0", "", "Logical diagram0","{2F972E90-1AA2-49c8-9973-8A8B3BED7355}");
+tocTab[tocTab.length] = new Array("0.4.3:1", "", "architecture view terms", "EARoot/EA4/EA3/EA109.htm", "175.png", "10", "0", "", "Logical diagram0","{2F972E90-1AA2-49c8-9973-8A8B3BED7355}");
 tocTab[tocTab.length] = new Array("0.4.3:2", "", "communications view", "EARoot/EA4/EA3/EA112.htm", "5.png", "E62", "0", "", "Class0","{A55DFAE6-A359-4f3f-9DCE-94FACB4B44AC}");
 tocTab[tocTab.length] = new Array("0.4.3:3", "", "communications viewpoint", "EARoot/EA4/EA3/EA113.htm", "5.png", "E223", "0", "", "Class0","{FA802A0C-4732-48fc-9F50-178DD38C56D8}");
 tocTab[tocTab.length] = new Array("0.4.3:4", "", "functional view", "EARoot/EA4/EA3/EA114.htm", "5.png", "E61", "0", "", "Class0","{9835C11F-D8C0-4296-807C-2D9A60453679}");
