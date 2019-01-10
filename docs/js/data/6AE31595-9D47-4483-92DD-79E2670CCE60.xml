@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.2.1", "1", "3.2.1 Generic service terms", "EARoot/EA2/EA1/EA27.htm", "4.png", "", "", "{70607617-9116-4e07-BF38-81887D08EAA0}", "Package");
-tocTab[tocTab.length] = new Array("0.2.2", "1", "3.2.2 ITS service terms", "EARoot/EA2/EA2/EA35.htm", "4.png", "", "", "{B9702F6E-526B-4b5c-845C-A5CE9C660E55}", "Package");
-tocTab[tocTab.length] = new Array("0.2.3", "1", "3.2.3 ITS-S service terms", "EARoot/EA2/EA3/EA42.htm", "4.png", "", "", "{66AC2E7C-5FD0-43c7-BDED-C563CEB5B479}", "Package");
-tocTab[tocTab.length] = new Array("0.2.4", "1", "3.2.4 ITS-S communication service terms", "EARoot/EA2/EA4/EA50.htm", "4.png", "", "", "{6993B957-7FBA-4cbd-A893-5C41621936AF}", "Package");
