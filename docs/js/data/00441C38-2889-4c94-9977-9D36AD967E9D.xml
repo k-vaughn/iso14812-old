@@ -1,12 +1,2 @@
-tocTab[tocTab.length] = new Array("0.6:1", "", "location terms", "EARoot/EA6/EA185.htm", "175.png", "16", "0", "", "Logical diagram0","{350F64D1-CC35-4d3d-9701-B095B914F017}");
-tocTab[tocTab.length] = new Array("0.6:2", "", "area location", "EARoot/EA6/EA188.htm", "5.png", "E109", "0", "", "Class0","{343F8CD6-01FC-4dc5-8ECD-036531891EFE}");
-tocTab[tocTab.length] = new Array("0.6:3", "", "dynamic location reference", "EARoot/EA6/EA189.htm", "5.png", "E110", "0", "", "Class0","{9F4FE27F-1B41-4712-ACD9-752109E5DBC1}");
-tocTab[tocTab.length] = new Array("0.6:4", "", "linear location", "EARoot/EA6/EA190.htm", "5.png", "E111", "0", "", "Class0","{5483A2A7-CDBD-49d2-B369-044AA6963623}");
-tocTab[tocTab.length] = new Array("0.6:5", "", "link location", "EARoot/EA6/EA191.htm", "5.png", "E112", "0", "", "Class0","{8B91C71A-6B2E-407e-9377-8139104184DA}");
-tocTab[tocTab.length] = new Array("0.6:6", "", "location code", "EARoot/EA6/EA192.htm", "5.png", "E113", "0", "", "Class0","{93B9D867-543E-426a-B2AA-9E3422A10123}");
-tocTab[tocTab.length] = new Array("0.6:7", "", "location referencing", "EARoot/EA6/EA193.htm", "5.png", "E114", "0", "", "Class0","{BC453AAD-CE49-44df-B79F-29F6D270AFFC}");
-tocTab[tocTab.length] = new Array("0.6:8", "", "location table", "EARoot/EA6/EA194.htm", "5.png", "E117", "0", "", "Class0","{096362A4-5C02-42bf-B269-C385CB0D6C8F}");
-tocTab[tocTab.length] = new Array("0.6:9", "", "point location", "EARoot/EA6/EA195.htm", "5.png", "E115", "0", "", "Class0","{877B14CA-611F-4950-89D6-5BE3C5CC9A53}");
-tocTab[tocTab.length] = new Array("0.6:10", "", "pre-coded location reference", "EARoot/EA6/EA196.htm", "5.png", "E116", "0", "", "Class0","{3A329C6B-79D9-436b-A72E-60C0685FE27D}");
-tocTab[tocTab.length] = new Array("0.6:11", "", "location", "EARoot/EA6/EA197.htm", "5.png", "E108", "0", "", "Class0","{3A8D9779-6CC1-42fa-8882-F36C623AA755}");
-tocTab[tocTab.length] = new Array("0.6:12", "", "location reference", "EARoot/EA6/EA198.htm", "5.png", "E107", "0", "", "Class0","{0F23B7B6-B1C6-4d82-8035-A246CDCC780C}");
+tocTab[tocTab.length] = new Array("0.4.1", "1", "3.4.1 Location type terms", "EARoot/EA4/EA1/EA244.htm", "4.png", "", "", "{30C741DD-3129-4b62-A280-95D5941845E9}", "Package");
+tocTab[tocTab.length] = new Array("0.4.2", "1", "3.4.2 Location referencing terms", "EARoot/EA4/EA2/EA251.htm", "4.png", "", "", "{511DDE37-FE8E-4588-8A2D-610C9A9A27BF}", "Package");
